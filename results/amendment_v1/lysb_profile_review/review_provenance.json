@@ -1,0 +1,18 @@
+{
+  "component_rows": 4,
+  "descriptive_only": true,
+  "distinct_non_training_candidate_cds": 4,
+  "geometry_code_sha256": "2d5db8b948004f2e9da01748f94d609761608f7cbce2ab2aa7366d9315c43b8e",
+  "input_sha256": {
+    "candidates": "8f48b740f7e6a06545d22ddf2e57b8df4c0b457c1d7e4b9d2218e4510fc28e9a",
+    "cds": "42d8c63179047394ddd1388aa0bf41edac88e0a096714beceb0a2844f513d150",
+    "evidence": "f457c5c479a03e1a2fc9f5b5d6f6e70c0d2eb0158854d772be402b2bb9f4769a",
+    "genomes": "7decc71903f669f0dcd4f4f82f8a2139bc603e3203acb2e1cd1126ecaf3c0107",
+    "input_manifest": "68ecb62aa5dfa5d389ccabe2f45b76100582e8b3d279eaa29ba488f5a5312455",
+    "profile_report": "602a2e2100636176e836c17bc732c8bd3a1959a52747461d733935a2beb79db9",
+    "stage_receipts": "926b569f5503ae30cca4e8b1fc86085976f349666fdb20e60e650ccd87c293c4"
+  },
+  "primary_calls_modified": false,
+  "review_sha256": "be6030a35e78681f585e811da7ac092585bb79e02ef275e0b196f33f9535e8fd",
+  "script_sha256": "d3d1d42af488aa0aaa294ef66df9a207688d7327c5ff0d25e5083fe9b9e77771"
+}

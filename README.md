@@ -2,6 +2,8 @@
 
 This repository asks whether physically separated lysis genes retain conserved genomic neighborhoods after accounting for shared ancestry, background gene order and uncertain functional annotation. The 20-genome pilot and two reference-expansion analyses retain all 2,460 verified CDS translations. Expanding the panel from 10 to 34 references increases supported Lysin A coverage from 1/20 to 10/20 genomes, but D29 remains the only supported Lysin B and complete A/B pair. The primary conservation test is untestable, and expansion remains withheld. See the [reference-expansion results](docs/amendment_results.md); the original pilot is preserved separately.
 
+A separate remote-profile diagnostic finds four additional candidate CDS in four genomes, representing three unique sequences; two CDS pass the narrower substrate-anchored model. All remain unvalidated LysB candidates. They come from two cluster labels, and the two narrower-model candidates have identical sequences. No candidate promotes a primary functional call. The [diagnostic results](docs/lysb_profile_results.md) retain the failed reference-family recovery and unresolved Gordonia predictions alongside these observations.
+
 ## Research question and prior work
 
 Lysin A degrades peptidoglycan, whereas characterized Lysin B proteins can cleave mycolate-containing envelope linkages. Holins participate in membrane permeabilization, but a membrane protein annotation alone cannot establish holin function. These functional categories are heterogeneous and cannot be identified reliably from proximity alone.

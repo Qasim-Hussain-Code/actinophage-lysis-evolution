@@ -6,7 +6,7 @@ This document describes the implemented analysis and its configured defaults. Su
 
 The analysis uses Python 3.14.4 and MMseqs2 release 18-8cc5c. `requirements.txt` pins Biopython 1.86, NumPy 2.3.4, pandas 2.3.3, SciPy 1.16.3, statsmodels 0.14.6, Matplotlib 3.10.7, PyYAML 6.0.3 and pytest 9.0.2. MMseqs2 uses four threads, a five-residue prefilter seed and a 1G split-memory setting. These are algorithm settings rather than a bound on total process memory.
 
-Primary functional assignments use pairwise homology. Independent gene calling, transmembrane prediction, Phold and Phynteny are not part of this workflow.
+Primary functional assignments use pairwise homology. The exploratory remote-LysB diagnostic uses FAMSA and profile HMMs, with dependencies pinned in `requirements-profile.txt`. Profile candidates remain separate from primary assignments. Independent gene calling, transmembrane prediction, Phold and Phynteny are not part of this workflow.
 
 ## Acquisition and deterministic selection
 

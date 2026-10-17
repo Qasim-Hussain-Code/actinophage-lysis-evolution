@@ -7,6 +7,8 @@ authors:
     family-names: Hussain
 repository-code: "https://github.com/Qasim-Hussain-Code/actinophage-lysis-evolution"
 license: MIT
+version: "0.3.0-profile-diagnostic"
+date-released: 2026-10-17
 abstract: "A resource-bounded comparative genomics workflow for describing lysis-gene architecture, evaluating LysB neighborhood conservation against matched genomic backgrounds, and retaining functional and evolutionary uncertainty."
 keywords:
   - bacteriophage

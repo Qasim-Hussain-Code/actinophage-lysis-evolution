@@ -1,0 +1,120 @@
+{
+  "actual_builder_seed": 20261016,
+  "actual_scoring_matrix": "PFASUM43",
+  "builder_constructor": {
+    "EfL": 100,
+    "EfN": 200,
+    "Eft": 0.04,
+    "EmL": 200,
+    "EmN": 200,
+    "EvL": 200,
+    "EvN": 200,
+    "architecture": "fast",
+    "effective_number": "entropy",
+    "eid": 0.62,
+    "ere": null,
+    "esigma": 45.0,
+    "fragthresh": 0.5,
+    "pextend": null,
+    "popen": null,
+    "prior_scheme": "alphabet",
+    "score_matrix": null,
+    "seed": 20261016,
+    "symfrac": 0.5,
+    "weighting": "pb",
+    "wid": 0.62,
+    "window_beta": null,
+    "window_length": null
+  },
+  "builder_runtime": {
+    "architecture": "fast",
+    "effective_number": "entropy",
+    "pextend": 0.4,
+    "popen": 0.02,
+    "prior_scheme": "alphabet",
+    "score_matrix": "BLOSUM62",
+    "seed": 20261016,
+    "weighting": "pb",
+    "window_beta": 1e-07,
+    "window_length": null
+  },
+  "famsa_constructor": {
+    "cluster_fraction": 0.1,
+    "cluster_iters": 2,
+    "guide_tree": "sl",
+    "keep_duplicates": false,
+    "medoid_evaluations": 1,
+    "medoid_sample": 2000,
+    "medoid_seeds": 100,
+    "medoid_threshold": 2000,
+    "n_refinements": 100,
+    "refine": null,
+    "scoring_matrix": null,
+    "threads": 4,
+    "tree_heuristic": null
+  },
+  "famsa_runtime": {
+    "cluster_fraction": 0.1,
+    "cluster_iters": 2,
+    "guide_tree": "sl",
+    "keep_duplicates": false,
+    "medoid_evaluations": 1,
+    "medoid_sample": 2000,
+    "medoid_seeds": 100,
+    "medoid_threshold": 2000,
+    "n_refinements": 100,
+    "refine": null,
+    "threads": 4,
+    "tree_heuristic": null
+  },
+  "hmm_date_metadata_normalized": true,
+  "model_effective_sequences": 0.97265625,
+  "model_length": 268,
+  "model_sequence_count": 8,
+  "sequence_sha256": {
+    "BabyRay_LysB": "429bde7476b3c57aa3a1cc1c4cfb20b367d168b357c955b704f6f6d3c6f49a79",
+    "Ms6_LysB": "1bfe5863a0e4cc19d3b12dffa2feff6d9bfe02f30f480ba7064213790596f50e",
+    "Obama12_LysB": "f24cd3ee44cce2caa7aabc7d79cb8c5a70c77e90b179b399528e3f03ba99949a",
+    "Omega_LysB": "cf271a4a26169c3c4ce6a8d46e9dd12e633a26b84f36d99c46dd6ae27044ef91",
+    "Palestino_LysB": "41ad963a92c0b5be0b632f05b9d1eeecaa2f99c30d6309dc04eb5336a87be308",
+    "SWU1_LysB": "f6cf3f9ca38715e452413787be4f72222c486d2ce58781cde7a883659c94f48b",
+    "Saal_LysB": "68adc1ee044bb6757ad18510bca3126c2fbd06d458296fcb3024e8a02e2245b6",
+    "WXIN_LysB": "a071464fc1011aa5f1e6447ac2e6fc563e0a844cf9eb8c2a009d05258dcc1cd9"
+  },
+  "train_ids": [
+    "BabyRay_LysB",
+    "Ms6_LysB",
+    "Obama12_LysB",
+    "Omega_LysB",
+    "Palestino_LysB",
+    "SWU1_LysB",
+    "Saal_LysB",
+    "WXIN_LysB"
+  ],
+  "unique_training_aliases": {
+    "BabyRay_LysB": [
+      "BabyRay_LysB"
+    ],
+    "Ms6_LysB": [
+      "Ms6_LysB"
+    ],
+    "Obama12_LysB": [
+      "Obama12_LysB"
+    ],
+    "Omega_LysB": [
+      "Omega_LysB"
+    ],
+    "Palestino_LysB": [
+      "Palestino_LysB"
+    ],
+    "SWU1_LysB": [
+      "SWU1_LysB"
+    ],
+    "Saal_LysB": [
+      "Saal_LysB"
+    ],
+    "WXIN_LysB": [
+      "WXIN_LysB"
+    ]
+  }
+}

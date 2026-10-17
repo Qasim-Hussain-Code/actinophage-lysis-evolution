@@ -1,0 +1,3 @@
+reference_id	regime	model	full_evalue	independent_domain_evalue	model_coverage	target_coverage	residue_pairs	hmm_length	target_length	domain_selection
+phiGD57_1_LysB_2026	source_out	broad_assay14__source_out_MW314852	2.5751680835272115e-42	1.1595899901780055e-34	0.8059701492537313	0.5524296675191815	216	268	391	Smallest independent-domain E-value; descriptive only; no change to candidate rules
+phiGD57_1_LysB_2026	family_out	broad_assay14__family_out_RG_8c2e303d3a08	2.5751680835272115e-42	1.1595899901780055e-34	0.8059701492537313	0.5524296675191815	216	268	391	Smallest independent-domain E-value; descriptive only; no change to candidate rules

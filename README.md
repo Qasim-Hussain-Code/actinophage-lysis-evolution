@@ -4,6 +4,8 @@ This repository asks whether physically separated lysis genes retain conserved g
 
 The original remote-profile diagnostic identifies four candidate CDS representing three sequences. The later assay update independently supports the sequence shared by its two M1 candidates, which exactly matches assayed Bongo LysB. The two E candidates retain low primary confidence. The [original diagnostic](docs/lysb_profile_results.md) and [updated assignment ledger](results/lysterase_update/comparison/confidence_changes.tsv) distinguish profile candidates from assay-reference homology.
 
+An [expanded fourteen-reference profile analysis](docs/lysb_profile_update_results.md) recovers 13/14 held-out assay-reference queries. Its remaining failure has strong domain similarity but insufficient full-target coverage. No additional Gordonia query meets every candidate criterion, and primary functional calls remain unchanged.
+
 ## Research question and prior work
 
 Lysin A degrades peptidoglycan, whereas characterized Lysin B proteins can cleave mycolate-containing envelope linkages. Holins participate in membrane permeabilization, but a membrane protein annotation alone cannot establish holin function. These functional categories are heterogeneous and cannot be identified reliably from proximity alone.

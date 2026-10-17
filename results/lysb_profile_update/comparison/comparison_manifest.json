@@ -1,0 +1,13 @@
+{
+  "artifacts": {
+    "held_out_failures.tsv": "c8897c5227b415fec1b8bdb30ba59db62585e0d67bb11f03277b7f357e73ff09",
+    "paired_reference_recovery.tsv": "9af4e835993087ca41658a497eb34709dddcb6976c957cbc93cfafaa04d827b2",
+    "profile_recovery.pdf": "1a17a02ef9eac958b61d5fb4de6de6821cd80067db02624e952b48cb24dbca65",
+    "profile_recovery.png": "e583847edef1d810bdf77d192306288d334ae6b145404cf07b2522b15fd63292",
+    "recovery_summary.tsv": "5c3309ec5e534c099e166f9b0b04b2bdbf5ac6b4b135c38b53afb8d0ab31a97c"
+  },
+  "caption": "Reference recovery in the original and expanded assay-profile panels. The expanded broad model recovers 13/14 queries in both holdout regimes. phiGD57-1 fails target coverage despite strong profile similarity. Holdout groups are defined separately in each training panel; no population sensitivity or specificity is estimated.",
+  "original_profile_report_sha256": "602a2e2100636176e836c17bc732c8bd3a1959a52747461d733935a2beb79db9",
+  "summary_script_sha256": "ff10991595f4d253891264cbc465b5574e8810e6091520d05bb4db1d09b086ab",
+  "updated_profile_report_sha256": "78cf9cce0e0df58b1338011701a04f598df6f110f5c81eef35dc2f5e9a8bd1cd"
+}

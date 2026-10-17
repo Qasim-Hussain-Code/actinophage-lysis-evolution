@@ -1,0 +1,12 @@
+{
+  "assignments": 54,
+  "by_confidence": {
+    "high": 3,
+    "low": 51
+  },
+  "limitations": [
+    "Only a small experimentally characterized reference panel; divergent functions can be undetected.",
+    "No transmembrane predictor used; membrane features alone cannot establish holin function.",
+    "Deposited annotation alone is low confidence; neighborhood never upgrades function."
+  ]
+}

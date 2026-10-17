@@ -1,0 +1,19 @@
+{
+  "pages": [
+    {
+      "optional_archive": true,
+      "path": "data/raw/phagesdb/sequenced_metadata.tsv",
+      "sha256": "45ea82b7f91505897d2f2765ffdfa4b4c8c0277d963c676338326709bc09eda4",
+      "url": "https://phagesdb.org/data/?set=seq&type=full"
+    }
+  ],
+  "retrieved_utc": "2026-10-16T16:08:25+00:00",
+  "rows": 6052,
+  "selection_snapshot": {
+    "basis": "Normalized analysis fields for target host genera from the original export; no finder or contact fields",
+    "path": "data/manifests/eligibility_snapshot.tsv",
+    "rows": 3760,
+    "sha256": "8350020bdc86987807b2c97b1881d14a942bdec87138e931036f7e130f5edd63"
+  },
+  "url": "https://phagesdb.org/data/?set=seq&type=full"
+}

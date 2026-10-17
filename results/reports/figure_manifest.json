@@ -1,0 +1,171 @@
+{
+  "created_count": 6,
+  "figures": [
+    {
+      "caption": "Host and cluster counts and genome lengths describe the included cohort; cluster membership is a coarse ancestry proxy.",
+      "data_rows": 33,
+      "figure_id": "figure_01_dataset",
+      "files": [
+        {
+          "path": "figures/figure_01_dataset.png",
+          "sha256": "36a7b537263e8289c0f35389fcca733b8036d12aba60e1f5e5857cd029e29798"
+        },
+        {
+          "path": "figures/figure_01_dataset.pdf",
+          "sha256": "c255661c2fc0ab2d04bc15585e43d659aa01daa90ba82a1829b1659589ba9c55"
+        },
+        {
+          "path": "results/tables/figure_01_dataset_data.tsv",
+          "sha256": "c27ee8a9a566ea2ea6f8ed439dc24303ec4d6d69d8be2987328ad21b0ff72d2f"
+        }
+      ],
+      "status": "created",
+      "title": "Dataset and evolutionary representation"
+    },
+    {
+      "caption": "Distances include only unique nonpartial A/B pairs. Unresolved and complex records remain explicit in panel A; deposited annotation alone does not independently validate protein function.",
+      "data_rows": 22,
+      "figure_id": "figure_02_architecture",
+      "files": [
+        {
+          "path": "figures/figure_02_architecture.png",
+          "sha256": "2d9d0be13346631482f0d67f6db4177591ffae0a753e0ba166ae6b46b677d842"
+        },
+        {
+          "path": "figures/figure_02_architecture.pdf",
+          "sha256": "532795e8dc611b3d6dc72e194d2ced271f7affceee26fd72a19a8e5b58ab83f8"
+        },
+        {
+          "path": "results/tables/figure_02_architecture_data.tsv",
+          "sha256": "8113ab6cf6ec2c2ab56929d65a6cda5fbf518a52822cf3c9f379b1db90b75ea5"
+        }
+      ],
+      "status": "created",
+      "title": "Genomic organization of lysis genes"
+    },
+    {
+      "caption": "Arrows retain original CDS parts and strand. Fills mark up to eight families shared among displayed genomes; other families are gray. A/B outlines and confidence labels are functional evidence, including explicitly low-confidence annotations. Family sharing does not establish identical function or conserved regulation.",
+      "data_rows": 284,
+      "figure_id": "figure_03_genome_maps",
+      "files": [
+        {
+          "path": "figures/figure_03_genome_maps.png",
+          "sha256": "1171f8c6c7945dff76ace5be4f17d8085ff01a8316db230485bdd30500d28f6d"
+        },
+        {
+          "path": "figures/figure_03_genome_maps.pdf",
+          "sha256": "e8f2bc390e13bff3dc1ce0c444469af185383f36c17a2d40e0cf92849d3d3a17"
+        },
+        {
+          "path": "results/tables/figure_03_genome_maps_data.tsv",
+          "sha256": "40fcb99e436c157ab3ffb606d41131e7e49dcc97a64d90a0390902dbef8558a2"
+        }
+      ],
+      "status": "created",
+      "title": "Representative comparative genome maps"
+    },
+    {
+      "caption": "Each usable PhagesDB cluster contributes equal weight in panel B, including its unresolved genomes. Raw counts include every genome; missing cluster labels are excluded from the weighted estimate. This comparison is descriptive and does not establish phylogenetic independence.",
+      "data_rows": 52,
+      "figure_id": "figure_04_lineages",
+      "files": [
+        {
+          "path": "figures/figure_04_lineages.png",
+          "sha256": "29438ba90e8a54a498d6bd4d67be7c2bb513207198233d8cf98c6644718b4cca"
+        },
+        {
+          "path": "figures/figure_04_lineages.pdf",
+          "sha256": "144d99b623bc4267ed3ed28a68f167f4d652d77183088385aa987ce1d8426c7f"
+        },
+        {
+          "path": "results/tables/figure_04_lineages_data.tsv",
+          "sha256": "83c64aac54544cf7737d5d2a87258603937737b358e48c5c0a374f8271f5f4ef"
+        }
+      ],
+      "status": "created",
+      "title": "Evolutionary distribution of architecture types"
+    },
+    {
+      "caption": "No primary genome-pair comparison meets the prespecified eligibility rules. Counts show actual supported anchors, shared families and recorded exclusions. H2 requires at least 5 matched homologous control anchors per pair and 5 replicated clusters; no conservation effect or significance is estimated here.",
+      "data_rows": 6,
+      "figure_id": "figure_05_neighborhoods",
+      "files": [
+        {
+          "path": "figures/figure_05_neighborhoods.png",
+          "sha256": "02092e8ccfed967b7b5b129cbcb06c90163ceca5299496bf5c7044d320269ee4"
+        },
+        {
+          "path": "figures/figure_05_neighborhoods.pdf",
+          "sha256": "beae170df0fa71cc905db8d9fdd5ac1404d9fd67084f32d85fbdc0c32d00dc57"
+        },
+        {
+          "path": "results/tables/figure_05_neighborhoods_data.tsv",
+          "sha256": "5cc0b36de3a177406a32ad2436bcc6c21f16ddc1f883edaba6b1167c4a7be50d"
+        }
+      ],
+      "status": "created",
+      "title": "Neighborhood conservation or measured comparison eligibility"
+    },
+    {
+      "caption": "Counts use all genomes in each prespecified scope and threshold. Evidence rows are deduplicated per protein and functional category using the strongest confidence. Low confidence includes annotation-only calls; unsupported assignments do not establish gene absence.",
+      "data_rows": 40,
+      "figure_id": "figure_06_robustness",
+      "files": [
+        {
+          "path": "figures/figure_06_robustness.png",
+          "sha256": "42295473cd6344537de99242f1feed2a77871e29a1571e1b85bdfe6afd8e21f0"
+        },
+        {
+          "path": "figures/figure_06_robustness.pdf",
+          "sha256": "cfb3b2fe2d2e3a47b64cd1f6ef0efc070f903719e23fc47d5e471eec159457a9"
+        },
+        {
+          "path": "results/tables/figure_06_robustness_data.tsv",
+          "sha256": "8304e29c7d4e79765097542b393a28a429ef4de9616a13387f662323d639b563"
+        }
+      ],
+      "status": "created",
+      "title": "Statistical robustness and annotation uncertainty"
+    }
+  ],
+  "interpretation": "Figures describe observed records and declared evidence scopes. Eligibility diagnostics do not substitute for an unavailable H2 effect estimate.",
+  "pdf_metadata_date": "2000-01-01T00:00:00+00:00",
+  "raster_dpi": 300,
+  "source_inputs": [
+    {
+      "path": "data/processed/genomes.tsv",
+      "rows": 20,
+      "sha256": "7decc71903f669f0dcd4f4f82f8a2139bc603e3203acb2e1cd1126ecaf3c0107"
+    },
+    {
+      "path": "data/processed/cds.tsv",
+      "rows": 2460,
+      "sha256": "42d8c63179047394ddd1388aa0bf41edac88e0a096714beceb0a2844f513d150"
+    },
+    {
+      "path": "data/processed/architectures.tsv",
+      "rows": 20,
+      "sha256": "a18796c208bdb1a1164d37662df2dbbd7713acbca4c0abf83db30028ec6c1940"
+    },
+    {
+      "path": "data/processed/lysis_evidence.tsv",
+      "rows": 54,
+      "sha256": "8a7ea3a4489d32dcfdf9c48c262c10c8f46da7cd22c9cabc3180f2ce02991a81"
+    },
+    {
+      "path": "results/tables/architecture_sensitivity.tsv",
+      "rows": 240,
+      "sha256": "53420bc9ebd161e846d14a43b8ff8a1359e5d548fd161223e50ed3ea2d446375"
+    },
+    {
+      "path": "data/processed/families.tsv",
+      "rows": 2460,
+      "sha256": "b90f0bd74d7adbad9548f7cf1859aa1cc17eb6956e3beae9b46a838e14eac4bb"
+    },
+    {
+      "path": "results/tables/neighborhood_pairs.tsv",
+      "rows": 2592,
+      "sha256": "394a876843f7eca57c4ecabb822d3c43b4d634a79fac4caada214da82202e269"
+    }
+  ]
+}

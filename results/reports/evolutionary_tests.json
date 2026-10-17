@@ -1,0 +1,39 @@
+{
+  "equal_weight_lineage_fraction_separated": 0.0,
+  "inference": "Pair deltas are averaged within each cluster, then clusters receive equal weight. The primary test is two-sided. Bootstrap intervals resample whole cluster effects. The single prespecified primary test is separate from BH correction of all exploratory H2 sensitivities.",
+  "limitations": [
+    "Cluster labels are coarse ancestry proxies, not a reconstructed phylogeny or proof of independent origins.",
+    "Sign-flip p values require independent clusters and sign-symmetric contrasts under the null; neither is guaranteed by matching.",
+    "Controls share genome pairs and may overlap; they determine a background mean, not additional biological sample size.",
+    "Protein family, boundary, position, length and prevalence matching cannot remove unmeasured functional or regional confounding.",
+    "Percentile bootstrap intervals may be unstable with few lineages and are descriptive when the inference gate fails.",
+    "Sensitivity results and leave-one-cluster-out summaries must be assessed jointly; no favorable configuration is selected."
+  ],
+  "minimum_independent_lineages": 5,
+  "n_conditional_H2_tests": 0,
+  "n_lineages_with_architecture": 11,
+  "n_within_cluster_replicated_architecture_lineages": 0,
+  "primary_H2": {
+    "analysis": "lysin_b_minus_matched_homologous_background",
+    "architecture_threshold": 4,
+    "ci_high": "",
+    "ci_low": "",
+    "confidence_set": "high_moderate",
+    "correction_family": "single_prespecified_primary",
+    "effect_mean": "",
+    "family_identity": 0.4,
+    "genome_subset": "all",
+    "hypothesis": "H2",
+    "metric": "jaccard",
+    "n_lineages": 0,
+    "n_pairs": 0,
+    "p_value": "",
+    "pair_architecture": "separated",
+    "primary": "true",
+    "q_value": "",
+    "reason": "no_within_cluster_separated_pairs",
+    "status": "untestable",
+    "test_method": "none",
+    "window": 5
+  }
+}

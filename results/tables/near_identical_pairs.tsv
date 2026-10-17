@@ -1,0 +1,2 @@
+accession_a	accession_b	sketch_jaccard	threshold	k	sketch_size
+MK864265.1	MZ005680.1	0.998001998001998	0.95	21	1000

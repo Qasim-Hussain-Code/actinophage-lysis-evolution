@@ -1,0 +1,2 @@
+protein_id	reference_id	identity	alignment_length	query_coverage	target_coverage	evalue	bits
+AF022214.2__cds0013	D29_capsid_negative	1.000	318	1.000	1.000	5.170E-214	644

@@ -1,0 +1,248 @@
+{
+  "config": {
+    "architecture": {
+      "separation_threshold": 4,
+      "thresholds": [
+        2,
+        4,
+        6,
+        10
+      ]
+    },
+    "identification": {
+      "max_evalue": 1e-06,
+      "min_identity": 0.4,
+      "min_query_coverage": 0.7,
+      "min_target_coverage": 0.7
+    },
+    "mode": "pilot",
+    "neighborhood": {
+      "coverage": 0.8,
+      "evalue": 0.001,
+      "family_identities": [
+        0.3,
+        0.4,
+        0.5
+      ],
+      "primary_identity": 0.4,
+      "primary_window": 5,
+      "windows": [
+        3,
+        5,
+        10
+      ]
+    },
+    "offline": true,
+    "resources": {
+      "effective_budget_bytes": 10000000000,
+      "max_download_bytes": 100000000,
+      "max_project_bytes": 10000000000,
+      "mmseqs_memory": "1G",
+      "reserve_bytes": 4000000000
+    },
+    "sample_sizes": {
+      "full": 300,
+      "intermediate": 50,
+      "pilot": 20
+    },
+    "sampling": {
+      "controls": [
+        "D29",
+        "Yvonnetastic"
+      ],
+      "host_genera": [
+        "Mycobacterium",
+        "Gordonia"
+      ]
+    },
+    "seed": 20261016,
+    "statistics": {
+      "bootstrap": 5000,
+      "matched_controls": 20,
+      "min_controls": 5,
+      "min_lineages": 5,
+      "permutations": 9999
+    },
+    "threads": 4,
+    "tools": {
+      "mmseqs": ".tools/mmseqs/bin/mmseqs"
+    }
+  },
+  "environment": {
+    "packages": {
+      "biopython": "1.86",
+      "matplotlib": "3.10.7",
+      "numpy": "2.3.4",
+      "pandas": "2.3.3",
+      "pytest": "9.0.2",
+      "pyyaml": "6.0.3",
+      "scipy": "1.16.3",
+      "statsmodels": "0.14.6"
+    },
+    "python": "3.14.4"
+  },
+  "finished_utc": "2026-10-17T01:16:57+00:00",
+  "mode": "pilot",
+  "stages": [
+    {
+      "outputs": {
+        "data/manifests/eligibility_snapshot.tsv": "8350020bdc86987807b2c97b1881d14a942bdec87138e931036f7e130f5edd63",
+        "data/manifests/phagesdb_snapshot.json": "bea65b34839c69fc3848ab70db7496cd8ed9c7824fddc83b19ae182ddbce1275",
+        "data/manifests/pilot_inputs.tsv": "68ecb62aa5dfa5d389ccabe2f45b76100582e8b3d279eaa29ba488f5a5312455",
+        "data/raw/genbank/AF022214.2.gb": "213d7fa71f71554108159f48be8c85bd285179c26614c1a9d4fd61377d6e92ac",
+        "data/raw/genbank/KF024732.1.gb": "630884b3c1b0a3ef0df4f956fd91dd9d9927fc1e2f624df8e1a4a2561562f8ac",
+        "data/raw/genbank/KJ510413.1.gb": "ff2b8676513f4547872462d1af2657638f798659ce39670421e04e214a770f62",
+        "data/raw/genbank/KM083128.1.gb": "2e5b56af8ce2d36e2691e6e7b5ebf0ae4155252add15f44dc2559d2e37c13090",
+        "data/raw/genbank/KU963248.1.gb": "d63cc13aeb08462d0f78bd292b5c0140aaa86622f87de851d4dd9a36a9a4ccb8",
+        "data/raw/genbank/MF155936.1.gb": "19c6662f338536cbb72fed10b4cbb39da192b1a14951abe7d34011c12336a70d",
+        "data/raw/genbank/MH669013.1.gb": "b8f84b19aafb4baeee3a9ba2c9b1a0c626ea5246ab48efd762eeba72f65e83cf",
+        "data/raw/genbank/MH697587.1.gb": "cba7dda4ae392c92096a805f5c92ffe165a4e0114d209e9383d79e4f7f184de7",
+        "data/raw/genbank/MH779499.1.gb": "977ba201f4d1b166947126b84ace2e251eafc5012defa5125f9aeb6061df249e",
+        "data/raw/genbank/MK864265.1.gb": "1c459d19b78f5ab5bb18653d9f83d92b975dc841a1c6eaced8b32119c9aae5f8",
+        "data/raw/genbank/MK937592.1.gb": "ca4b448bc3235c704a81b55171b5c9c26b2c45404fd542e20eb041c4bb2e53dc",
+        "data/raw/genbank/MT114163.1.gb": "a5aa67eb7990c40c9532ed2da38cf6118d17da5194c4102b7d6d579857de89b6",
+        "data/raw/genbank/MZ005680.1.gb": "25a0784f2393b717d8a401789f5db65d16c95cc62e85850161261bb95ab36b45",
+        "data/raw/genbank/MZ028627.1.gb": "0177d4f8dd667af4898e3fa57dba28cefb0c8b0f2e8a1084971d6f32a288886a",
+        "data/raw/genbank/OR553909.1.gb": "27b3a070b4fcd3b3b483f877344ebc69df4d218ad145acb1633d04b2e1c30e8a",
+        "data/raw/genbank/PP750958.1.gb": "b4a42a81530d80250e8aa4560df5e31c9dc99601dfdbe8b2d149aaaaf551ad61",
+        "data/raw/genbank/PP978826.1.gb": "63d0f7ed5e4de6fe206c19a08352941529014c39f1b1e169d5a5ba4d6235788d",
+        "data/raw/genbank/PV467702.1.gb": "815860fc265efe4cac6c89f5d9f7f64bf122de105d23011e4be8c98ca0d4df5b",
+        "data/raw/genbank/PZ579141.1.gb": "f10fe8ab9177d6403abad929579df35bee119f4a1f7f67e4026fe233ceab9333",
+        "data/raw/genbank/PZ956975.1.gb": "bf2b63bf06bbdfe97290f34746e5b063a43e2c145a617cc76c325b7a00869613",
+        "data/raw/phagesdb/sequenced_metadata.tsv": "45ea82b7f91505897d2f2765ffdfa4b4c8c0277d963c676338326709bc09eda4"
+      },
+      "scientific_config_sha256": "be43a899e2d5c2caf148afab3e820b183c392f1a2f4e726a18b7f8feaa14b63b",
+      "seconds": 4.062,
+      "source_sha256": {
+        "scripts/run_all.py": "92f93e314961d0e7738b60e04543606b2c0aa8941d7266d8dcc8d36806ab4979",
+        "src/actinolysis/acquisition.py": "006fed74b3cc0a8d238c297f6569f69ff2b8741d2d698d8124d9254796d16a2e",
+        "src/actinolysis/common.py": "13aea5fca724751d435846587cb6a297e389f6f3be1e26f7c3bc101f8c94d3f2"
+      },
+      "stage": 1
+    },
+    {
+      "outputs": {
+        "data/processed/cds.tsv": "42d8c63179047394ddd1388aa0bf41edac88e0a096714beceb0a2844f513d150",
+        "data/processed/genomes.tsv": "7decc71903f669f0dcd4f4f82f8a2139bc603e3203acb2e1cd1126ecaf3c0107",
+        "data/processed/proteins.faa": "f059b575818e75c0a1c1191c9b8ed3035a71960d14470102d244fa37059a3556"
+      },
+      "scientific_config_sha256": "be43a899e2d5c2caf148afab3e820b183c392f1a2f4e726a18b7f8feaa14b63b",
+      "seconds": 5.389,
+      "source_sha256": {
+        "scripts/run_all.py": "92f93e314961d0e7738b60e04543606b2c0aa8941d7266d8dcc8d36806ab4979",
+        "src/actinolysis/common.py": "13aea5fca724751d435846587cb6a297e389f6f3be1e26f7c3bc101f8c94d3f2",
+        "src/actinolysis/quality.py": "127686e09f5df5e52ffbb78a41720405de94ea7d2c98b1e08dadd0a10b709859"
+      },
+      "stage": 2
+    },
+    {
+      "outputs": {
+        "data/manifests/reference_manifest.tsv": "1b70aa78c46236a0892e3fcce776b89e13a59b60cb1bada930e703dd868a9676",
+        "data/processed/reference_hits.tsv": "e7af20ba3e238ba11d814033eac9006a04c411d4186c7ac6e1007b543fbd642f",
+        "data/processed/references.faa": "61c8819f5dadf21d2ae3c311f58a4c2f9b431ea57c290612add3a44d68f3f318",
+        "data/raw/references/AF319619.gb": "93a51a090232d2f43411a29755e8d54c77bb6cf3970a55d2ee6d82a18685d085",
+        "data/raw/references/NC_001900.gb": "1d333bea1d335fca24be31c8c1602b3e88b6d400d5d757a0a0f1f26c4d01d464",
+        "data/raw/references/OR813930.gb": "6172c9954adc68da507563c669d7297939a6c1dd1be369e2e3389172e84a065f"
+      },
+      "scientific_config_sha256": "be43a899e2d5c2caf148afab3e820b183c392f1a2f4e726a18b7f8feaa14b63b",
+      "seconds": 17.897,
+      "source_sha256": {
+        "references/protein_controls.tsv": "4db70bd6e78ca6b4770b651331057dc962d74f233eb1f69510eee3e85fadf1e8",
+        "scripts/run_all.py": "92f93e314961d0e7738b60e04543606b2c0aa8941d7266d8dcc8d36806ab4979",
+        "src/actinolysis/common.py": "13aea5fca724751d435846587cb6a297e389f6f3be1e26f7c3bc101f8c94d3f2",
+        "src/actinolysis/identification.py": "a9c90a57485fffd91ecd73f6918a9843dbcbf1f37ed93a52761becd63dcc6b55"
+      },
+      "stage": 3
+    },
+    {
+      "outputs": {
+        "data/processed/lysis_evidence.tsv": "8a7ea3a4489d32dcfdf9c48c262c10c8f46da7cd22c9cabc3180f2ce02991a81"
+      },
+      "scientific_config_sha256": "be43a899e2d5c2caf148afab3e820b183c392f1a2f4e726a18b7f8feaa14b63b",
+      "seconds": 0.254,
+      "source_sha256": {
+        "references/protein_controls.tsv": "4db70bd6e78ca6b4770b651331057dc962d74f233eb1f69510eee3e85fadf1e8",
+        "scripts/run_all.py": "92f93e314961d0e7738b60e04543606b2c0aa8941d7266d8dcc8d36806ab4979",
+        "src/actinolysis/common.py": "13aea5fca724751d435846587cb6a297e389f6f3be1e26f7c3bc101f8c94d3f2",
+        "src/actinolysis/identification.py": "a9c90a57485fffd91ecd73f6918a9843dbcbf1f37ed93a52761becd63dcc6b55"
+      },
+      "stage": 4
+    },
+    {
+      "outputs": {
+        "data/processed/architecture_pairs.tsv": "c67ef6bada515b7e1585bb1a87c3b1d89a21bb163ab96415ae2fcadd27a3a707",
+        "data/processed/architectures.tsv": "a18796c208bdb1a1164d37662df2dbbd7713acbca4c0abf83db30028ec6c1940",
+        "results/tables/architecture_sensitivity.tsv": "53420bc9ebd161e846d14a43b8ff8a1359e5d548fd161223e50ed3ea2d446375"
+      },
+      "scientific_config_sha256": "be43a899e2d5c2caf148afab3e820b183c392f1a2f4e726a18b7f8feaa14b63b",
+      "seconds": 0.433,
+      "source_sha256": {
+        "scripts/run_all.py": "92f93e314961d0e7738b60e04543606b2c0aa8941d7266d8dcc8d36806ab4979",
+        "src/actinolysis/architecture.py": "2d5db8b948004f2e9da01748f94d609761608f7cbce2ab2aa7366d9315c43b8e",
+        "src/actinolysis/common.py": "13aea5fca724751d435846587cb6a297e389f6f3be1e26f7c3bc101f8c94d3f2"
+      },
+      "stage": 5
+    },
+    {
+      "outputs": {
+        "data/processed/families.tsv": "b90f0bd74d7adbad9548f7cf1859aa1cc17eb6956e3beae9b46a838e14eac4bb",
+        "results/tables/neighborhood_controls.tsv": "aecf3db06093ec612ca5d71d8b2beb563fec11f52b865d9bc9d8ba0cf26b9c5c",
+        "results/tables/neighborhood_pairs.tsv": "394a876843f7eca57c4ecabb822d3c43b4d634a79fac4caada214da82202e269",
+        "results/tables/neighborhoods.tsv": "e231c535056b3e911271aed5d147b1440a759ce784a68d56b34b37aaaa19425e"
+      },
+      "scientific_config_sha256": "be43a899e2d5c2caf148afab3e820b183c392f1a2f4e726a18b7f8feaa14b63b",
+      "seconds": 16.603,
+      "source_sha256": {
+        "scripts/run_all.py": "92f93e314961d0e7738b60e04543606b2c0aa8941d7266d8dcc8d36806ab4979",
+        "src/actinolysis/common.py": "13aea5fca724751d435846587cb6a297e389f6f3be1e26f7c3bc101f8c94d3f2",
+        "src/actinolysis/neighborhoods.py": "74398cddd23a1333b720cf9db758af260c8ad314230f0b164353ea5d2d5fc0a4"
+      },
+      "stage": 6
+    },
+    {
+      "outputs": {
+        "results/tables/evolutionary_tests.tsv": "adfbfd78d7252e7a91f4a370d05a75e63c51134d5e2742378f48a0bfac451a41"
+      },
+      "scientific_config_sha256": "be43a899e2d5c2caf148afab3e820b183c392f1a2f4e726a18b7f8feaa14b63b",
+      "seconds": 0.291,
+      "source_sha256": {
+        "scripts/run_all.py": "92f93e314961d0e7738b60e04543606b2c0aa8941d7266d8dcc8d36806ab4979",
+        "src/actinolysis/common.py": "13aea5fca724751d435846587cb6a297e389f6f3be1e26f7c3bc101f8c94d3f2",
+        "src/actinolysis/statistics.py": "e3b0fa721207b46de45255abac8fd943dabc6fa6e403aa52553a337dc7c89a5c"
+      },
+      "stage": 7
+    },
+    {
+      "outputs": {
+        "results/reports/validation.json": "2ac63f190ca4da2f4eda3e39928850183db863669e621af3bdc4f0727058382b",
+        "results/tables/candidates.tsv": "55504999668163f7c9b2aa71e161b6026012a7534d35b6b45c412cedbde2a925",
+        "results/tables/control_alignment_diagnostics.tsv": "9e55d58fb44bb9e33b04a4898b180ea558f1b1ab86564719f7390ef3214a0ecb"
+      },
+      "scientific_config_sha256": "be43a899e2d5c2caf148afab3e820b183c392f1a2f4e726a18b7f8feaa14b63b",
+      "seconds": 1.854,
+      "source_sha256": {
+        "references/architecture_controls.tsv": "77f6101c5239da2d448c450699ead83cd032fe46500e04b233fbb42611dc09a4",
+        "scripts/run_all.py": "92f93e314961d0e7738b60e04543606b2c0aa8941d7266d8dcc8d36806ab4979",
+        "src/actinolysis/common.py": "13aea5fca724751d435846587cb6a297e389f6f3be1e26f7c3bc101f8c94d3f2",
+        "src/actinolysis/diagnostics.py": "175c9bc0a72e3f8158d864edce9ab620076179af2a1f8a4d1afd078ac4a93cc4",
+        "src/actinolysis/validation.py": "4eeac243c853daf4bad0b3a251e80239fc0ea1e60955b71cc5c59186ef85303e"
+      },
+      "stage": 8
+    },
+    {
+      "outputs": {
+        "results/reports/figure_manifest.json": "55962da1c24796d1c6bc0cac5d600e290c36bd129cd1a461eef3d76c35098490"
+      },
+      "scientific_config_sha256": "be43a899e2d5c2caf148afab3e820b183c392f1a2f4e726a18b7f8feaa14b63b",
+      "seconds": 45.467,
+      "source_sha256": {
+        "scripts/run_all.py": "92f93e314961d0e7738b60e04543606b2c0aa8941d7266d8dcc8d36806ab4979",
+        "src/actinolysis/common.py": "13aea5fca724751d435846587cb6a297e389f6f3be1e26f7c3bc101f8c94d3f2",
+        "src/actinolysis/figures.py": "367df8a130b9747e2f087e3045e0476996be12f2c0419758750eb318b926202e"
+      },
+      "stage": 9
+    }
+  ],
+  "started_utc": "2026-10-17T01:14:21+00:00",
+  "status": "success"
+}

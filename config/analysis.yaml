@@ -1,0 +1,36 @@
+mode: pilot
+seed: 20261016
+threads: 4
+sample_sizes: {pilot: 20, intermediate: 50, full: 300}
+resources:
+  max_project_bytes: 10000000000
+  effective_budget_bytes: 10000000000
+  reserve_bytes: 4000000000
+  max_download_bytes: 100000000
+  mmseqs_memory: 1G
+sampling:
+  host_genera: [Mycobacterium, Gordonia]
+  controls: [D29, Yvonnetastic]
+identification:
+  min_identity: 0.40
+  min_query_coverage: 0.70
+  min_target_coverage: 0.70
+  max_evalue: 0.000001
+architecture:
+  separation_threshold: 4
+  thresholds: [2, 4, 6, 10]
+neighborhood:
+  windows: [3, 5, 10]
+  primary_window: 5
+  family_identities: [0.30, 0.40, 0.50]
+  primary_identity: 0.40
+  coverage: 0.80
+  evalue: 0.001
+statistics:
+  permutations: 9999
+  bootstrap: 5000
+  min_lineages: 5
+  matched_controls: 20
+  min_controls: 5
+tools:
+  mmseqs: .tools/mmseqs/bin/mmseqs

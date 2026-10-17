@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository and the primary data and methods sources identified in its documentation."
+type: software
+title: "Genomic Architecture and Evolutionary Conservation of Actinobacteriophage Lysis Machinery"
+authors:
+  - given-names: Qasim
+    family-names: Hussain
+repository-code: "https://github.com/Qasim-Hussain-Code/actinophage-lysis-evolution"
+license: MIT
+abstract: "A resource-bounded comparative genomics workflow for describing lysis-gene architecture, evaluating LysB neighborhood conservation against matched genomic backgrounds, and retaining functional and evolutionary uncertainty."
+keywords:
+  - bacteriophage
+  - comparative genomics
+  - lysis
+  - actinobacteriophage
+  - genomic neighborhoods

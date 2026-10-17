@@ -14,6 +14,8 @@ The original panel contains characterized Ms6 and D29 proteins, WXIN LysB and a 
 
 The reference-expansion analyses use 21 assay-anchored references and 34 references after including published profile predictions. Generic ester-hydrolysis assays and computational predictions remain distinct evidence tiers. Accessions, protein versions, assay descriptions and primary citations are recorded in the reference catalogues. A missing annotation or failed match does not establish gene absence.
 
+The later [assay-reference follow-up](lysterase_update_results.md) adds five proteins from a study of purified lysterases, producing a 39-reference panel. The D29 entry is retained as an existing sequence alias. Protein-to-genome mappings and genomic translations are verified; the antimycobacterial assay tier is capped at moderate homology support and retains unresolved native substrate specificity.
+
 ## Data availability
 
 GenBank sequences are retrieved by accession version through NCBI EFetch. Protein controls and the three RCSB specificity challenges have source URLs and sequence checksums. Source records, local software and intermediate caches are downloaded or generated during execution. Original software is available under the [MIT license](../LICENSE); source datasets retain their original terms.

@@ -1,0 +1,20 @@
+{
+  "artifacts": {
+    "confidence_changes.tsv": "fcf08afc5bed68ec9e92d8b213d33782c89f75c1a7d193f7fcc7d8989d47b2ff",
+    "genome_coverage.tsv": "d03aa303dd280bdb51a3cc8afa51ef9083d97b3afb2a4f518e80cfd33fbdb33f",
+    "panel_summary.tsv": "c4f87f9b7aa5cbc09c2ca57c285f664fbd62d8088399657c10b52845224eeb67",
+    "primary_pair_eligibility.tsv": "6ba9b68f7b2fa69116a07ccb4aa9ea9ee89b37827b7876ae79ee59266d797366",
+    "reference_update.pdf": "e0e88287be0c4a7905dfb0bcacd86fcb7cc809059a448f638cdcce5613c95656",
+    "reference_update.png": "ea47f6929195bbe7c0e5966eac53cd0ddff6af56c460e509ed25eeaeec1e8019"
+  },
+  "baseline": "v0.3.0-profile-diagnostic",
+  "caption": "Adding five independently assayed references increases supported LysB-family coverage from one to three genomes at unchanged numerical thresholds. The two added M1 CDS encode the same peptide as Bongo LysB. LysA remains unresolved in both M1 genomes. Eight within-cluster pairs lack supported B anchors and the remaining pair lacks a resolved architecture; no primary H2 contrast is available.",
+  "changed_cds": 2,
+  "changed_unique_sequences": 1,
+  "primary_pair_exclusion_counts": {
+    "architecture_complex_or_unresolved": 1,
+    "requires_one_supported_lysin_b_per_genome": 8
+  },
+  "summary_script_sha256": "1104b5bd9d0a77b9d0cacf80230eeeb8644085fdbb6becdeb9010cdef64b4a6b",
+  "updated_panel_manifest_sha256": "495a43776c0c7f092add0d7b38267a6dfcf43ae57936292f64445445e3e8971d"
+}

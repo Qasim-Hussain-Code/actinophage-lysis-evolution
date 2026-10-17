@@ -1,0 +1,40 @@
+{
+  "counts": {
+    "accepted_reference_hits": 20,
+    "cds": 2460,
+    "negative_control_hits": 1,
+    "reported_reference_hits": 106,
+    "searched_proteins": 2460,
+    "selected_reference_hits": 32
+  },
+  "detection_status_counts": {
+    "selected_high_or_moderate_homology_assignment": 14,
+    "unresolved_no_reported_reference_hit": 2427,
+    "unresolved_only_negative_control_hits": 1,
+    "unresolved_reported_hits_below_criteria_or_evidence_tier": 18
+  },
+  "identification_thresholds": {
+    "max_evalue": 1e-06,
+    "min_identity": 0.4,
+    "min_query_coverage": 0.7,
+    "min_target_coverage": 0.7
+  },
+  "interpretation": [
+    "Read-only supplement: no primary assignment, function, architecture or confidence was changed.",
+    "Acceptance is the frozen evaluate_hit result with partial proteins capped at low; negative controls are never accepted.",
+    "Selected flags reproduce the frozen category ledger and are separate from each hit scoring above the cutoffs.",
+    "No reported hit means unresolved under this reference panel and search reporting settings, never biological absence.",
+    "The hit table preserves every reported cohort-reference alignment, not unreported alignments below the MMseqs search/reporting gates.",
+    "Input and table hashes are recorded; the report does not hash itself."
+  ],
+  "outputs_sha256": {
+    "all_cohort_reference_hits.tsv": "59baf75d4c5516821e4fea7d670fa0064175969c5afbf487f2248603a9f9d9cc",
+    "protein_detection_status.tsv": "328062eb293c93b54a2ed3440a9042d97534e5f3507dbf4906595c2afefa2c9e"
+  },
+  "reference_evidence_types": {
+    "experimental": 15,
+    "experimental_antimycobacterial": 5,
+    "experimental_generic_lipolytic": 6,
+    "published_profile_prediction": 13
+  }
+}

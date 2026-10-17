@@ -1,0 +1,3 @@
+phage	cluster	protein_id	category	previous_confidence	updated_confidence	reference_id	reference_evidence_type	identity	query_coverage	target_coverage	evalue	protein_sha256
+IPhane7	M	MH697587.1__cds0037	lysin_b	low	moderate	Bongo_LysB_2026	experimental_antimycobacterial	1.000	1.000	1.000	2.975E-225	9e40d87d35cbf363ccdc2569e8703127921501cfe87290c33d7139140dea83cf
+Glaske16	M	OR553909.1__cds0038	lysin_b	low	moderate	Bongo_LysB_2026	experimental_antimycobacterial	1.000	1.000	1.000	2.975E-225	9e40d87d35cbf363ccdc2569e8703127921501cfe87290c33d7139140dea83cf

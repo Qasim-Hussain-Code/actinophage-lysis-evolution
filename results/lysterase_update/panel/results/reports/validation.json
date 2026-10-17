@@ -1,0 +1,1157 @@
+{
+  "architecture_counts": {
+    "closely_linked": 1,
+    "unresolved": 19
+  },
+  "candidate_count": 0,
+  "candidate_ranking": "Lexicographic: high before moderate confidence; fewer additional partial lysis calls; similarity-group representative; decreasing intervening CDS; decreasing bp gap; accession tie-break.",
+  "checksum_checks": [
+    {
+      "actual_sha256": "213d7fa71f71554108159f48be8c85bd285179c26614c1a9d4fd61377d6e92ac",
+      "expected_sha256": "213d7fa71f71554108159f48be8c85bd285179c26614c1a9d4fd61377d6e92ac",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/AF022214.2.gb",
+      "reason": "checksum_matches",
+      "row": 2,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "d63cc13aeb08462d0f78bd292b5c0140aaa86622f87de851d4dd9a36a9a4ccb8",
+      "expected_sha256": "d63cc13aeb08462d0f78bd292b5c0140aaa86622f87de851d4dd9a36a9a4ccb8",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/KU963248.1.gb",
+      "reason": "checksum_matches",
+      "row": 3,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "63d0f7ed5e4de6fe206c19a08352941529014c39f1b1e169d5a5ba4d6235788d",
+      "expected_sha256": "63d0f7ed5e4de6fe206c19a08352941529014c39f1b1e169d5a5ba4d6235788d",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/PP978826.1.gb",
+      "reason": "checksum_matches",
+      "row": 4,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "630884b3c1b0a3ef0df4f956fd91dd9d9927fc1e2f624df8e1a4a2561562f8ac",
+      "expected_sha256": "630884b3c1b0a3ef0df4f956fd91dd9d9927fc1e2f624df8e1a4a2561562f8ac",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/KF024732.1.gb",
+      "reason": "checksum_matches",
+      "row": 5,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "b8f84b19aafb4baeee3a9ba2c9b1a0c626ea5246ab48efd762eeba72f65e83cf",
+      "expected_sha256": "b8f84b19aafb4baeee3a9ba2c9b1a0c626ea5246ab48efd762eeba72f65e83cf",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/MH669013.1.gb",
+      "reason": "checksum_matches",
+      "row": 6,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "977ba201f4d1b166947126b84ace2e251eafc5012defa5125f9aeb6061df249e",
+      "expected_sha256": "977ba201f4d1b166947126b84ace2e251eafc5012defa5125f9aeb6061df249e",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/MH779499.1.gb",
+      "reason": "checksum_matches",
+      "row": 7,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "19c6662f338536cbb72fed10b4cbb39da192b1a14951abe7d34011c12336a70d",
+      "expected_sha256": "19c6662f338536cbb72fed10b4cbb39da192b1a14951abe7d34011c12336a70d",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/MF155936.1.gb",
+      "reason": "checksum_matches",
+      "row": 8,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "ff2b8676513f4547872462d1af2657638f798659ce39670421e04e214a770f62",
+      "expected_sha256": "ff2b8676513f4547872462d1af2657638f798659ce39670421e04e214a770f62",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/KJ510413.1.gb",
+      "reason": "checksum_matches",
+      "row": 9,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "1c459d19b78f5ab5bb18653d9f83d92b975dc841a1c6eaced8b32119c9aae5f8",
+      "expected_sha256": "1c459d19b78f5ab5bb18653d9f83d92b975dc841a1c6eaced8b32119c9aae5f8",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/MK864265.1.gb",
+      "reason": "checksum_matches",
+      "row": 10,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "25a0784f2393b717d8a401789f5db65d16c95cc62e85850161261bb95ab36b45",
+      "expected_sha256": "25a0784f2393b717d8a401789f5db65d16c95cc62e85850161261bb95ab36b45",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/MZ005680.1.gb",
+      "reason": "checksum_matches",
+      "row": 11,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "a5aa67eb7990c40c9532ed2da38cf6118d17da5194c4102b7d6d579857de89b6",
+      "expected_sha256": "a5aa67eb7990c40c9532ed2da38cf6118d17da5194c4102b7d6d579857de89b6",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/MT114163.1.gb",
+      "reason": "checksum_matches",
+      "row": 12,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "ca4b448bc3235c704a81b55171b5c9c26b2c45404fd542e20eb041c4bb2e53dc",
+      "expected_sha256": "ca4b448bc3235c704a81b55171b5c9c26b2c45404fd542e20eb041c4bb2e53dc",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/MK937592.1.gb",
+      "reason": "checksum_matches",
+      "row": 13,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "f10fe8ab9177d6403abad929579df35bee119f4a1f7f67e4026fe233ceab9333",
+      "expected_sha256": "f10fe8ab9177d6403abad929579df35bee119f4a1f7f67e4026fe233ceab9333",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/PZ579141.1.gb",
+      "reason": "checksum_matches",
+      "row": 14,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "0177d4f8dd667af4898e3fa57dba28cefb0c8b0f2e8a1084971d6f32a288886a",
+      "expected_sha256": "0177d4f8dd667af4898e3fa57dba28cefb0c8b0f2e8a1084971d6f32a288886a",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/MZ028627.1.gb",
+      "reason": "checksum_matches",
+      "row": 15,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "2e5b56af8ce2d36e2691e6e7b5ebf0ae4155252add15f44dc2559d2e37c13090",
+      "expected_sha256": "2e5b56af8ce2d36e2691e6e7b5ebf0ae4155252add15f44dc2559d2e37c13090",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/KM083128.1.gb",
+      "reason": "checksum_matches",
+      "row": 16,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "b4a42a81530d80250e8aa4560df5e31c9dc99601dfdbe8b2d149aaaaf551ad61",
+      "expected_sha256": "b4a42a81530d80250e8aa4560df5e31c9dc99601dfdbe8b2d149aaaaf551ad61",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/PP750958.1.gb",
+      "reason": "checksum_matches",
+      "row": 17,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "815860fc265efe4cac6c89f5d9f7f64bf122de105d23011e4be8c98ca0d4df5b",
+      "expected_sha256": "815860fc265efe4cac6c89f5d9f7f64bf122de105d23011e4be8c98ca0d4df5b",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/PV467702.1.gb",
+      "reason": "checksum_matches",
+      "row": 18,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "bf2b63bf06bbdfe97290f34746e5b063a43e2c145a617cc76c325b7a00869613",
+      "expected_sha256": "bf2b63bf06bbdfe97290f34746e5b063a43e2c145a617cc76c325b7a00869613",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/PZ956975.1.gb",
+      "reason": "checksum_matches",
+      "row": 19,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "27b3a070b4fcd3b3b483f877344ebc69df4d218ad145acb1633d04b2e1c30e8a",
+      "expected_sha256": "27b3a070b4fcd3b3b483f877344ebc69df4d218ad145acb1633d04b2e1c30e8a",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/OR553909.1.gb",
+      "reason": "checksum_matches",
+      "row": 20,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "cba7dda4ae392c92096a805f5c92ffe165a4e0114d209e9383d79e4f7f184de7",
+      "expected_sha256": "cba7dda4ae392c92096a805f5c92ffe165a4e0114d209e9383d79e4f7f184de7",
+      "manifest": "data/manifests/eligibility_snapshot.tsv",
+      "path": "data/raw/genbank/MH697587.1.gb",
+      "reason": "checksum_matches",
+      "row": 21,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "213d7fa71f71554108159f48be8c85bd285179c26614c1a9d4fd61377d6e92ac",
+      "expected_sha256": "213d7fa71f71554108159f48be8c85bd285179c26614c1a9d4fd61377d6e92ac",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/AF022214.2.gb",
+      "reason": "checksum_matches",
+      "row": 2,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "d63cc13aeb08462d0f78bd292b5c0140aaa86622f87de851d4dd9a36a9a4ccb8",
+      "expected_sha256": "d63cc13aeb08462d0f78bd292b5c0140aaa86622f87de851d4dd9a36a9a4ccb8",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/KU963248.1.gb",
+      "reason": "checksum_matches",
+      "row": 3,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "63d0f7ed5e4de6fe206c19a08352941529014c39f1b1e169d5a5ba4d6235788d",
+      "expected_sha256": "63d0f7ed5e4de6fe206c19a08352941529014c39f1b1e169d5a5ba4d6235788d",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/PP978826.1.gb",
+      "reason": "checksum_matches",
+      "row": 4,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "630884b3c1b0a3ef0df4f956fd91dd9d9927fc1e2f624df8e1a4a2561562f8ac",
+      "expected_sha256": "630884b3c1b0a3ef0df4f956fd91dd9d9927fc1e2f624df8e1a4a2561562f8ac",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/KF024732.1.gb",
+      "reason": "checksum_matches",
+      "row": 5,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "b8f84b19aafb4baeee3a9ba2c9b1a0c626ea5246ab48efd762eeba72f65e83cf",
+      "expected_sha256": "b8f84b19aafb4baeee3a9ba2c9b1a0c626ea5246ab48efd762eeba72f65e83cf",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/MH669013.1.gb",
+      "reason": "checksum_matches",
+      "row": 6,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "977ba201f4d1b166947126b84ace2e251eafc5012defa5125f9aeb6061df249e",
+      "expected_sha256": "977ba201f4d1b166947126b84ace2e251eafc5012defa5125f9aeb6061df249e",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/MH779499.1.gb",
+      "reason": "checksum_matches",
+      "row": 7,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "19c6662f338536cbb72fed10b4cbb39da192b1a14951abe7d34011c12336a70d",
+      "expected_sha256": "19c6662f338536cbb72fed10b4cbb39da192b1a14951abe7d34011c12336a70d",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/MF155936.1.gb",
+      "reason": "checksum_matches",
+      "row": 8,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "ff2b8676513f4547872462d1af2657638f798659ce39670421e04e214a770f62",
+      "expected_sha256": "ff2b8676513f4547872462d1af2657638f798659ce39670421e04e214a770f62",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/KJ510413.1.gb",
+      "reason": "checksum_matches",
+      "row": 9,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "1c459d19b78f5ab5bb18653d9f83d92b975dc841a1c6eaced8b32119c9aae5f8",
+      "expected_sha256": "1c459d19b78f5ab5bb18653d9f83d92b975dc841a1c6eaced8b32119c9aae5f8",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/MK864265.1.gb",
+      "reason": "checksum_matches",
+      "row": 10,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "25a0784f2393b717d8a401789f5db65d16c95cc62e85850161261bb95ab36b45",
+      "expected_sha256": "25a0784f2393b717d8a401789f5db65d16c95cc62e85850161261bb95ab36b45",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/MZ005680.1.gb",
+      "reason": "checksum_matches",
+      "row": 11,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "a5aa67eb7990c40c9532ed2da38cf6118d17da5194c4102b7d6d579857de89b6",
+      "expected_sha256": "a5aa67eb7990c40c9532ed2da38cf6118d17da5194c4102b7d6d579857de89b6",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/MT114163.1.gb",
+      "reason": "checksum_matches",
+      "row": 12,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "ca4b448bc3235c704a81b55171b5c9c26b2c45404fd542e20eb041c4bb2e53dc",
+      "expected_sha256": "ca4b448bc3235c704a81b55171b5c9c26b2c45404fd542e20eb041c4bb2e53dc",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/MK937592.1.gb",
+      "reason": "checksum_matches",
+      "row": 13,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "f10fe8ab9177d6403abad929579df35bee119f4a1f7f67e4026fe233ceab9333",
+      "expected_sha256": "f10fe8ab9177d6403abad929579df35bee119f4a1f7f67e4026fe233ceab9333",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/PZ579141.1.gb",
+      "reason": "checksum_matches",
+      "row": 14,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "0177d4f8dd667af4898e3fa57dba28cefb0c8b0f2e8a1084971d6f32a288886a",
+      "expected_sha256": "0177d4f8dd667af4898e3fa57dba28cefb0c8b0f2e8a1084971d6f32a288886a",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/MZ028627.1.gb",
+      "reason": "checksum_matches",
+      "row": 15,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "2e5b56af8ce2d36e2691e6e7b5ebf0ae4155252add15f44dc2559d2e37c13090",
+      "expected_sha256": "2e5b56af8ce2d36e2691e6e7b5ebf0ae4155252add15f44dc2559d2e37c13090",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/KM083128.1.gb",
+      "reason": "checksum_matches",
+      "row": 16,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "b4a42a81530d80250e8aa4560df5e31c9dc99601dfdbe8b2d149aaaaf551ad61",
+      "expected_sha256": "b4a42a81530d80250e8aa4560df5e31c9dc99601dfdbe8b2d149aaaaf551ad61",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/PP750958.1.gb",
+      "reason": "checksum_matches",
+      "row": 17,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "815860fc265efe4cac6c89f5d9f7f64bf122de105d23011e4be8c98ca0d4df5b",
+      "expected_sha256": "815860fc265efe4cac6c89f5d9f7f64bf122de105d23011e4be8c98ca0d4df5b",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/PV467702.1.gb",
+      "reason": "checksum_matches",
+      "row": 18,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "bf2b63bf06bbdfe97290f34746e5b063a43e2c145a617cc76c325b7a00869613",
+      "expected_sha256": "bf2b63bf06bbdfe97290f34746e5b063a43e2c145a617cc76c325b7a00869613",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/PZ956975.1.gb",
+      "reason": "checksum_matches",
+      "row": 19,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "27b3a070b4fcd3b3b483f877344ebc69df4d218ad145acb1633d04b2e1c30e8a",
+      "expected_sha256": "27b3a070b4fcd3b3b483f877344ebc69df4d218ad145acb1633d04b2e1c30e8a",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/OR553909.1.gb",
+      "reason": "checksum_matches",
+      "row": 20,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "cba7dda4ae392c92096a805f5c92ffe165a4e0114d209e9383d79e4f7f184de7",
+      "expected_sha256": "cba7dda4ae392c92096a805f5c92ffe165a4e0114d209e9383d79e4f7f184de7",
+      "manifest": "data/manifests/pilot_inputs.tsv",
+      "path": "data/raw/genbank/MH697587.1.gb",
+      "reason": "checksum_matches",
+      "row": 21,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "1d333bea1d335fca24be31c8c1602b3e88b6d400d5d757a0a0f1f26c4d01d464",
+      "expected_sha256": "1d333bea1d335fca24be31c8c1602b3e88b6d400d5d757a0a0f1f26c4d01d464",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/NC_001900.gb",
+      "reason": "checksum_matches",
+      "row": 2,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "1d333bea1d335fca24be31c8c1602b3e88b6d400d5d757a0a0f1f26c4d01d464",
+      "expected_sha256": "1d333bea1d335fca24be31c8c1602b3e88b6d400d5d757a0a0f1f26c4d01d464",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/NC_001900.gb",
+      "reason": "checksum_matches",
+      "row": 3,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "1d333bea1d335fca24be31c8c1602b3e88b6d400d5d757a0a0f1f26c4d01d464",
+      "expected_sha256": "1d333bea1d335fca24be31c8c1602b3e88b6d400d5d757a0a0f1f26c4d01d464",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/NC_001900.gb",
+      "reason": "checksum_matches",
+      "row": 4,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "93a51a090232d2f43411a29755e8d54c77bb6cf3970a55d2ee6d82a18685d085",
+      "expected_sha256": "93a51a090232d2f43411a29755e8d54c77bb6cf3970a55d2ee6d82a18685d085",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/AF319619.gb",
+      "reason": "checksum_matches",
+      "row": 5,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "93a51a090232d2f43411a29755e8d54c77bb6cf3970a55d2ee6d82a18685d085",
+      "expected_sha256": "93a51a090232d2f43411a29755e8d54c77bb6cf3970a55d2ee6d82a18685d085",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/AF319619.gb",
+      "reason": "checksum_matches",
+      "row": 6,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "93a51a090232d2f43411a29755e8d54c77bb6cf3970a55d2ee6d82a18685d085",
+      "expected_sha256": "93a51a090232d2f43411a29755e8d54c77bb6cf3970a55d2ee6d82a18685d085",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/AF319619.gb",
+      "reason": "checksum_matches",
+      "row": 7,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "93a51a090232d2f43411a29755e8d54c77bb6cf3970a55d2ee6d82a18685d085",
+      "expected_sha256": "93a51a090232d2f43411a29755e8d54c77bb6cf3970a55d2ee6d82a18685d085",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/AF319619.gb",
+      "reason": "checksum_matches",
+      "row": 8,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "93a51a090232d2f43411a29755e8d54c77bb6cf3970a55d2ee6d82a18685d085",
+      "expected_sha256": "93a51a090232d2f43411a29755e8d54c77bb6cf3970a55d2ee6d82a18685d085",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/AF319619.gb",
+      "reason": "checksum_matches",
+      "row": 9,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "6172c9954adc68da507563c669d7297939a6c1dd1be369e2e3389172e84a065f",
+      "expected_sha256": "6172c9954adc68da507563c669d7297939a6c1dd1be369e2e3389172e84a065f",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/OR813930.gb",
+      "reason": "checksum_matches",
+      "row": 10,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "1d333bea1d335fca24be31c8c1602b3e88b6d400d5d757a0a0f1f26c4d01d464",
+      "expected_sha256": "1d333bea1d335fca24be31c8c1602b3e88b6d400d5d757a0a0f1f26c4d01d464",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/NC_001900.gb",
+      "reason": "checksum_matches",
+      "row": 11,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "5c0f79ac0e189936d996f045d00e8ed702677fbcde8986ff24f61d4d6c919a7e",
+      "expected_sha256": "5c0f79ac0e189936d996f045d00e8ed702677fbcde8986ff24f61d4d6c919a7e",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/EU816591.1.gb",
+      "reason": "checksum_matches",
+      "row": 12,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "95552aca1d9f10098fa8ccfe535d7f55c2d289fb66ed97d331543e5d9b8ca0d0",
+      "expected_sha256": "95552aca1d9f10098fa8ccfe535d7f55c2d289fb66ed97d331543e5d9b8ca0d0",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/Z18946.1.gb",
+      "reason": "checksum_matches",
+      "row": 13,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "8134441d8b6b3f67415286728a9f920e9feefa4e6bc3ab40d4c35d6240dda791",
+      "expected_sha256": "8134441d8b6b3f67415286728a9f920e9feefa4e6bc3ab40d4c35d6240dda791",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/AY129337.1.gb",
+      "reason": "checksum_matches",
+      "row": 14,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "f5eb003d30a031d132e1648642cf0d5dc1c0321b045dc1d33752435e63409a27",
+      "expected_sha256": "f5eb003d30a031d132e1648642cf0d5dc1c0321b045dc1d33752435e63409a27",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/AY129330.2.gb",
+      "reason": "checksum_matches",
+      "row": 15,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "6772f2e9d5390e9d75ab504a8107dda58f1ff87bb94bdb3a77d439bd2b35cf39",
+      "expected_sha256": "6772f2e9d5390e9d75ab504a8107dda58f1ff87bb94bdb3a77d439bd2b35cf39",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/EU203571.2.gb",
+      "reason": "checksum_matches",
+      "row": 16,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "0575298207d5cb406683fef5488a2f78629982e7cf37c2b373a8969423bca4e9",
+      "expected_sha256": "0575298207d5cb406683fef5488a2f78629982e7cf37c2b373a8969423bca4e9",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/AY129338.1.gb",
+      "reason": "checksum_matches",
+      "row": 17,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "2b77504a07fd934d4e5aba53ad37cc337cf20d9bc2544ee3e1430b818f1101b1",
+      "expected_sha256": "2b77504a07fd934d4e5aba53ad37cc337cf20d9bc2544ee3e1430b818f1101b1",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/KJ025956.1.gb",
+      "reason": "checksum_matches",
+      "row": 18,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "ed8e9448ddbb1e7dab00aacddf545558dacf27b432942bb4a7bfc3c93e28637a",
+      "expected_sha256": "ed8e9448ddbb1e7dab00aacddf545558dacf27b432942bb4a7bfc3c93e28637a",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/KF959563.1.gb",
+      "reason": "checksum_matches",
+      "row": 19,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "5c3a70a05718a8e973a7cf9687d30d1bf16b66e3579d31c0c68a2417e5e8c1e2",
+      "expected_sha256": "5c3a70a05718a8e973a7cf9687d30d1bf16b66e3579d31c0c68a2417e5e8c1e2",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/NC_017973.1.gb",
+      "reason": "checksum_matches",
+      "row": 20,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "7b4e302179b819950544ac23fbb58fcbdffa98749b83deeb3db754b7f6890776",
+      "expected_sha256": "7b4e302179b819950544ac23fbb58fcbdffa98749b83deeb3db754b7f6890776",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/KX683423.1.gb",
+      "reason": "checksum_matches",
+      "row": 21,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "daf65773ec477491dfbc1b3016dd7c4a57b10d56e8aa366597514171d2404450",
+      "expected_sha256": "daf65773ec477491dfbc1b3016dd7c4a57b10d56e8aa366597514171d2404450",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/KY083061.1.gb",
+      "reason": "checksum_matches",
+      "row": 22,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "f68061f7f48d4e52deb9bba556a9b5fa7cc2e5d56d1b015da90dccde230fa899",
+      "expected_sha256": "f68061f7f48d4e52deb9bba556a9b5fa7cc2e5d56d1b015da90dccde230fa899",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/ON970567.gb",
+      "reason": "checksum_matches",
+      "row": 23,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "ad33abf6b9969526cca3412d2ff6dfca9ccff772a6822bc34f4cd308b300692d",
+      "expected_sha256": "ad33abf6b9969526cca3412d2ff6dfca9ccff772a6822bc34f4cd308b300692d",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/ON456331.gb",
+      "reason": "checksum_matches",
+      "row": 24,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "ad33abf6b9969526cca3412d2ff6dfca9ccff772a6822bc34f4cd308b300692d",
+      "expected_sha256": "ad33abf6b9969526cca3412d2ff6dfca9ccff772a6822bc34f4cd308b300692d",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/ON456331.gb",
+      "reason": "checksum_matches",
+      "row": 25,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "8c11e0244dc488dbe0d9744ec04b7f8701139dd41888d66f4c1389ad9957ba8c",
+      "expected_sha256": "8c11e0244dc488dbe0d9744ec04b7f8701139dd41888d66f4c1389ad9957ba8c",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/MT498058.gb",
+      "reason": "checksum_matches",
+      "row": 26,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "3d8cd878eb6c9118199ce7cd1df2a36f4ffb8bae18288676e8e62c14bfa42abb",
+      "expected_sha256": "3d8cd878eb6c9118199ce7cd1df2a36f4ffb8bae18288676e8e62c14bfa42abb",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/MT310850.gb",
+      "reason": "checksum_matches",
+      "row": 27,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "bf66a0d24b5b1b82d05a958ce60675a9e9980472e1496553cb61c517e3788a57",
+      "expected_sha256": "bf66a0d24b5b1b82d05a958ce60675a9e9980472e1496553cb61c517e3788a57",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/MK660712.gb",
+      "reason": "checksum_matches",
+      "row": 28,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "bf66a0d24b5b1b82d05a958ce60675a9e9980472e1496553cb61c517e3788a57",
+      "expected_sha256": "bf66a0d24b5b1b82d05a958ce60675a9e9980472e1496553cb61c517e3788a57",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/MK660712.gb",
+      "reason": "checksum_matches",
+      "row": 29,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "98820077e89ccb3d3e2dc23b504fb01a9e1fd1d0f1fe4b1a2ceec1c580e882a7",
+      "expected_sha256": "98820077e89ccb3d3e2dc23b504fb01a9e1fd1d0f1fe4b1a2ceec1c580e882a7",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/OL829977.gb",
+      "reason": "checksum_matches",
+      "row": 30,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "219ae34c64b27e103e7e76aaef7e4147ed6eb6ce75fd8a435313553e349d29a9",
+      "expected_sha256": "219ae34c64b27e103e7e76aaef7e4147ed6eb6ce75fd8a435313553e349d29a9",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/MN428057.gb",
+      "reason": "checksum_matches",
+      "row": 31,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "edfe9c469fb900d9c4ac8f15c8510db69b1c18ceb3f5162a5b631235f3a9e180",
+      "expected_sha256": "edfe9c469fb900d9c4ac8f15c8510db69b1c18ceb3f5162a5b631235f3a9e180",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/ON108644.gb",
+      "reason": "checksum_matches",
+      "row": 32,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "219ae34c64b27e103e7e76aaef7e4147ed6eb6ce75fd8a435313553e349d29a9",
+      "expected_sha256": "219ae34c64b27e103e7e76aaef7e4147ed6eb6ce75fd8a435313553e349d29a9",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/MN428057.gb",
+      "reason": "checksum_matches",
+      "row": 33,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "ad33abf6b9969526cca3412d2ff6dfca9ccff772a6822bc34f4cd308b300692d",
+      "expected_sha256": "ad33abf6b9969526cca3412d2ff6dfca9ccff772a6822bc34f4cd308b300692d",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/ON456331.gb",
+      "reason": "checksum_matches",
+      "row": 34,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "bf66a0d24b5b1b82d05a958ce60675a9e9980472e1496553cb61c517e3788a57",
+      "expected_sha256": "bf66a0d24b5b1b82d05a958ce60675a9e9980472e1496553cb61c517e3788a57",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/MK660712.gb",
+      "reason": "checksum_matches",
+      "row": 35,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "f5b6091f9006741d9c409a309af53e12b1d8e100132028b8fac8855d922ec4df",
+      "expected_sha256": "f5b6091f9006741d9c409a309af53e12b1d8e100132028b8fac8855d922ec4df",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/MF472893.1.gb",
+      "reason": "checksum_matches",
+      "row": 36,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "1934a988cca4c221d840efc3dc7d8f914ccf1e29cbd1a1688eb975670b3a1ed5",
+      "expected_sha256": "1934a988cca4c221d840efc3dc7d8f914ccf1e29cbd1a1688eb975670b3a1ed5",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/AF271693.1.gb",
+      "reason": "checksum_matches",
+      "row": 37,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "c9e8512c2c1da29a3e9ca62a325e27bafeed4a3b8f334094be23258750d689f8",
+      "expected_sha256": "c9e8512c2c1da29a3e9ca62a325e27bafeed4a3b8f334094be23258750d689f8",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/MH399772.1.gb",
+      "reason": "checksum_matches",
+      "row": 38,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "1c55f0f5b17a41f5cf029e7b6f78a5328bae1475d3c54492ee80d6d84621b35c",
+      "expected_sha256": "1c55f0f5b17a41f5cf029e7b6f78a5328bae1475d3c54492ee80d6d84621b35c",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/NC_041970.1.gb",
+      "reason": "checksum_matches",
+      "row": 39,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "8fd4932efd62bc4c90f89a34bd72b604ad0dcf6138391df40f81afa8a0525926",
+      "expected_sha256": "8fd4932efd62bc4c90f89a34bd72b604ad0dcf6138391df40f81afa8a0525926",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/raw/references/MW314852.1.gb",
+      "reason": "checksum_matches",
+      "row": 40,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "66ec929a504a152d5e579193d47e6c10db48fb51116e9c925b56484a7dafe19c",
+      "expected_sha256": "66ec929a504a152d5e579193d47e6c10db48fb51116e9c925b56484a7dafe19c",
+      "manifest": "data/manifests/phagesdb_snapshot.json",
+      "path": "data/manifests/eligibility_snapshot.tsv",
+      "reason": "checksum_matches",
+      "row": 0,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "2b9ac0adb08700e14fa340ffd3081fe541e3d84bcc98d1dd4023b7cfa2a9a4f7",
+      "expected_sha256": "2b9ac0adb08700e14fa340ffd3081fe541e3d84bcc98d1dd4023b7cfa2a9a4f7",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#D29_LysA",
+      "reason": "checksum_matches",
+      "row": 2,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "bc99efce34557f555e6d07d291031869ab6be39b3dc9453771e6e36bd62b8f97",
+      "expected_sha256": "bc99efce34557f555e6d07d291031869ab6be39b3dc9453771e6e36bd62b8f97",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#D29_LysB",
+      "reason": "checksum_matches",
+      "row": 3,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "318bc45aa21c2223a1ca2d643143bf2faf41f72cb8fce9cac80ffae32207e07e",
+      "expected_sha256": "318bc45aa21c2223a1ca2d643143bf2faf41f72cb8fce9cac80ffae32207e07e",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#D29_holin",
+      "reason": "checksum_matches",
+      "row": 4,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "2eadf5fb297194f6bbfa14bfdb4e796fe2b6aa65c8401c0dbadff48c474775ee",
+      "expected_sha256": "2eadf5fb297194f6bbfa14bfdb4e796fe2b6aa65c8401c0dbadff48c474775ee",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Ms6_Gp1",
+      "reason": "checksum_matches",
+      "row": 5,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "5c85593c650298f5685e53e3f5dd539928e53f3fb1d80b69fe3d2af1cf84462e",
+      "expected_sha256": "5c85593c650298f5685e53e3f5dd539928e53f3fb1d80b69fe3d2af1cf84462e",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Ms6_LysA",
+      "reason": "checksum_matches",
+      "row": 6,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "1bfe5863a0e4cc19d3b12dffa2feff6d9bfe02f30f480ba7064213790596f50e",
+      "expected_sha256": "1bfe5863a0e4cc19d3b12dffa2feff6d9bfe02f30f480ba7064213790596f50e",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Ms6_LysB",
+      "reason": "checksum_matches",
+      "row": 7,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "bd068d15a8ff79dd07f5453c16d6a9c7304a2e63536feb99a279ddab53701b54",
+      "expected_sha256": "bd068d15a8ff79dd07f5453c16d6a9c7304a2e63536feb99a279ddab53701b54",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Ms6_Gp4",
+      "reason": "checksum_matches",
+      "row": 8,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "2397e39f1605972761559e9c18a0b2f4c41fb633123c90e7919de250c23d0456",
+      "expected_sha256": "2397e39f1605972761559e9c18a0b2f4c41fb633123c90e7919de250c23d0456",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Ms6_Gp5",
+      "reason": "checksum_matches",
+      "row": 9,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "a071464fc1011aa5f1e6447ac2e6fc563e0a844cf9eb8c2a009d05258dcc1cd9",
+      "expected_sha256": "a071464fc1011aa5f1e6447ac2e6fc563e0a844cf9eb8c2a009d05258dcc1cd9",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#WXIN_LysB",
+      "reason": "checksum_matches",
+      "row": 10,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "37a548ebff1860059a3a232ce516a2883c8fdde884487f7d312430b8fe252fad",
+      "expected_sha256": "37a548ebff1860059a3a232ce516a2883c8fdde884487f7d312430b8fe252fad",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#D29_capsid_negative",
+      "reason": "checksum_matches",
+      "row": 11,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "c724b80d2b3f82bd494f024dc3f3125b06de49e5782bd25bfa80176c553efda8",
+      "expected_sha256": "c724b80d2b3f82bd494f024dc3f3125b06de49e5782bd25bfa80176c553efda8",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Kostya_LysA",
+      "reason": "checksum_matches",
+      "row": 12,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "0a8f121bcc3c82237c972fff2263f3c2a99d9323a57f949a6afd3f16dcd841a2",
+      "expected_sha256": "0a8f121bcc3c82237c972fff2263f3c2a99d9323a57f949a6afd3f16dcd841a2",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#L5_LysA",
+      "reason": "checksum_matches",
+      "row": 13,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "5ba1a5d8afe81246e6ed6ec5ef637b967bea6d590ea8fee25f39c50d583050d9",
+      "expected_sha256": "5ba1a5d8afe81246e6ed6ec5ef637b967bea6d590ea8fee25f39c50d583050d9",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Bxz1_LysA",
+      "reason": "checksum_matches",
+      "row": 14,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "d0b8008e433889381ae910236bd27982a040fd585095bf87ccbad7f94b74c35b",
+      "expected_sha256": "d0b8008e433889381ae910236bd27982a040fd585095bf87ccbad7f94b74c35b",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Che8_LysA",
+      "reason": "checksum_matches",
+      "row": 15,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "cf325238bf215e94d70012dcd19b739a17a37d97a2d3af485ae1c30501c80bec",
+      "expected_sha256": "cf325238bf215e94d70012dcd19b739a17a37d97a2d3af485ae1c30501c80bec",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Giles_LysA",
+      "reason": "checksum_matches",
+      "row": 16,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "cf271a4a26169c3c4ce6a8d46e9dd12e633a26b84f36d99c46dd6ae27044ef91",
+      "expected_sha256": "cf271a4a26169c3c4ce6a8d46e9dd12e633a26b84f36d99c46dd6ae27044ef91",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Omega_LysB",
+      "reason": "checksum_matches",
+      "row": 17,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "68adc1ee044bb6757ad18510bca3126c2fbd06d458296fcb3024e8a02e2245b6",
+      "expected_sha256": "68adc1ee044bb6757ad18510bca3126c2fbd06d458296fcb3024e8a02e2245b6",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Saal_LysB",
+      "reason": "checksum_matches",
+      "row": 18,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "f24cd3ee44cce2caa7aabc7d79cb8c5a70c77e90b179b399528e3f03ba99949a",
+      "expected_sha256": "f24cd3ee44cce2caa7aabc7d79cb8c5a70c77e90b179b399528e3f03ba99949a",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Obama12_LysB",
+      "reason": "checksum_matches",
+      "row": 19,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "f6cf3f9ca38715e452413787be4f72222c486d2ce58781cde7a883659c94f48b",
+      "expected_sha256": "f6cf3f9ca38715e452413787be4f72222c486d2ce58781cde7a883659c94f48b",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#SWU1_LysB",
+      "reason": "checksum_matches",
+      "row": 20,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "429bde7476b3c57aa3a1cc1c4cfb20b367d168b357c955b704f6f6d3c6f49a79",
+      "expected_sha256": "429bde7476b3c57aa3a1cc1c4cfb20b367d168b357c955b704f6f6d3c6f49a79",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#BabyRay_LysB",
+      "reason": "checksum_matches",
+      "row": 21,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "41ad963a92c0b5be0b632f05b9d1eeecaa2f99c30d6309dc04eb5336a87be308",
+      "expected_sha256": "41ad963a92c0b5be0b632f05b9d1eeecaa2f99c30d6309dc04eb5336a87be308",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Palestino_LysB",
+      "reason": "checksum_matches",
+      "row": 22,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "85d2ef3a692523d28528cd34c430661517dd23041a9ce5e274c6daa200bd2931",
+      "expected_sha256": "85d2ef3a692523d28528cd34c430661517dd23041a9ce5e274c6daa200bd2931",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#KappaFarmDelta_LysA20",
+      "reason": "checksum_matches",
+      "row": 23,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "32b994896530af9ad7a306792cb9f9cd4683e6af40c8a36742c6760a7c25d375",
+      "expected_sha256": "32b994896530af9ad7a306792cb9f9cd4683e6af40c8a36742c6760a7c25d375",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#PokyPuppy_LysA33",
+      "reason": "checksum_matches",
+      "row": 24,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "9df24c12dc84d69891ce8461983c3ce918afd0fa2f3675dc3b3a274f5eb73c94",
+      "expected_sha256": "9df24c12dc84d69891ce8461983c3ce918afd0fa2f3675dc3b3a274f5eb73c94",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#PokyPuppy_LysA34",
+      "reason": "checksum_matches",
+      "row": 25,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "87368fed25f3abbcdbb7be47db08d871b62cc6ced819b97f7083ed8bab6b94b5",
+      "expected_sha256": "87368fed25f3abbcdbb7be47db08d871b62cc6ced819b97f7083ed8bab6b94b5",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Clawz_LysA65",
+      "reason": "checksum_matches",
+      "row": 26,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "89514f13a13d21d253d69c17e876862cd73d73cd1388e34807eee797efb5b31c",
+      "expected_sha256": "89514f13a13d21d253d69c17e876862cd73d73cd1388e34807eee797efb5b31c",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Secretariat_LysA9",
+      "reason": "checksum_matches",
+      "row": 27,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "57bcef1b35a7b2ee61e5176066172dcdae42308f5ddc499804c8c823e354fb54",
+      "expected_sha256": "57bcef1b35a7b2ee61e5176066172dcdae42308f5ddc499804c8c823e354fb54",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#EpicDab_LysA5",
+      "reason": "checksum_matches",
+      "row": 28,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "220411522744752aab3fb70d1939a3b4f4917007780bc582f5498c9bf6f49536",
+      "expected_sha256": "220411522744752aab3fb70d1939a3b4f4917007780bc582f5498c9bf6f49536",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#EpicDab_LysA6",
+      "reason": "checksum_matches",
+      "row": 29,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "8fa0790e0262c895df2b9b9be4c0086e4c4daaf5047eab393a70aca3a5d987c9",
+      "expected_sha256": "8fa0790e0262c895df2b9b9be4c0086e4c4daaf5047eab393a70aca3a5d987c9",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Amok_LysA19",
+      "reason": "checksum_matches",
+      "row": 30,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "1c7c2994d4318d4e426746802b133510fa9c94ec74472b3880a61c94d431e245",
+      "expected_sha256": "1c7c2994d4318d4e426746802b133510fa9c94ec74472b3880a61c94d431e245",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Suerte_LysA19",
+      "reason": "checksum_matches",
+      "row": 31,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "e1a113bfe314427a6d1a36d6a1523cb7946e13bd122eb7076296eac815389d8c",
+      "expected_sha256": "e1a113bfe314427a6d1a36d6a1523cb7946e13bd122eb7076296eac815389d8c",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#CaiB_LysA44",
+      "reason": "checksum_matches",
+      "row": 32,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "8ee503fda1032ebb62fb00c64ae7d32f65aaa7c4203d7a40afdf28cda95454c5",
+      "expected_sha256": "8ee503fda1032ebb62fb00c64ae7d32f65aaa7c4203d7a40afdf28cda95454c5",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Suerte_LysB23",
+      "reason": "checksum_matches",
+      "row": 33,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "3b1ec76dd7d0687c034fd073a28d5d0cc99ab7fe437d04c0d861af90bbb98d49",
+      "expected_sha256": "3b1ec76dd7d0687c034fd073a28d5d0cc99ab7fe437d04c0d861af90bbb98d49",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#PokyPuppy_LysB49",
+      "reason": "checksum_matches",
+      "row": 34,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "793913e66b82e1031f03a9da0bf541500408b22039534e8757562d4ba8358919",
+      "expected_sha256": "793913e66b82e1031f03a9da0bf541500408b22039534e8757562d4ba8358919",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#EpicDab_LysB7",
+      "reason": "checksum_matches",
+      "row": 35,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "1a1d8eaf85a4e9f5b70add474091d98a410eb637d2d3eae9b301a3690ad8d01d",
+      "expected_sha256": "1a1d8eaf85a4e9f5b70add474091d98a410eb637d2d3eae9b301a3690ad8d01d",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#MissWhite_LysB_2026",
+      "reason": "checksum_matches",
+      "row": 36,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "f5cc89958f934b903b88c7ec355ec87eb22c44448d53e93dda03c891167f3ee7",
+      "expected_sha256": "f5cc89958f934b903b88c7ec355ec87eb22c44448d53e93dda03c891167f3ee7",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Bxb1_LysB_2026",
+      "reason": "checksum_matches",
+      "row": 37,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "a6fedfe60605485a6b7f0c83f7fd52d70d88e26ec3e1401b289fc297014d55c2",
+      "expected_sha256": "a6fedfe60605485a6b7f0c83f7fd52d70d88e26ec3e1401b289fc297014d55c2",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Constella_LysB_2026",
+      "reason": "checksum_matches",
+      "row": 38,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "9e40d87d35cbf363ccdc2569e8703127921501cfe87290c33d7139140dea83cf",
+      "expected_sha256": "9e40d87d35cbf363ccdc2569e8703127921501cfe87290c33d7139140dea83cf",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#Bongo_LysB_2026",
+      "reason": "checksum_matches",
+      "row": 39,
+      "status": "pass"
+    },
+    {
+      "actual_sha256": "db89d551a6504f080cd07834b301531a44466327b99f2cdb36081a916525465e",
+      "expected_sha256": "db89d551a6504f080cd07834b301531a44466327b99f2cdb36081a916525465e",
+      "manifest": "data/manifests/reference_manifest.tsv",
+      "path": "data/processed/references.faa#phiGD57_1_LysB_2026",
+      "reason": "checksum_matches",
+      "row": 40,
+      "status": "pass"
+    }
+  ],
+  "checksum_status": "pass",
+  "controls": [
+    {
+      "annotation_architecture": "not_available",
+      "annotation_component_pairs": [],
+      "annotation_recovery_status": "annotation_arrangement_not_resolved",
+      "availability_note": "Reference locus AF319619 is available; no accessioned complete genome was available in audited PhagesDB metadata. Missing complete-genome control remains unresolved.",
+      "evidence_basis": "characterized_lysis_reference_locus_not_a_complete_genome_control",
+      "expected_architecture": "closely_linked",
+      "observed_architecture": "not_available",
+      "phage": "Ms6",
+      "reason": "control_not_in_included_dataset",
+      "reference_url": "https://www.ncbi.nlm.nih.gov/nuccore/AF319619",
+      "status": "unresolved"
+    },
+    {
+      "accession": "AF022214.2",
+      "annotation_architecture": "closely_linked",
+      "annotation_component_pairs": [
+        {
+          "confidence": "annotation_only",
+          "gap_bp": "418",
+          "intervening_cds": "1",
+          "lysin_a": "AF022214.2__cds0006",
+          "lysin_b": "AF022214.2__cds0008"
+        }
+      ],
+      "annotation_recovery_status": "expected_arrangement_recovered_from_annotation_only",
+      "availability_note": "Expected arrangement still requires independently supported functional identification in the frozen whole-genome record.",
+      "evidence_basis": "published_characterization_of_lysis_proteins_gp10_gp11_gp12",
+      "expected_architecture": "closely_linked",
+      "lysin_a": "AF022214.2__cds0006",
+      "lysin_b": "AF022214.2__cds0008",
+      "observed_architecture": "closely_linked",
+      "phage": "D29",
+      "reason": "independently_resolved_architecture_matches",
+      "reference_url": "https://doi.org/10.1111/febs.13565",
+      "status": "pass"
+    },
+    {
+      "accession": "KU963248.1",
+      "annotation_architecture": "complex",
+      "annotation_component_pairs": [
+        {
+          "confidence": "annotation_only",
+          "gap_bp": "50875",
+          "intervening_cds": "113",
+          "lysin_a": "KU963248.1__cds0041",
+          "lysin_b": "KU963248.1__cds0155"
+        },
+        {
+          "confidence": "annotation_only",
+          "gap_bp": "49969",
+          "intervening_cds": "112",
+          "lysin_a": "KU963248.1__cds0042",
+          "lysin_b": "KU963248.1__cds0155"
+        }
+      ],
+      "annotation_recovery_status": "annotation_only_component_separation_recovered_in_complex_architecture",
+      "availability_note": "Published arrangement is an annotation-based architecture control; independent functional homology is assessed separately.",
+      "evidence_basis": "published_predicted_lysis_gene_arrangement_not_experimental_functional_validation",
+      "expected_architecture": "separated",
+      "lysin_a": "not_available",
+      "lysin_b": "not_available",
+      "observed_architecture": "unresolved",
+      "phage": "Yvonnetastic",
+      "reason": "architecture_not_resolvable:incomplete_identification_not_evidence_of_absence;lysin_a:not_available:no_traceable_independent_high_or_moderate_evidence;lysin_b:not_available:no_traceable_independent_high_or_moderate_evidence",
+      "reference_url": "https://doi.org/10.1128/genomeA.00594-16",
+      "status": "unresolved"
+    }
+  ],
+  "controls_policy": "Only a uniquely resolved pair with traceable independent high/moderate functional evidence and a curated published expectation may pass. Annotation-only or missing controls are unresolved.",
+  "expansion_ready": false,
+  "expansion_reason": "At least one independently supported separated architecture is required before larger acquisition; annotation-only separation cannot satisfy this gate.",
+  "interpretation": "Candidates describe observed separation of independently supported lysis proteins. Separation, proximity, and ranking do not establish regulation, rearrangement, independent origin, or a new biological mechanism.",
+  "status": "incomplete"
+}

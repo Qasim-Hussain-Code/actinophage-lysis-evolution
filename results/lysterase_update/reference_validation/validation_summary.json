@@ -1,0 +1,107 @@
+{
+  "artifacts": {
+    "alignment_evidence.tsv": "25e1193045e22542e0d67fadd38a7d5d8ca9c28c86203f6b84cbeb21ce1d6919",
+    "challenge_inputs.tsv": "56556f09af7e678db65a208c3103013f7dbbc4e84cf8f5195d9269f4b685f54b",
+    "frozen_inputs.json": "a2cf60755aeb27ef5afa3914959473f7b1cc74eddd0992c120d53de0da949d90",
+    "queries.faa": "fa2ce86b8e1aad6e0d57f76374db0ed12c516757a27269fa70c5f93968383a4b",
+    "queries.tsv": "498600477c463a45b636a61b70d61d055290014253cf3d36a596ff1095f8f639",
+    "query_summary.tsv": "baec63c1ef302b67ce61ecb29920033aa8f613996aa6c81cb4886575088efb4d",
+    "raw/1AUO_1.faa": "f72e9c93b0790eed64bd1867b6d4adf725244e48aee75755568cc0646bed10d9",
+    "raw/1BS9_1.faa": "4dac0dc78cbdfd910b3b025c8d6c4d9561f1748ffa6ef9a0a418ebcc216094aa",
+    "raw/2CZQ_1.faa": "6feb2a03eddd4c132d03d368efb4f6694cf13130b57c4ccab1870457dec41401",
+    "raw_hits.tsv": "7a8bbe9ee31494a3be86ece1608b4ec4d5cb9ac652d032e629181d569c26e57c"
+  },
+  "exclusion_policy": "Exclude self, resolved nucleotide-accession base and exact protein-sequence aliases before interpretation.",
+  "identification_thresholds": {
+    "max_evalue": 1e-06,
+    "min_identity": 0.4,
+    "min_query_coverage": 0.7,
+    "min_target_coverage": 0.7
+  },
+  "mmseqs_version": "8cc5ce367b5638c4306c2d7cfc652dd099a4643f",
+  "positive_recoverability": [
+    {
+      "expected_category": "accessory_lysis_chaperone",
+      "n_expected_category_recovered": 0,
+      "n_tested": 1,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "experimental"
+    },
+    {
+      "expected_category": "holin",
+      "n_expected_category_recovered": 0,
+      "n_tested": 3,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "experimental"
+    },
+    {
+      "expected_category": "lysin_a",
+      "n_expected_category_recovered": 4,
+      "n_tested": 7,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "experimental"
+    },
+    {
+      "expected_category": "lysin_b",
+      "n_expected_category_recovered": 3,
+      "n_tested": 3,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "experimental"
+    },
+    {
+      "expected_category": "lysin_b",
+      "n_expected_category_recovered": 4,
+      "n_tested": 5,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "experimental_antimycobacterial"
+    },
+    {
+      "expected_category": "lysin_b",
+      "n_expected_category_recovered": 6,
+      "n_tested": 6,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "experimental_generic_lipolytic"
+    },
+    {
+      "expected_category": "lysin_a",
+      "n_expected_category_recovered": 1,
+      "n_tested": 10,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "published_profile_prediction"
+    },
+    {
+      "expected_category": "lysin_b",
+      "n_expected_category_recovered": 0,
+      "n_tested": 3,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "published_profile_prediction"
+    }
+  ],
+  "query_count": 41,
+  "query_origins": {
+    "characterized_cellular_enzyme": 3,
+    "experimental": 14,
+    "experimental_antimycobacterial": 5,
+    "experimental_generic_lipolytic": 6,
+    "published_profile_prediction": 13
+  },
+  "reference_count": 39,
+  "search_settings": {
+    "alignment_mode": "3",
+    "coverage_mode": "0",
+    "kmer": "5",
+    "max_seqs": 100,
+    "search_coverage": "0.5",
+    "search_evalue": "0.001",
+    "search_min_identity": "0.25",
+    "sensitivity": "7.5",
+    "split_memory_limit": "1G",
+    "threads": 4
+  },
+  "specificity_challenges": {
+    "biochemical_mAGP_inactivity_established": false,
+    "n_potential_cross_family_lysis_calls": 0,
+    "n_tested": 3
+  },
+  "status": "success"
+}

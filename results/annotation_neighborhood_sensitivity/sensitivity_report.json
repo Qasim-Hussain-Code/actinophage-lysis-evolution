@@ -1,0 +1,39 @@
+{
+  "artifacts": {
+    "base_scope_comparison.tsv": "1dd6a1e1d2229fd49f0da9e8c6b25b7ef5b733e919a6b5864eaed273cd85116e",
+    "conditional_cluster_summary.tsv": "e10a8342e16d0cfa61f5cfa44e9d3f9fbb0faac116d70d5ea60aef5006f13e7b",
+    "conditional_controls.tsv": "2029d4bde7e1e64a0280b4d4ea61e66b42a2ae81e058688ee853c4384a80a374",
+    "conditional_neighborhoods.tsv": "ddce8fa5e94e5dd58e5008293cc745f82dbee25ef09dc3441b908f4246e5152a",
+    "conditional_pair_scores.tsv": "4b51cc29164fbde702389862ad1f844ab2bec4705f270b4e890a2489fa3f97e8",
+    "frozen_inputs.json": "1192a35f4506c9d9899a02fcaf1acc5d8b2e720eb745834f8defa1a71245c02b"
+  },
+  "base_available_cluster_labels": 4,
+  "base_available_pairs": 4,
+  "base_exclusion_counts": {
+    "annotation_architecture_complex_or_unresolved": 1,
+    "fewer_than_minimum_matched_controls": 1,
+    "requires_one_deposited_b_label_per_genome": 2,
+    "same_near_identical_similarity_group": 1
+  },
+  "base_separated_available_pairs": 2,
+  "evidence_scope": "deposited_annotation_only",
+  "formal_inference_performed": false,
+  "input_sha256": {
+    "architecture_code": "2d5db8b948004f2e9da01748f94d609761608f7cbce2ab2aa7366d9315c43b8e",
+    "architectures": "98878a7242e52df5096606ceeba8081c47bcb6f5466bab319f308ce9a7bd0c0f",
+    "cds": "42d8c63179047394ddd1388aa0bf41edac88e0a096714beceb0a2844f513d150",
+    "configuration": "0074b027d6ea2d51c0d30045e696341efa76692008a604b928fa73a744234c64",
+    "evidence": "945b7360bc76f117f9fee9291eb1684a923c3c8887f8263fdcbf14e231ce9401",
+    "genomes": "7decc71903f669f0dcd4f4f82f8a2139bc603e3203acb2e1cd1126ecaf3c0107",
+    "matching_code": "74398cddd23a1333b720cf9db758af260c8ad314230f0b164353ea5d2d5fc0a4",
+    "memberships": "5e5b74f8cfedc412ae4a949d6a3a63f5bd4cd9a3a19f6d8a2cdfbc740189b6c0",
+    "module": "cd9aa6e627358490805d73cbd8aaab4ec673e981febea1141ab2898941e81b67",
+    "primary_pairs": "5a3534779aa11a7003ad19e6dbe313d05f70c6cbbe29465d7270ed00abf436e1",
+    "protocol": "aa4f52cb3adea86906ea2cfb3da47f97df7facc72cf6f0b13563db22dc235d63",
+    "script": "7e6635ad952739188767491eb54cda33b3590c4261e6373c27f69b7c5fda8ec4"
+  },
+  "interpretation": "Descriptive contrasts conditional on deposited labels; these labels may use context and do not independently validate lysis function or the primary H2 hypothesis.",
+  "n_base_pairs": 9,
+  "n_genomes": 20,
+  "primary_calls_modified": false
+}

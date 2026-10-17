@@ -1,0 +1,13 @@
+{
+  "artifacts": {
+    "annotation_contrasts.pdf": "478fb883cf7a8d61e4b7c30aadb1a24221a80d6a799e37fa06a31e9faf5f285a",
+    "annotation_contrasts.png": "e7029448003ecf41f144d30ed1ff2a477540dc3d3f65414b119d0c88ab4a987e",
+    "base_cluster_summary.tsv": "cf76c92b5a021931ddc6c05f703906f9cb32e084345d7fad0c26c5d484144e26",
+    "base_conditional_scores.tsv": "7cd8de21b6cc8a3fab51ee6bd34e733837a7e491ca5feb8f19ae80e87c243f39",
+    "scope_availability.tsv": "b25d394d7d1468eebe490404dfa4362b61259b9917eb262e73467502a8512eae",
+    "separated_sensitivities.tsv": "1c4123233fe9ec0386fcc84447a6607b95b5c20c9e8fa32d586261b55ee3f994"
+  },
+  "caption": "Neighborhood contrasts conditional on deposited lysis labels, using unchanged gene families and matching rules. At the base configuration four pairs have sufficient matched background anchors. The two separated pairs have Jaccard contrasts of 0.000 (AA) and -0.413 (KA). AA becomes slightly positive at the widest window; all family/window/cutoff sensitivities are retained. These observations do not independently validate lysis function or test primary H2.",
+  "source_report_sha256": "779ba8788a832ff29f5470f7ddaf3109c7504574f09c72db80bc2c1bc37e0a6e",
+  "summary_script_sha256": "98fc209d4bc4591cbc3f906500eddd69a7454625383c88fb2d6086297e4bbcd1"
+}

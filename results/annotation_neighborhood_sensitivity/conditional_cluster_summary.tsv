@@ -1,0 +1,577 @@
+evidence_scope	family_identity	window	architecture_threshold	genome_subset	pair_architecture	metric	n_candidate_pairs	n_available_pairs	n_cluster_labels	equal_cluster_mean_delta	interpretation	formal_inference
+deposited_annotation_only	0.3	3	2	all	closely_linked	jaccard	3	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	all	closely_linked	signed_order	3	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	all	separated	jaccard	3	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	all	separated	signed_order	3	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	representatives	closely_linked	jaccard	3	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	representatives	closely_linked	signed_order	3	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	representatives	separated	jaccard	3	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	representatives	separated	signed_order	3	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	2	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	all	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	all	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	all	separated	jaccard	2	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	all	separated	signed_order	2	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	representatives	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	representatives	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	representatives	separated	jaccard	2	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	representatives	separated	signed_order	2	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	4	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	all	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	all	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	all	separated	jaccard	2	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	all	separated	signed_order	2	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	representatives	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	representatives	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	representatives	separated	jaccard	2	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	representatives	separated	signed_order	2	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	6	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	all	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	all	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	all	separated	jaccard	2	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	all	separated	signed_order	2	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	representatives	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	representatives	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	representatives	separated	jaccard	2	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	representatives	separated	signed_order	2	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	3	10	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	all	closely_linked	jaccard	3	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	all	closely_linked	signed_order	3	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	all	separated	jaccard	3	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	all	separated	signed_order	3	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	representatives	closely_linked	jaccard	3	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	representatives	closely_linked	signed_order	3	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	representatives	separated	jaccard	3	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	representatives	separated	signed_order	3	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	2	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	all	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	all	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	all	separated	jaccard	2	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	all	separated	signed_order	2	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	representatives	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	representatives	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	representatives	separated	jaccard	2	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	representatives	separated	signed_order	2	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	4	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	all	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	all	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	all	separated	jaccard	2	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	all	separated	signed_order	2	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	representatives	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	representatives	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	representatives	separated	jaccard	2	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	representatives	separated	signed_order	2	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	6	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	all	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	all	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	all	separated	jaccard	2	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	all	separated	signed_order	2	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	representatives	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	representatives	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	representatives	separated	jaccard	2	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	representatives	separated	signed_order	2	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	5	10	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	all	closely_linked	jaccard	3	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	all	closely_linked	signed_order	3	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	all	separated	jaccard	3	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	all	separated	signed_order	3	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	representatives	closely_linked	jaccard	3	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	representatives	closely_linked	signed_order	3	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	representatives	separated	jaccard	3	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	representatives	separated	signed_order	3	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	2	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	all	closely_linked	jaccard	4	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	all	closely_linked	signed_order	4	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	all	separated	jaccard	2	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	all	separated	signed_order	2	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	representatives	closely_linked	jaccard	4	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	representatives	closely_linked	signed_order	4	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	representatives	separated	jaccard	2	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	representatives	separated	signed_order	2	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	4	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	all	closely_linked	jaccard	4	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	all	closely_linked	signed_order	4	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	all	separated	jaccard	2	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	all	separated	signed_order	2	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	representatives	closely_linked	jaccard	4	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	representatives	closely_linked	signed_order	4	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	representatives	separated	jaccard	2	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	representatives	separated	signed_order	2	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	6	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	all	closely_linked	jaccard	4	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	all	closely_linked	signed_order	4	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	all	separated	jaccard	2	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	all	separated	signed_order	2	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	representatives	closely_linked	jaccard	4	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	representatives	closely_linked	signed_order	4	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	representatives	separated	jaccard	2	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	representatives	separated	signed_order	2	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.3	10	10	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	all	closely_linked	jaccard	3	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	all	closely_linked	signed_order	3	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	all	separated	jaccard	3	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	all	separated	signed_order	3	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	representatives	closely_linked	jaccard	3	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	representatives	closely_linked	signed_order	3	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	representatives	separated	jaccard	3	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	representatives	separated	signed_order	3	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	2	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	all	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	all	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	all	separated	jaccard	2	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	all	separated	signed_order	2	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	representatives	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	representatives	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	representatives	separated	jaccard	2	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	representatives	separated	signed_order	2	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	4	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	all	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	all	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	all	separated	jaccard	2	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	all	separated	signed_order	2	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	representatives	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	representatives	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	representatives	separated	jaccard	2	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	representatives	separated	signed_order	2	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	6	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	all	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	all	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	all	separated	jaccard	2	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	all	separated	signed_order	2	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	representatives	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	representatives	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	representatives	separated	jaccard	2	2	2	-0.12362637362637358	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	representatives	separated	signed_order	2	2	2	-0.07692307692307693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	3	10	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	all	closely_linked	jaccard	3	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	all	closely_linked	signed_order	3	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	all	separated	jaccard	3	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	all	separated	signed_order	3	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	representatives	closely_linked	jaccard	3	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	representatives	closely_linked	signed_order	3	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	representatives	separated	jaccard	3	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	representatives	separated	signed_order	3	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	2	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	separated	jaccard	2	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	separated	signed_order	2	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	representatives	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	representatives	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	representatives	separated	jaccard	2	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	representatives	separated	signed_order	2	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	all	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	all	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	all	separated	jaccard	2	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	all	separated	signed_order	2	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	representatives	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	representatives	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	representatives	separated	jaccard	2	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	representatives	separated	signed_order	2	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	6	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	all	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	all	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	all	separated	jaccard	2	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	all	separated	signed_order	2	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	representatives	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	representatives	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	representatives	separated	jaccard	2	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	representatives	separated	signed_order	2	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	10	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	all	closely_linked	jaccard	3	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	all	closely_linked	signed_order	3	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	all	separated	jaccard	3	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	all	separated	signed_order	3	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	representatives	closely_linked	jaccard	3	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	representatives	closely_linked	signed_order	3	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	representatives	separated	jaccard	3	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	representatives	separated	signed_order	3	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	2	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	all	closely_linked	jaccard	4	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	all	closely_linked	signed_order	4	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	all	separated	jaccard	2	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	all	separated	signed_order	2	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	representatives	closely_linked	jaccard	4	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	representatives	closely_linked	signed_order	4	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	representatives	separated	jaccard	2	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	representatives	separated	signed_order	2	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	4	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	all	closely_linked	jaccard	4	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	all	closely_linked	signed_order	4	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	all	separated	jaccard	2	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	all	separated	signed_order	2	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	representatives	closely_linked	jaccard	4	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	representatives	closely_linked	signed_order	4	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	representatives	separated	jaccard	2	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	representatives	separated	signed_order	2	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	6	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	all	closely_linked	jaccard	4	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	all	closely_linked	signed_order	4	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	all	separated	jaccard	2	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	all	separated	signed_order	2	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	representatives	closely_linked	jaccard	4	2	2	0.05666520275215928	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	representatives	closely_linked	signed_order	4	2	2	0.02583333333333332	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	representatives	separated	jaccard	2	2	2	-0.12574462574462578	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	representatives	separated	signed_order	2	2	2	-0.09923076923076923	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	10	10	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	all	closely_linked	jaccard	3	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	all	closely_linked	signed_order	3	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	all	separated	jaccard	3	2	2	-0.11479591836734693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	all	separated	signed_order	3	2	2	-0.07142857142857145	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	representatives	closely_linked	jaccard	3	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	representatives	closely_linked	signed_order	3	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	representatives	separated	jaccard	3	2	2	-0.11479591836734693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	representatives	separated	signed_order	3	2	2	-0.07142857142857145	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	2	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	all	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	all	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	all	separated	jaccard	2	2	2	-0.11479591836734693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	all	separated	signed_order	2	2	2	-0.07142857142857145	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	representatives	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	representatives	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	representatives	separated	jaccard	2	2	2	-0.11479591836734693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	representatives	separated	signed_order	2	2	2	-0.07142857142857145	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	4	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	all	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	all	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	all	separated	jaccard	2	2	2	-0.11479591836734693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	all	separated	signed_order	2	2	2	-0.07142857142857145	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	representatives	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	representatives	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	representatives	separated	jaccard	2	2	2	-0.11479591836734693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	representatives	separated	signed_order	2	2	2	-0.07142857142857145	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	6	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	all	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	all	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	all	separated	jaccard	2	2	2	-0.11479591836734693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	all	separated	signed_order	2	2	2	-0.07142857142857145	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	representatives	closely_linked	jaccard	4	2	2	-0.016666666666666663	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	representatives	closely_linked	signed_order	4	2	2	-0.005555555555555591	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	representatives	separated	jaccard	2	2	2	-0.11479591836734693	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	representatives	separated	signed_order	2	2	2	-0.07142857142857145	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	3	10	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	all	closely_linked	jaccard	3	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	all	closely_linked	signed_order	3	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	all	separated	jaccard	3	2	2	-0.21013212977498688	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	all	separated	signed_order	3	2	2	-0.16428571428571426	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	representatives	closely_linked	jaccard	3	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	representatives	closely_linked	signed_order	3	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	representatives	separated	jaccard	3	2	2	-0.21013212977498688	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	representatives	separated	signed_order	3	2	2	-0.16428571428571426	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	2	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	all	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	all	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	all	separated	jaccard	2	2	2	-0.21013212977498688	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	all	separated	signed_order	2	2	2	-0.16428571428571426	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	representatives	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	representatives	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	representatives	separated	jaccard	2	2	2	-0.21013212977498688	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	representatives	separated	signed_order	2	2	2	-0.16428571428571426	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	4	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	all	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	all	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	all	separated	jaccard	2	2	2	-0.21013212977498688	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	all	separated	signed_order	2	2	2	-0.16428571428571426	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	representatives	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	representatives	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	representatives	separated	jaccard	2	2	2	-0.21013212977498688	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	representatives	separated	signed_order	2	2	2	-0.16428571428571426	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	6	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	all	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	all	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	all	separated	jaccard	2	2	2	-0.21013212977498688	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	all	separated	signed_order	2	2	2	-0.16428571428571426	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	representatives	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	representatives	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	representatives	separated	jaccard	2	2	2	-0.21013212977498688	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	representatives	separated	signed_order	2	2	2	-0.16428571428571426	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	5	10	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	all	closely_linked	jaccard	3	2	2	0.030210176297132824	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	all	closely_linked	signed_order	3	2	2	0.0008333333333332971	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	all	separated	jaccard	3	2	2	-0.13509929224214942	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	all	separated	signed_order	3	2	2	-0.10499999999999998	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	representatives	closely_linked	jaccard	3	2	2	0.030210176297132824	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	representatives	closely_linked	signed_order	3	2	2	0.0008333333333332971	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	representatives	separated	jaccard	3	2	2	-0.13509929224214942	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	representatives	separated	signed_order	3	2	2	-0.10499999999999998	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	2	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	all	closely_linked	jaccard	4	2	2	0.030210176297132824	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	all	closely_linked	signed_order	4	2	2	0.0008333333333332971	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	all	separated	jaccard	2	2	2	-0.13509929224214942	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	all	separated	signed_order	2	2	2	-0.10499999999999998	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	representatives	closely_linked	jaccard	4	2	2	0.030210176297132824	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	representatives	closely_linked	signed_order	4	2	2	0.0008333333333332971	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	representatives	separated	jaccard	2	2	2	-0.13509929224214942	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	representatives	separated	signed_order	2	2	2	-0.10499999999999998	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	4	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	all	closely_linked	jaccard	4	2	2	0.030210176297132824	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	all	closely_linked	signed_order	4	2	2	0.0008333333333332971	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	all	separated	jaccard	2	2	2	-0.13509929224214942	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	all	separated	signed_order	2	2	2	-0.10499999999999998	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	representatives	closely_linked	jaccard	4	2	2	0.030210176297132824	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	representatives	closely_linked	signed_order	4	2	2	0.0008333333333332971	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	representatives	separated	jaccard	2	2	2	-0.13509929224214942	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	representatives	separated	signed_order	2	2	2	-0.10499999999999998	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	6	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	all	closely_linked	jaccard	4	2	2	0.030210176297132824	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	all	closely_linked	signed_order	4	2	2	0.0008333333333332971	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	all	separated	jaccard	2	2	2	-0.13509929224214942	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	all	separated	signed_order	2	2	2	-0.10499999999999998	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	representatives	closely_linked	jaccard	4	2	2	0.030210176297132824	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	representatives	closely_linked	signed_order	4	2	2	0.0008333333333332971	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	representatives	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	representatives	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	representatives	separated	jaccard	2	2	2	-0.13509929224214942	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	representatives	separated	signed_order	2	2	2	-0.10499999999999998	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	representatives	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.5	10	10	representatives	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed

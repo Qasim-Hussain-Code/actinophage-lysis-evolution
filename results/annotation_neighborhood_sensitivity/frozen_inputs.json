@@ -1,0 +1,19 @@
+{
+  "evidence_scope": "deposited_annotation_only",
+  "formal_inference_performed": false,
+  "input_sha256": {
+    "architecture_code": "2d5db8b948004f2e9da01748f94d609761608f7cbce2ab2aa7366d9315c43b8e",
+    "architectures": "98878a7242e52df5096606ceeba8081c47bcb6f5466bab319f308ce9a7bd0c0f",
+    "cds": "42d8c63179047394ddd1388aa0bf41edac88e0a096714beceb0a2844f513d150",
+    "configuration": "0074b027d6ea2d51c0d30045e696341efa76692008a604b928fa73a744234c64",
+    "evidence": "945b7360bc76f117f9fee9291eb1684a923c3c8887f8263fdcbf14e231ce9401",
+    "genomes": "7decc71903f669f0dcd4f4f82f8a2139bc603e3203acb2e1cd1126ecaf3c0107",
+    "matching_code": "74398cddd23a1333b720cf9db758af260c8ad314230f0b164353ea5d2d5fc0a4",
+    "memberships": "5e5b74f8cfedc412ae4a949d6a3a63f5bd4cd9a3a19f6d8a2cdfbc740189b6c0",
+    "module": "cd9aa6e627358490805d73cbd8aaab4ec673e981febea1141ab2898941e81b67",
+    "primary_pairs": "5a3534779aa11a7003ad19e6dbe313d05f70c6cbbe29465d7270ed00abf436e1",
+    "protocol": "aa4f52cb3adea86906ea2cfb3da47f97df7facc72cf6f0b13563db22dc235d63",
+    "script": "7e6635ad952739188767491eb54cda33b3590c4261e6373c27f69b7c5fda8ec4"
+  },
+  "primary_calls_modified": false
+}

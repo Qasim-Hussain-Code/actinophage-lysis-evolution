@@ -1,0 +1,9 @@
+evidence_scope	family_identity	window	architecture_threshold	genome_subset	pair_architecture	metric	n_candidate_pairs	n_available_pairs	n_cluster_labels	equal_cluster_mean_delta	interpretation	formal_inference
+deposited_annotation_only	0.4	5	4	all	closely_linked	jaccard	4	2	2	-0.015079365079365026	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	closely_linked	signed_order	4	2	2	-0.0050000000000000044	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	complex	jaccard	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	complex	signed_order	1	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	separated	jaccard	2	2	2	-0.20648261994415842	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	separated	signed_order	2	2	2	-0.16153846153846152	Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	unresolved	jaccard	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed
+deposited_annotation_only	0.4	5	4	all	unresolved	signed_order	2	0	0		Descriptive conditional contrast; deposited labels do not independently establish lysis function	not_performed

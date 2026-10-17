@@ -8,7 +8,7 @@ A separate remote-profile diagnostic finds four additional candidate CDS in four
 
 Lysin A degrades peptidoglycan, whereas characterized Lysin B proteins can cleave mycolate-containing envelope linkages. Holins participate in membrane permeabilization, but a membrane protein annotation alone cannot establish holin function. These functional categories are heterogeneous and cannot be identified reliably from proximity alone.
 
-Displaced Lysin B genes and diverse lysis-cassette arrangements were already reported in [Yvonnetastic](https://doi.org/10.1128/genomeA.00594-16), [Gordonia comparative genomics](https://pmc.ncbi.nlm.nih.gov/articles/PMC5559632/) and the [2022 Gordonia lysis analysis](https://doi.org/10.1371/journal.pone.0276603). The intended additional question is whether conservation around separated Lysin B exceeds conservation around matched homologous non-lysis anchors in the same genome pairs. No novelty or evolutionary-mechanism claim follows from the present pilot. The [literature and novelty audit](docs/literature_and_novelty.md) distinguishes experiments from predictions and includes subsequent work through the reporting date.
+Displaced Lysin B genes and diverse lysis-cassette arrangements have been reported in [Yvonnetastic](https://doi.org/10.1128/genomeA.00594-16), [Gordonia comparative genomics](https://pmc.ncbi.nlm.nih.gov/articles/PMC5559632/) and the [2022 Gordonia lysis analysis](https://doi.org/10.1371/journal.pone.0276603). This analysis evaluates whether conservation around separated Lysin B exceeds conservation around matched homologous non-lysis anchors in the same genome pairs. The [literature review](docs/literature_and_novelty.md) distinguishes experimental findings from computational predictions.
 
 | Hypothesis | Planned comparison and null | Current status |
 |---|---|---|
@@ -53,17 +53,17 @@ python -B -m pytest -q
 
 The bootstrap checks available storage, creates a local environment, installs pinned dependencies without a package cache or bytecode compilation, and obtains CPU-only MMseqs2 release 18-8cc5c. It uses `requirements-lock.txt` when present. The AVX2 binary requires an AVX2-capable CPU; a compatible official CPU build can be selected by editing the explicit tool path. The downloaded archive and installed tool are local, untracked software.
 
-Frozen offline reruns and stage resumption are implemented:
+The three reference panels can be reproduced separately:
 
 ```bash
-python scripts/run_all.py --config config/analysis.yaml --threads 4 --offline
-python scripts/run_all.py --config config/analysis.yaml --threads 4 --offline --resume-from 6
-python scripts/run_all.py --config config/analysis.yaml --threads 4 --offline --validation-only
+python scripts/replay_cohort.py --panel original --threads 4
+python scripts/replay_cohort.py --panel experimental --threads 4
+python scripts/replay_cohort.py --panel profile --threads 4
 ```
 
-The frozen-cohort replay retrieves the accessioned records and reconstructs a cohort-only metadata frame. It does not resample the original eligibility population. Offline mode requires the previously acquired raw files. Source records are not committed. A fresh online run retrieves accession-version-specific genomes and checks their frozen hashes; reference replay uses the resolved versions in its manifest. Changed source annotations can fail a checksum even when the sequence version is unchanged. Such failures require investigation, not silent acceptance.
+Each command creates a fresh workspace under `.experiments/`, retrieves version-pinned source records and compares the regenerated scientific artifacts with the corresponding published panel. Existing replay workspaces are preserved; use a fresh checkout for another complete replay. Offline execution accepts `--offline --cache-root /path/to/acquired-records`. The reconstructed metadata frame contains only the frozen study cohort; it does not repeat selection from the original eligibility population. Changed source annotations fail checksum verification, even when the sequence version is unchanged. See [cohort reproduction](docs/cohort_reproduction.md).
 
-The runner verifies upstream hashes, scientific configuration and source fingerprints before resumption and invalidates downstream receipts when an earlier stage reruns. Missing, changed or invalid critical inputs stop execution. The numbered stage scripts accept the same options as the coordinating runner.
+The coordinating runner verifies upstream hashes, scientific configuration and source fingerprints before resumption. Earlier-stage reruns invalidate downstream receipts. For example, resume a generated original-panel workspace with `python .experiments/public_replay_original/scripts/run_all.py --offline --resume-from 6`. Missing, changed or invalid critical inputs stop execution.
 
 Intermediate and full modes have configured limits of 50 and 300 genomes:
 

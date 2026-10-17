@@ -1,0 +1,211 @@
+{
+  "artifacts": [
+    {
+      "actual_sha256": "c255661c2fc0ab2d04bc15585e43d659aa01daa90ba82a1829b1659589ba9c55",
+      "expected_sha256": "c255661c2fc0ab2d04bc15585e43d659aa01daa90ba82a1829b1659589ba9c55",
+      "path": "figures/figure_01_dataset.pdf"
+    },
+    {
+      "actual_sha256": "36a7b537263e8289c0f35389fcca733b8036d12aba60e1f5e5857cd029e29798",
+      "expected_sha256": "36a7b537263e8289c0f35389fcca733b8036d12aba60e1f5e5857cd029e29798",
+      "path": "figures/figure_01_dataset.png"
+    },
+    {
+      "actual_sha256": "532795e8dc611b3d6dc72e194d2ced271f7affceee26fd72a19a8e5b58ab83f8",
+      "expected_sha256": "532795e8dc611b3d6dc72e194d2ced271f7affceee26fd72a19a8e5b58ab83f8",
+      "path": "figures/figure_02_architecture.pdf"
+    },
+    {
+      "actual_sha256": "2d9d0be13346631482f0d67f6db4177591ffae0a753e0ba166ae6b46b677d842",
+      "expected_sha256": "2d9d0be13346631482f0d67f6db4177591ffae0a753e0ba166ae6b46b677d842",
+      "path": "figures/figure_02_architecture.png"
+    },
+    {
+      "actual_sha256": "e8f2bc390e13bff3dc1ce0c444469af185383f36c17a2d40e0cf92849d3d3a17",
+      "expected_sha256": "e8f2bc390e13bff3dc1ce0c444469af185383f36c17a2d40e0cf92849d3d3a17",
+      "path": "figures/figure_03_genome_maps.pdf"
+    },
+    {
+      "actual_sha256": "1171f8c6c7945dff76ace5be4f17d8085ff01a8316db230485bdd30500d28f6d",
+      "expected_sha256": "1171f8c6c7945dff76ace5be4f17d8085ff01a8316db230485bdd30500d28f6d",
+      "path": "figures/figure_03_genome_maps.png"
+    },
+    {
+      "actual_sha256": "144d99b623bc4267ed3ed28a68f167f4d652d77183088385aa987ce1d8426c7f",
+      "expected_sha256": "144d99b623bc4267ed3ed28a68f167f4d652d77183088385aa987ce1d8426c7f",
+      "path": "figures/figure_04_lineages.pdf"
+    },
+    {
+      "actual_sha256": "29438ba90e8a54a498d6bd4d67be7c2bb513207198233d8cf98c6644718b4cca",
+      "expected_sha256": "29438ba90e8a54a498d6bd4d67be7c2bb513207198233d8cf98c6644718b4cca",
+      "path": "figures/figure_04_lineages.png"
+    },
+    {
+      "actual_sha256": "beae170df0fa71cc905db8d9fdd5ac1404d9fd67084f32d85fbdc0c32d00dc57",
+      "expected_sha256": "beae170df0fa71cc905db8d9fdd5ac1404d9fd67084f32d85fbdc0c32d00dc57",
+      "path": "figures/figure_05_neighborhoods.pdf"
+    },
+    {
+      "actual_sha256": "02092e8ccfed967b7b5b129cbcb06c90163ceca5299496bf5c7044d320269ee4",
+      "expected_sha256": "02092e8ccfed967b7b5b129cbcb06c90163ceca5299496bf5c7044d320269ee4",
+      "path": "figures/figure_05_neighborhoods.png"
+    },
+    {
+      "actual_sha256": "cfb3b2fe2d2e3a47b64cd1f6ef0efc070f903719e23fc47d5e471eec159457a9",
+      "expected_sha256": "cfb3b2fe2d2e3a47b64cd1f6ef0efc070f903719e23fc47d5e471eec159457a9",
+      "path": "figures/figure_06_robustness.pdf"
+    },
+    {
+      "actual_sha256": "42295473cd6344537de99242f1feed2a77871e29a1571e1b85bdfe6afd8e21f0",
+      "expected_sha256": "42295473cd6344537de99242f1feed2a77871e29a1571e1b85bdfe6afd8e21f0",
+      "path": "figures/figure_06_robustness.png"
+    },
+    {
+      "actual_sha256": "fb3229825a2c5748bbcbd849f38a1808fea8b27586c80fd84a54fe4b62f0bc60",
+      "expected_sha256": "fb3229825a2c5748bbcbd849f38a1808fea8b27586c80fd84a54fe4b62f0bc60",
+      "path": "results/tables/annotation_coverage.tsv"
+    },
+    {
+      "actual_sha256": "7fd83e73394bb3842f73ca2b94690da6a6f9ecaf1049dd55f4af8860850f0bba",
+      "expected_sha256": "7fd83e73394bb3842f73ca2b94690da6a6f9ecaf1049dd55f4af8860850f0bba",
+      "path": "results/tables/annotation_uncertainty.tsv"
+    },
+    {
+      "actual_sha256": "1dbf20d8c65ff2fb4fb7da2c0d39916bc654162ac1c1cb2edf0f166e65a22bf0",
+      "expected_sha256": "1dbf20d8c65ff2fb4fb7da2c0d39916bc654162ac1c1cb2edf0f166e65a22bf0",
+      "path": "results/tables/architecture_by_lineage.tsv"
+    },
+    {
+      "actual_sha256": "c67ef6bada515b7e1585bb1a87c3b1d89a21bb163ab96415ae2fcadd27a3a707",
+      "expected_sha256": "c67ef6bada515b7e1585bb1a87c3b1d89a21bb163ab96415ae2fcadd27a3a707",
+      "path": "results/tables/architecture_pairs.tsv"
+    },
+    {
+      "actual_sha256": "53420bc9ebd161e846d14a43b8ff8a1359e5d548fd161223e50ed3ea2d446375",
+      "expected_sha256": "53420bc9ebd161e846d14a43b8ff8a1359e5d548fd161223e50ed3ea2d446375",
+      "path": "results/tables/architecture_sensitivity.tsv"
+    },
+    {
+      "actual_sha256": "a18796c208bdb1a1164d37662df2dbbd7713acbca4c0abf83db30028ec6c1940",
+      "expected_sha256": "a18796c208bdb1a1164d37662df2dbbd7713acbca4c0abf83db30028ec6c1940",
+      "path": "results/tables/architectures.tsv"
+    },
+    {
+      "actual_sha256": "55504999668163f7c9b2aa71e161b6026012a7534d35b6b45c412cedbde2a925",
+      "expected_sha256": "55504999668163f7c9b2aa71e161b6026012a7534d35b6b45c412cedbde2a925",
+      "path": "results/tables/candidates.tsv"
+    },
+    {
+      "actual_sha256": "9e55d58fb44bb9e33b04a4898b180ea558f1b1ab86564719f7390ef3214a0ecb",
+      "expected_sha256": "9e55d58fb44bb9e33b04a4898b180ea558f1b1ab86564719f7390ef3214a0ecb",
+      "path": "results/tables/control_alignment_diagnostics.tsv"
+    },
+    {
+      "actual_sha256": "7decc71903f669f0dcd4f4f82f8a2139bc603e3203acb2e1cd1126ecaf3c0107",
+      "expected_sha256": "7decc71903f669f0dcd4f4f82f8a2139bc603e3203acb2e1cd1126ecaf3c0107",
+      "path": "results/tables/dataset_manifest.tsv"
+    },
+    {
+      "actual_sha256": "adfbfd78d7252e7a91f4a370d05a75e63c51134d5e2742378f48a0bfac451a41",
+      "expected_sha256": "adfbfd78d7252e7a91f4a370d05a75e63c51134d5e2742378f48a0bfac451a41",
+      "path": "results/tables/evolutionary_tests.tsv"
+    },
+    {
+      "actual_sha256": "51dbdd616751600e0741c59f1ad75b42b1b531b6401d7655af05e603569a579e",
+      "expected_sha256": "51dbdd616751600e0741c59f1ad75b42b1b531b6401d7655af05e603569a579e",
+      "path": "results/tables/exclusions.tsv"
+    },
+    {
+      "actual_sha256": "5e5b74f8cfedc412ae4a949d6a3a63f5bd4cd9a3a19f6d8a2cdfbc740189b6c0",
+      "expected_sha256": "5e5b74f8cfedc412ae4a949d6a3a63f5bd4cd9a3a19f6d8a2cdfbc740189b6c0",
+      "path": "results/tables/family_memberships.tsv"
+    },
+    {
+      "actual_sha256": "689236fcbecafcac5cc4f5c2fa0aae06e4b9e5278881ba146f4d9b90a2306d30",
+      "expected_sha256": "689236fcbecafcac5cc4f5c2fa0aae06e4b9e5278881ba146f4d9b90a2306d30",
+      "path": "results/tables/family_summary.tsv"
+    },
+    {
+      "actual_sha256": "c27ee8a9a566ea2ea6f8ed439dc24303ec4d6d69d8be2987328ad21b0ff72d2f",
+      "expected_sha256": "c27ee8a9a566ea2ea6f8ed439dc24303ec4d6d69d8be2987328ad21b0ff72d2f",
+      "path": "results/tables/figure_01_dataset_data.tsv"
+    },
+    {
+      "actual_sha256": "8113ab6cf6ec2c2ab56929d65a6cda5fbf518a52822cf3c9f379b1db90b75ea5",
+      "expected_sha256": "8113ab6cf6ec2c2ab56929d65a6cda5fbf518a52822cf3c9f379b1db90b75ea5",
+      "path": "results/tables/figure_02_architecture_data.tsv"
+    },
+    {
+      "actual_sha256": "40fcb99e436c157ab3ffb606d41131e7e49dcc97a64d90a0390902dbef8558a2",
+      "expected_sha256": "40fcb99e436c157ab3ffb606d41131e7e49dcc97a64d90a0390902dbef8558a2",
+      "path": "results/tables/figure_03_genome_maps_data.tsv"
+    },
+    {
+      "actual_sha256": "83c64aac54544cf7737d5d2a87258603937737b358e48c5c0a374f8271f5f4ef",
+      "expected_sha256": "83c64aac54544cf7737d5d2a87258603937737b358e48c5c0a374f8271f5f4ef",
+      "path": "results/tables/figure_04_lineages_data.tsv"
+    },
+    {
+      "actual_sha256": "5cc0b36de3a177406a32ad2436bcc6c21f16ddc1f883edaba6b1167c4a7be50d",
+      "expected_sha256": "5cc0b36de3a177406a32ad2436bcc6c21f16ddc1f883edaba6b1167c4a7be50d",
+      "path": "results/tables/figure_05_neighborhoods_data.tsv"
+    },
+    {
+      "actual_sha256": "8304e29c7d4e79765097542b393a28a429ef4de9616a13387f662323d639b563",
+      "expected_sha256": "8304e29c7d4e79765097542b393a28a429ef4de9616a13387f662323d639b563",
+      "path": "results/tables/figure_06_robustness_data.tsv"
+    },
+    {
+      "actual_sha256": "721e47c3cba8eb83e9afda7a0163f727f93700cf0faa67cc9f3ac63fc4bd63f3",
+      "expected_sha256": "721e47c3cba8eb83e9afda7a0163f727f93700cf0faa67cc9f3ac63fc4bd63f3",
+      "path": "results/tables/leave_one_cluster_out.tsv"
+    },
+    {
+      "actual_sha256": "92981504bf463bcc6202ffb08ad9c29e3ee0cda9e40e46258c89760aa5c92636",
+      "expected_sha256": "92981504bf463bcc6202ffb08ad9c29e3ee0cda9e40e46258c89760aa5c92636",
+      "path": "results/tables/lineage_effects.tsv"
+    },
+    {
+      "actual_sha256": "8a7ea3a4489d32dcfdf9c48c262c10c8f46da7cd22c9cabc3180f2ce02991a81",
+      "expected_sha256": "8a7ea3a4489d32dcfdf9c48c262c10c8f46da7cd22c9cabc3180f2ce02991a81",
+      "path": "results/tables/lysis_evidence.tsv"
+    },
+    {
+      "actual_sha256": "796cc077623f53fdae2adcf4948b4942a6c9ee4ad39c3258d0ce7f71d766c311",
+      "expected_sha256": "796cc077623f53fdae2adcf4948b4942a6c9ee4ad39c3258d0ce7f71d766c311",
+      "path": "results/tables/near_identical_pairs.tsv"
+    },
+    {
+      "actual_sha256": "0d71d68cd8ebcafa4bca454495f5055584828787088d4e377e51fa08a1be017b",
+      "expected_sha256": "0d71d68cd8ebcafa4bca454495f5055584828787088d4e377e51fa08a1be017b",
+      "path": "results/tables/negative_control_hits.tsv"
+    },
+    {
+      "actual_sha256": "aecf3db06093ec612ca5d71d8b2beb563fec11f52b865d9bc9d8ba0cf26b9c5c",
+      "expected_sha256": "aecf3db06093ec612ca5d71d8b2beb563fec11f52b865d9bc9d8ba0cf26b9c5c",
+      "path": "results/tables/neighborhood_controls.tsv"
+    },
+    {
+      "actual_sha256": "394a876843f7eca57c4ecabb822d3c43b4d634a79fac4caada214da82202e269",
+      "expected_sha256": "394a876843f7eca57c4ecabb822d3c43b4d634a79fac4caada214da82202e269",
+      "path": "results/tables/neighborhood_pairs.tsv"
+    },
+    {
+      "actual_sha256": "e231c535056b3e911271aed5d147b1440a759ce784a68d56b34b37aaaa19425e",
+      "expected_sha256": "e231c535056b3e911271aed5d147b1440a759ce784a68d56b34b37aaaa19425e",
+      "path": "results/tables/neighborhoods.tsv"
+    }
+  ],
+  "compared_artifacts": 39,
+  "completed_stages": 9,
+  "copied_cache_records": 23,
+  "differences": [],
+  "method": "Nine-stage accession-frozen cohort replay; no population resampling",
+  "mmseqs_sha256": "b7ef6e0e33df5dd4fa9cf988cbd8b4988c11a3a1255d2c377f13e1bb40c157fb",
+  "panel": "original",
+  "software": "Active Python environment and specified MMseqs executable; no independent installation claim",
+  "source_acquisition": "Checksum-verified local cache",
+  "status": "pass",
+  "verified_utc": "2026-10-17T15:05:51+00:00",
+  "wrapper_sha256": "12ec2912c7876873df49bb0eab7bb0be0c243ba2a50417bf648feb1d6344746e"
+}

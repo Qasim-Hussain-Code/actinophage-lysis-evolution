@@ -1,0 +1,175 @@
+{
+  "artifacts": [
+    {
+      "path": "frozen_inputs.json",
+      "sha256": "c4f23adb95a91dd7768689466d2f860cea13a3b35c49f8877e6bbaace933e9f4"
+    },
+    {
+      "path": "challenge_inputs.tsv",
+      "sha256": "56556f09af7e678db65a208c3103013f7dbbc4e84cf8f5195d9269f4b685f54b"
+    },
+    {
+      "path": "queries.faa",
+      "sha256": "58d3c9eeaef477ef9921eb622c3bd92d4fb74284893e6b36d434014684ae2826"
+    },
+    {
+      "path": "queries.tsv",
+      "sha256": "dff42acf82fe2c52a00773bc9d8cb38656416b56319f6d799391387a5351f25f"
+    },
+    {
+      "path": "raw_hits.tsv",
+      "sha256": "18067c69d0460c9c06e58e01225fdac00f4a76ac4ee982e200460b59678bee74"
+    },
+    {
+      "path": "alignment_evidence.tsv",
+      "sha256": "42ea5e56fab01cdb64b17128fafc3ea26fb2f212be94bfe80d922f48f8f5fbb6"
+    },
+    {
+      "path": "query_summary.tsv",
+      "sha256": "c6ea97d543e0b902270b5a8ad66db1da631ae193c875e13a5b4387435c3b3cc8"
+    },
+    {
+      "path": "search_execution.json",
+      "sha256": "4deccb796a24ae71b41f9091c344571858fb263652559d79e6c382368b71ee7e"
+    },
+    {
+      "path": "search.log",
+      "sha256": "3cbd6da12728679ada9e1a231500bc75247de236dd698cbbaa9f35b7ef2b7214"
+    }
+  ],
+  "finished_utc": "2026-10-17T06:44:56+00:00",
+  "generic_lipolytic_origin_caveat": "Generic-substrate activity supports the recorded lipolytic assay; cross-source sequence recovery does not establish native mAGP substrate specificity. These query origins remain a separate reported evidence tier.",
+  "holdout_policy": "Exclude self and every target with the same resolved_source_accession base before interpretation. Accession aliases are not inferred. E-values and prefiltering retain the unchanged full target panel; target count does not exceed the fixed 100-candidate cap.",
+  "identification_thresholds": {
+    "max_evalue": 1e-06,
+    "min_identity": 0.4,
+    "min_query_coverage": 0.7,
+    "min_target_coverage": 0.7
+  },
+  "interpretation": "Positive results measure cross-source homology recoverability, with experimental and computational query origins separated. Challenge labels flag potential cross-family specificity problems, not proven mAGP inactivity. This small selected set does not estimate general functional sensitivity or false-discovery rate.",
+  "isolated_root": "<WORKSPACE>/.experiments/amendment_profile_v1",
+  "mmseqs_version": "8cc5ce367b5638c4306c2d7cfc652dd099a4643f",
+  "output_root": "<WORKSPACE>/results/amendment_v1/profile/reference_validation",
+  "positive_recoverability": [
+    {
+      "expected_category": "accessory_lysis_chaperone",
+      "n_expected_category_recovered": 0,
+      "n_tested": 1,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "experimental"
+    },
+    {
+      "expected_category": "holin",
+      "n_expected_category_recovered": 0,
+      "n_tested": 3,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "experimental"
+    },
+    {
+      "expected_category": "lysin_a",
+      "n_expected_category_recovered": 4,
+      "n_tested": 7,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "experimental"
+    },
+    {
+      "expected_category": "lysin_b",
+      "n_expected_category_recovered": 3,
+      "n_tested": 3,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "experimental"
+    },
+    {
+      "expected_category": "lysin_b",
+      "n_expected_category_recovered": 6,
+      "n_tested": 6,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "experimental_generic_lipolytic"
+    },
+    {
+      "expected_category": "lysin_a",
+      "n_expected_category_recovered": 1,
+      "n_tested": 10,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "published_profile_prediction"
+    },
+    {
+      "expected_category": "lysin_b",
+      "n_expected_category_recovered": 0,
+      "n_tested": 3,
+      "n_with_competing_accepted_categories": 0,
+      "origin_evidence_type": "published_profile_prediction"
+    }
+  ],
+  "query_count": 36,
+  "query_origins": {
+    "characterized_cellular_enzyme": 3,
+    "experimental": 14,
+    "experimental_generic_lipolytic": 6,
+    "published_profile_prediction": 13
+  },
+  "reference_count": 34,
+  "resources": {
+    "budget_after": {
+      "cap_bytes": 10000000000
+    },
+    "budget_before": {
+      "cap_bytes": 10000000000
+    },
+    "output_file_bytes": 116048,
+    "split_memory_limit": "1G",
+    "threads": 4
+  },
+  "search_command": [
+    "<WORKSPACE>/.tools/mmseqs/bin/mmseqs",
+    "easy-search",
+    "<WORKSPACE>/results/amendment_v1/profile/reference_validation/queries.faa",
+    "<WORKSPACE>/.experiments/amendment_profile_v1/data/processed/references.faa",
+    "<WORKSPACE>/results/amendment_v1/profile/reference_validation/raw_hits.tsv",
+    "<WORKSPACE>/results/amendment_v1/profile/reference_validation/.tmp/mmseqs",
+    "--threads",
+    "4",
+    "-s",
+    "7.5",
+    "-k",
+    "5",
+    "--alignment-mode",
+    "3",
+    "-e",
+    "0.001",
+    "--max-seqs",
+    "100",
+    "--min-seq-id",
+    "0.25",
+    "-c",
+    "0.5",
+    "--cov-mode",
+    "0",
+    "--split-memory-limit",
+    "1G",
+    "--format-output",
+    "query,target,fident,alnlen,qcov,tcov,evalue,bits",
+    "--remove-tmp-files",
+    "1"
+  ],
+  "search_reused": false,
+  "search_settings": {
+    "alignment_mode": "3",
+    "coverage_mode": "0",
+    "kmer": "5",
+    "max_seqs": 100,
+    "search_coverage": "0.5",
+    "search_evalue": "0.001",
+    "search_min_identity": "0.25",
+    "sensitivity": "7.5",
+    "split_memory_limit": "1G",
+    "threads": 4
+  },
+  "specificity_challenges": {
+    "biochemical_mAGP_inactivity_established": false,
+    "n_potential_cross_family_lysis_calls": 0,
+    "n_tested": 3
+  },
+  "started_utc": "2026-10-17T06:43:53+00:00",
+  "status": "success"
+}

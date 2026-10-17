@@ -1,0 +1,13 @@
+{
+  "amendment": "exploratory post-pilot analysis",
+  "artifacts": {
+    "architecture_changes.tsv": "d6bfd1c782d8fb4540cee4070cb2be26c1447394096450dc9520e5fd6914b183",
+    "panel_summary.tsv": "99730432fec805e6b0c440103dbbb288de55dc2dc28a8d7b968d0d627bb61f62",
+    "reference_expansion.pdf": "77d1e1c2af245edd025501a4ba42406101e7dd40c4f2acfa29c1a95c29892d7c",
+    "reference_expansion.png": "ef8029f1762bc2483001eb2cf96692929e045d9889c40d6010b6994734fe0e40",
+    "supported_protein_changes.tsv": "30ffef5d4c150d12d4d33d2768a767720c2c50693ce624e558eaa2ea0cd84de5"
+  },
+  "functional_thresholds": "unchanged identity0.40, both coverages0.70, E<=1e-6",
+  "scientific_interpretation": "Expanded sequence homology to published predictions does not establish experimental activity or independent evolutionary origins.",
+  "summary_script_sha256": "86d655a7efec182ca15953e8a8be348beab3b334c49c6cc958f7dfbbb4801c87"
+}

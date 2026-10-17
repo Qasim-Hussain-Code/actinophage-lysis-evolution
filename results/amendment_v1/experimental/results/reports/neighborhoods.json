@@ -1,0 +1,91 @@
+{
+  "control_matching": {
+    "exact_boundary_completeness": true,
+    "exact_nearest_terminus_position_bin": true,
+    "homologous_single_copy_anchors": true,
+    "max_prevalence_difference": 0.2,
+    "minimum_controls": 5,
+    "protein_length_ratio": [
+      0.5,
+      2.0
+    ],
+    "same_genome_pair": true,
+    "selection_uses_conservation_score": false
+  },
+  "family_clustering": [
+    {
+      "alignment_mode": 3,
+      "cache_reused": false,
+      "cluster_mode": 0,
+      "coverage": 0.8,
+      "coverage_mode": 0,
+      "evalue": 0.001,
+      "identity": 0.3,
+      "input_sha256": "f059b575818e75c0a1c1191c9b8ed3035a71960d14470102d244fa37059a3556",
+      "kmer_length": 5,
+      "log": "results/logs/mmseqs_families_030.log",
+      "mmseqs_version": "8cc5ce367b5638c4306c2d7cfc652dd099a4643f",
+      "n_families": 1411,
+      "n_proteins": 2460,
+      "sequence_identity_mode": 0,
+      "single_step_clustering": true,
+      "split_memory_limit": "1G",
+      "threads": 4
+    },
+    {
+      "alignment_mode": 3,
+      "cache_reused": false,
+      "cluster_mode": 0,
+      "coverage": 0.8,
+      "coverage_mode": 0,
+      "evalue": 0.001,
+      "identity": 0.4,
+      "input_sha256": "f059b575818e75c0a1c1191c9b8ed3035a71960d14470102d244fa37059a3556",
+      "kmer_length": 5,
+      "log": "results/logs/mmseqs_families_040.log",
+      "mmseqs_version": "8cc5ce367b5638c4306c2d7cfc652dd099a4643f",
+      "n_families": 1460,
+      "n_proteins": 2460,
+      "sequence_identity_mode": 0,
+      "single_step_clustering": true,
+      "split_memory_limit": "1G",
+      "threads": 4
+    },
+    {
+      "alignment_mode": 3,
+      "cache_reused": false,
+      "cluster_mode": 0,
+      "coverage": 0.8,
+      "coverage_mode": 0,
+      "evalue": 0.001,
+      "identity": 0.5,
+      "input_sha256": "f059b575818e75c0a1c1191c9b8ed3035a71960d14470102d244fa37059a3556",
+      "kmer_length": 5,
+      "log": "results/logs/mmseqs_families_050.log",
+      "mmseqs_version": "8cc5ce367b5638c4306c2d7cfc652dd099a4643f",
+      "n_families": 1496,
+      "n_proteins": 2460,
+      "sequence_identity_mode": 0,
+      "single_step_clustering": true,
+      "split_memory_limit": "1G",
+      "threads": 4
+    }
+  ],
+  "limitations": [
+    "Homologous families do not establish identical biochemical function.",
+    "Matched background comparisons are observational; lysis and control anchors need not be exchangeable.",
+    "Genomic position, annotation, unmeasured family age and regional constraints may leave residual confounding.",
+    "Position matching uses nearest-terminus deciles only for linear records; circular origins are arbitrary.",
+    "Single-step MMseqs clustering uses exact aligned residue identity; a k=5 prefilter reduces its index memory. Candidate detection is not an exhaustive pairwise homology search, and thresholds apply to representative-member edges. Family membership does not guarantee the same minimum identity between every pair of members.",
+    "The MMseqs split-memory limit bounds prefilter structures, not total process resident memory."
+  ],
+  "n_cds": 2460,
+  "n_clustered_proteins": 2460,
+  "n_comparison_rows": 2592,
+  "n_eligible_rows": 0,
+  "n_excluded_cds": 0,
+  "untestable_reasons": {
+    "not_both_qc_representatives": 144,
+    "requires_one_supported_lysin_b_per_genome": 2448
+  }
+}

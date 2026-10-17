@@ -1,0 +1,89 @@
+threshold	confidence_set	cluster	n_genomes	n_resolved	n_separated	n_closely_linked	n_complex	n_unresolved	fraction_separated	median_intervening_cds	within_cluster_replicated
+2	high_moderate	A	1	1	0	1	0	0	0.0	1.0	false
+2	high_moderate	AA	2	0	0	0	0	2			false
+2	high_moderate	AF	2	0	0	0	0	2			false
+2	high_moderate	CP	2	0	0	0	0	2			false
+2	high_moderate	CR	2	0	0	0	0	2			false
+2	high_moderate	DC	2	0	0	0	0	2			false
+2	high_moderate	DD	1	0	0	0	0	1			false
+2	high_moderate	E	2	0	0	0	0	2			false
+2	high_moderate	KA	2	0	0	0	0	2			false
+2	high_moderate	M	2	0	0	0	0	2			false
+2	high_moderate	T	2	0	0	0	0	2			false
+2	high_only	A	1	1	0	1	0	0	0.0	1.0	false
+2	high_only	AA	2	0	0	0	0	2			false
+2	high_only	AF	2	0	0	0	0	2			false
+2	high_only	CP	2	0	0	0	0	2			false
+2	high_only	CR	2	0	0	0	0	2			false
+2	high_only	DC	2	0	0	0	0	2			false
+2	high_only	DD	1	0	0	0	0	1			false
+2	high_only	E	2	0	0	0	0	2			false
+2	high_only	KA	2	0	0	0	0	2			false
+2	high_only	M	2	0	0	0	0	2			false
+2	high_only	T	2	0	0	0	0	2			false
+4	high_moderate	A	1	1	0	1	0	0	0.0	1.0	false
+4	high_moderate	AA	2	0	0	0	0	2			false
+4	high_moderate	AF	2	0	0	0	0	2			false
+4	high_moderate	CP	2	0	0	0	0	2			false
+4	high_moderate	CR	2	0	0	0	0	2			false
+4	high_moderate	DC	2	0	0	0	0	2			false
+4	high_moderate	DD	1	0	0	0	0	1			false
+4	high_moderate	E	2	0	0	0	0	2			false
+4	high_moderate	KA	2	0	0	0	0	2			false
+4	high_moderate	M	2	0	0	0	0	2			false
+4	high_moderate	T	2	0	0	0	0	2			false
+4	high_only	A	1	1	0	1	0	0	0.0	1.0	false
+4	high_only	AA	2	0	0	0	0	2			false
+4	high_only	AF	2	0	0	0	0	2			false
+4	high_only	CP	2	0	0	0	0	2			false
+4	high_only	CR	2	0	0	0	0	2			false
+4	high_only	DC	2	0	0	0	0	2			false
+4	high_only	DD	1	0	0	0	0	1			false
+4	high_only	E	2	0	0	0	0	2			false
+4	high_only	KA	2	0	0	0	0	2			false
+4	high_only	M	2	0	0	0	0	2			false
+4	high_only	T	2	0	0	0	0	2			false
+6	high_moderate	A	1	1	0	1	0	0	0.0	1.0	false
+6	high_moderate	AA	2	0	0	0	0	2			false
+6	high_moderate	AF	2	0	0	0	0	2			false
+6	high_moderate	CP	2	0	0	0	0	2			false
+6	high_moderate	CR	2	0	0	0	0	2			false
+6	high_moderate	DC	2	0	0	0	0	2			false
+6	high_moderate	DD	1	0	0	0	0	1			false
+6	high_moderate	E	2	0	0	0	0	2			false
+6	high_moderate	KA	2	0	0	0	0	2			false
+6	high_moderate	M	2	0	0	0	0	2			false
+6	high_moderate	T	2	0	0	0	0	2			false
+6	high_only	A	1	1	0	1	0	0	0.0	1.0	false
+6	high_only	AA	2	0	0	0	0	2			false
+6	high_only	AF	2	0	0	0	0	2			false
+6	high_only	CP	2	0	0	0	0	2			false
+6	high_only	CR	2	0	0	0	0	2			false
+6	high_only	DC	2	0	0	0	0	2			false
+6	high_only	DD	1	0	0	0	0	1			false
+6	high_only	E	2	0	0	0	0	2			false
+6	high_only	KA	2	0	0	0	0	2			false
+6	high_only	M	2	0	0	0	0	2			false
+6	high_only	T	2	0	0	0	0	2			false
+10	high_moderate	A	1	1	0	1	0	0	0.0	1.0	false
+10	high_moderate	AA	2	0	0	0	0	2			false
+10	high_moderate	AF	2	0	0	0	0	2			false
+10	high_moderate	CP	2	0	0	0	0	2			false
+10	high_moderate	CR	2	0	0	0	0	2			false
+10	high_moderate	DC	2	0	0	0	0	2			false
+10	high_moderate	DD	1	0	0	0	0	1			false
+10	high_moderate	E	2	0	0	0	0	2			false
+10	high_moderate	KA	2	0	0	0	0	2			false
+10	high_moderate	M	2	0	0	0	0	2			false
+10	high_moderate	T	2	0	0	0	0	2			false
+10	high_only	A	1	1	0	1	0	0	0.0	1.0	false
+10	high_only	AA	2	0	0	0	0	2			false
+10	high_only	AF	2	0	0	0	0	2			false
+10	high_only	CP	2	0	0	0	0	2			false
+10	high_only	CR	2	0	0	0	0	2			false
+10	high_only	DC	2	0	0	0	0	2			false
+10	high_only	DD	1	0	0	0	0	1			false
+10	high_only	E	2	0	0	0	0	2			false
+10	high_only	KA	2	0	0	0	0	2			false
+10	high_only	M	2	0	0	0	0	2			false
+10	high_only	T	2	0	0	0	0	2			false

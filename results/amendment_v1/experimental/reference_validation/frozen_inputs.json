@@ -1,0 +1,69 @@
+{
+  "challenge_assets": [
+    {
+      "author_chain_id": "A",
+      "challenge_id": "SPEC_1AUO_CARBOXYLESTERASE",
+      "equivalent_author_chains": "A;B",
+      "length_aa": 218,
+      "protein_sha256": "d0a8b1e6931e6280351c021bbaf90f4b46333d7cfde08ecfd6f4a3185007d26d",
+      "raw_path": "raw/1AUO_1.faa",
+      "raw_sha256": "f72e9c93b0790eed64bd1867b6d4adf725244e48aee75755568cc0646bed10d9",
+      "returned_fasta_header": "1AUO_1|Chains A, B|CARBOXYLESTERASE|Pseudomonas fluorescens (294)",
+      "sequence_url": "https://www.rcsb.org/fasta/entry/1AUO/display",
+      "source_id": "1AUO_1"
+    },
+    {
+      "author_chain_id": "A",
+      "challenge_id": "SPEC_1BS9_AXEII",
+      "equivalent_author_chains": "A",
+      "length_aa": 207,
+      "protein_sha256": "3c7b8b8443538f12b75c6f109e7c946631cfd2543a149c031ed397dbebb2d925",
+      "raw_path": "raw/1BS9_1.faa",
+      "raw_sha256": "4dac0dc78cbdfd910b3b025c8d6c4d9561f1748ffa6ef9a0a418ebcc216094aa",
+      "returned_fasta_header": "1BS9_1|Chain A|ACETYL XYLAN ESTERASE|Penicillium purpurogenum (1266744)",
+      "sequence_url": "https://www.rcsb.org/fasta/entry/1BS9/display",
+      "source_id": "1BS9_1"
+    },
+    {
+      "author_chain_id": "A",
+      "challenge_id": "SPEC_2CZQ_CLE",
+      "equivalent_author_chains": "A;B",
+      "length_aa": 205,
+      "protein_sha256": "e0e238c867dd381d088d1056393b11ea95328d69f080e487b5d52426a258bbb6",
+      "raw_path": "raw/2CZQ_1.faa",
+      "raw_sha256": "6feb2a03eddd4c132d03d368efb4f6694cf13130b57c4ccab1870457dec41401",
+      "returned_fasta_header": "2CZQ_1|Chains A, B|cutinase-like protein|Cryptococcus sp. (87049)",
+      "sequence_url": "https://www.rcsb.org/fasta/entry/2CZQ/display",
+      "source_id": "2CZQ_1"
+    }
+  ],
+  "challenge_catalogue_sha256": "9deb52ebe0e23b0f39cea1bf452e61cf454a87a4a27ea176e08b767f52802b44",
+  "identification_thresholds": {
+    "max_evalue": 1e-06,
+    "min_identity": 0.4,
+    "min_query_coverage": 0.7,
+    "min_target_coverage": 0.7
+  },
+  "mmseqs_version": "8cc5ce367b5638c4306c2d7cfc652dd099a4643f",
+  "query_fasta_sha256": "aca7a6040d5a3f63299b0f9d2f0437dc6ef9784fcf3839f661076320948c6073",
+  "query_manifest_sha256": "cd624bd8dd6e504e64d7228863920b680ec3043ab63b1170125cd2a5820e37b7",
+  "reference_fasta_sha256": "9aa778819500c15041278973a0ccfbd5bfe631b1b9a65f4694f7f64eec004a45",
+  "reference_manifest_sha256": "0be8737ea79c47a95f62294abb9ffed99d59e7e4b6293549221f414a818da650",
+  "schema": 1,
+  "search_settings": {
+    "alignment_mode": "3",
+    "coverage_mode": "0",
+    "kmer": "5",
+    "max_seqs": 100,
+    "search_coverage": "0.5",
+    "search_evalue": "0.001",
+    "search_min_identity": "0.25",
+    "sensitivity": "7.5",
+    "split_memory_limit": "1G",
+    "threads": 4
+  },
+  "source_sha256": {
+    "identification": "4f13a25a057110d3b1ea267a9b3db6d050ab1702515b6110f9eeb088ff8aad18",
+    "reference_validation": "0eb76cf74604e4244840e11f92484c0750f7ea55c568b0ed24bf5095c80d0e4d"
+  }
+}

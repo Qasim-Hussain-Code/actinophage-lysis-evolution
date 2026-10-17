@@ -1,0 +1,5 @@
+# Optional, isolated candidate diagnostic; core pipeline dependencies unchanged.
+pyfamsa==0.7.0
+pyhmmer==0.12.3
+scoring-matrices==0.3.5
+psutil==7.2.2

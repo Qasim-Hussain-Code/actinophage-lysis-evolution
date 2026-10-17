@@ -1,0 +1,7 @@
+panel	criterion	n_pairs	reason	minimum_matched_controls	minimum_lineages	primary_pair_rows	eligible_pairs
+pair_eligibility	Within-cluster genome pairs	9	not_available	not_available	not_available	not_available	not_available
+pair_eligibility	Unique supported B in both genomes	0	not_available	not_available	not_available	not_available	not_available
+pair_eligibility	Shared B homologous family	0	not_available	not_available	not_available	not_available	not_available
+pair_eligibility	Eligible matched comparisons	0	not_available	not_available	not_available	not_available	not_available
+recorded_ineligibility	not_available	9	requires_one_supported_lysin_b_per_genome	not_available	not_available	not_available	not_available
+prespecified_constraints	not_available	not_available	not_available	5	5	9	0

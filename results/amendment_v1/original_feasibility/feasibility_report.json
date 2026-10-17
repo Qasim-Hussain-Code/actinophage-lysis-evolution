@@ -1,0 +1,73 @@
+{
+  "analysis": "secondary_component_and_covariate_availability_amendment",
+  "code_sha256": {
+    "amendment_feasibility.py": "9165611df5e62f87b43c27d67add1a37cad889d543407b574de1880bc66df255",
+    "architecture.py": "2d5db8b948004f2e9da01748f94d609761608f7cbce2ab2aa7366d9315c43b8e",
+    "neighborhoods.py": "74398cddd23a1333b720cf9db758af260c8ad314230f0b164353ea5d2d5fc0a4"
+  },
+  "created_utc": "2026-10-17T01:50:03+00:00",
+  "input_paths": {
+    "architectures": "<WORKSPACE>/data/processed/architectures.tsv",
+    "cds": "<WORKSPACE>/data/processed/cds.tsv",
+    "configuration": "<WORKSPACE>/config/analysis.yaml",
+    "evidence": "<WORKSPACE>/data/processed/lysis_evidence.tsv",
+    "families": "<WORKSPACE>/results/tables/family_memberships.tsv",
+    "genomes": "<WORKSPACE>/data/processed/genomes.tsv"
+  },
+  "input_root": "<WORKSPACE>",
+  "input_sha256": {
+    "architectures": "a18796c208bdb1a1164d37662df2dbbd7713acbca4c0abf83db30028ec6c1940",
+    "cds": "42d8c63179047394ddd1388aa0bf41edac88e0a096714beceb0a2844f513d150",
+    "configuration": "8e6843836c391f7ceac2cdd85b3a68bcf48829b626f76c383b467b8ef54c7480",
+    "evidence": "8a7ea3a4489d32dcfdf9c48c262c10c8f46da7cd22c9cabc3180f2ce02991a81",
+    "families": "5e5b74f8cfedc412ae4a949d6a3a63f5bd4cd9a3a19f6d8a2cdfbc740189b6c0",
+    "genomes": "7decc71903f669f0dcd4f4f82f8a2139bc603e3203acb2e1cd1126ecaf3c0107"
+  },
+  "limitations": [
+    "Availability in this cohort is not a population power calculation.",
+    "Named clusters are ancestry proxies, not proven independent evolutionary replicates.",
+    "All detected components does not mean all biological components or experimentally demonstrated multipart enzymes.",
+    "Complete flanks are a diagnostic branch, not an additional primary eligibility requirement.",
+    "Exact clipped-boundary matching may intrinsically leave fewer than five distinct control anchors.",
+    "High-only filtering can remove a proximal moderate component; all removed calls and component sets must be considered.",
+    "Feasibility is calculated using current global family prevalence and sampling, which can change with cohort expansion."
+  ],
+  "minimum_controls": 5,
+  "minimum_nonzero_clusters_to_permit_p_below_0_05": 6,
+  "n_genomes": 20,
+  "outcome_scores_read_or_computed": false,
+  "outputs": {
+    "availability_funnel": {
+      "path": "<WORKSPACE>/results/amendment_v1/original_feasibility/availability_funnel.tsv",
+      "rows": 2160,
+      "sha256": "b131fb5f86443240cdba67662be7447516c4d7c65a1e6f982ee7ddbe1685f318"
+    },
+    "component_calls": {
+      "path": "<WORKSPACE>/results/amendment_v1/original_feasibility/component_calls.tsv",
+      "rows": 4,
+      "sha256": "30d260a4d34c3da99ba5d94e23090ddc0b92df60c0325d98f189de605abebadd"
+    },
+    "component_classifications": {
+      "path": "<WORKSPACE>/results/amendment_v1/original_feasibility/component_classifications.tsv",
+      "rows": 160,
+      "sha256": "0b807455f867f38775cc1b3e28a5bfefc2ea998c08197b00caa2d08ee71b1c9f"
+    },
+    "component_pairs": {
+      "path": "<WORKSPACE>/results/amendment_v1/original_feasibility/component_pairs.tsv",
+      "rows": 2,
+      "sha256": "2bcd9cc9bae36d79b730e694b63d22559636461b804a0c0fb832552f9d27aec9"
+    },
+    "control_availability": {
+      "path": "<WORKSPACE>/results/amendment_v1/original_feasibility/control_availability.tsv",
+      "rows": 0,
+      "sha256": "31ce794668b9575b3127eb9f4d8a520b03a20c9fb360910515fdb84e15b8e6ec"
+    },
+    "pair_feasibility": {
+      "path": "<WORKSPACE>/results/amendment_v1/original_feasibility/pair_feasibility.tsv",
+      "rows": 1296,
+      "sha256": "aa9c5d8421d3c1457f79862b098cecd1691d8c904da6a907d3b761ded8012ea9"
+    }
+  },
+  "primary_minimum_cluster_gate_unchanged": 5,
+  "two_sided_exact_minimum_p_with_five_nonzero_clusters": 0.0625
+}

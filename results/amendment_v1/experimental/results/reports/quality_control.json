@@ -1,0 +1,10 @@
+{
+  "cds": 2460,
+  "excluded": 0,
+  "included": 20,
+  "near_identical_screen": "Bottom1000 canonical 21mer sketch Jaccard >=0.95; proxy, not ANI; no inferred phylogenetic independence",
+  "selected": 20,
+  "translation_status": {
+    "verified": 2460
+  }
+}

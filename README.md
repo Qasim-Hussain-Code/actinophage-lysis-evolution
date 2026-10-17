@@ -1,6 +1,6 @@
 # Genomic architecture and evolutionary conservation of actinobacteriophage lysis machinery
 
-This repository asks whether physically separated lysis genes retain conserved genomic neighborhoods after accounting for shared ancestry, background gene order and uncertain functional annotation. It contains a reproducible Python pipeline and a completed 20-genome pilot. The pilot does **not** support a formal answer to the primary question: only D29 has an independently supported Lysin A/Lysin B pair under the prespecified reference criteria. Expansion is withheld pending improved, independently validated identification coverage.
+This repository asks whether physically separated lysis genes retain conserved genomic neighborhoods after accounting for shared ancestry, background gene order and uncertain functional annotation. The 20-genome pilot and two reference-expansion analyses retain all 2,460 verified CDS translations. Expanding the panel from 10 to 34 references increases supported Lysin A coverage from 1/20 to 10/20 genomes, but D29 remains the only supported Lysin B and complete A/B pair. The primary conservation test is untestable, and expansion remains withheld. See the [reference-expansion results](docs/amendment_results.md); the original pilot is preserved separately.
 
 ## Research question and prior work
 
@@ -21,7 +21,7 @@ The frozen cohort contains **20 complete genomes, 11 named clusters and 2,460 ve
 
 Selection is deterministic and independent of observed architecture. Published controls are included first, followed by two accessioned representatives per eligible cluster in a seeded, genus-interleaved order. The control allocation and cluster sampling explain the 11/9 host split; numerical balance was not imposed afterward. Current metadata, accession versions, source URLs, retrieval times and SHA-256 values are retained in the [input manifest](data/manifests/pilot_inputs.tsv). [Dataset QC](results/reports/quality_control.json) and the [result manifest](results/tables/dataset_manifest.tsv) provide the measured cohort details.
 
-The small reference panel yields three high-confidence functional assignments, all in D29: Lysin A, holin and Lysin B. It yields no moderate-confidence assignments. Deposited product labels and feature notes identify 51 candidate proteins; weaker homology and deposited labels remain low confidence.
+The original 10-reference panel yields three high-confidence functional assignments, all in D29: Lysin A, holin and Lysin B. It yields no moderate-confidence assignments. Deposited product labels and feature notes identify 51 candidate proteins; weaker homology and deposited labels remain low confidence. The following pilot tables describe that preserved baseline; the expanded 21- and 34-reference results are reported separately above and in the amendment results.
 
 At the operational separation cutoff of more than four intervening CDS:
 

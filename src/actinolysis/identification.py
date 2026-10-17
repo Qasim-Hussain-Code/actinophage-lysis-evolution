@@ -30,6 +30,7 @@ def build_references(cfg):
             url='https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?'+urllib.parse.urlencode({'db':'nuccore','id':requested,'rettype':'gbwithparts','retmode':'text','tool':'actinolysis'})
             path=download(url,ROOT/f'data/raw/references/{source}.gb',cfg,cfg.get('offline',False),maximum=3_000_000)
             record=SeqIO.read(path,'genbank')
+            if '.' in source and record.id != source: raise ValueError(f'Reference source accession-version mismatch: {record.id} vs {source}')
             if source in pinned_sources and record.id != requested: raise ValueError(f'Pinned reference source version mismatch: {record.id} vs {requested}')
             source_records[source]=(record,path,url)
         record,path,url=source_records[source]
@@ -85,11 +86,24 @@ def run(cfg):
     write_json(ROOT/'results/reports/reference_search.json',{'command':cmd,'hit_file_sha256':sha256(output),'reference_count':len(read_tsv(ROOT/'data/manifests/reference_manifest.tsv'))})
 
 def evaluate_hit(hit,ref,cfg):
+    """Transfer reference-family evidence using alignment scores alone.
+
+    Published profile support belongs to the curated seed, not to a direct
+    profile search of this target. It can support at most a moderate Lysin A/B
+    family assignment. Generic experimental lipolytic activity can support at
+    most moderate Lysin B, with native mycolate-substrate specificity unresolved.
+    Predicted holins and ordinary published predictions
+    remain low confidence. Exact experimental matches retain the existing high
+    tier; no architecture, neighborhood or genomic-position input is used.
+    """
     identity=float(hit['identity']); qcov=float(hit['query_coverage']); tcov=float(hit['target_coverage']); evalue=float(hit['evalue'])
     if ref['category']=='negative_control': return 'unresolved'
-    if ref['evidence_type']!='experimental': return 'low'
+    experimental=ref['evidence_type']=='experimental'
+    profile_family=(ref['evidence_type']=='published_profile_prediction' and ref['category'] in {'lysin_a','lysin_b'})
+    generic_lipolytic=(ref['evidence_type']=='experimental_generic_lipolytic' and ref['category']=='lysin_b')
+    if not experimental and not profile_family and not generic_lipolytic: return 'low'
     limits=cfg['identification']
-    if identity>=0.999999 and qcov>=0.999999 and tcov>=0.999999 and evalue<=limits['max_evalue']: return 'high'
+    if experimental and identity>=0.999999 and qcov>=0.999999 and tcov>=0.999999 and evalue<=limits['max_evalue']: return 'high'
     if identity>=limits['min_identity'] and qcov>=limits['min_query_coverage'] and tcov>=limits['min_target_coverage'] and evalue<=limits['max_evalue']:
         return 'moderate'
     return 'low'
@@ -107,7 +121,13 @@ def evidence(cfg):
         if ref['category']=='negative_control': negative.append(hit); continue
         key=(hit['protein_id'],ref['category'])
         confidence=evaluate_hit(hit,ref,cfg)
-        rank=(-{'high':3,'moderate':2,'low':1,'unresolved':0}[confidence],float(hit['evalue']),-float(hit['bits']),hit['reference_id'])
+        # At the same qualifying moderate tier, retain the experimentally
+        # characterized reference tier rather than a predicted seed or generic
+        # lipolytic assay with unresolved mycolate-substrate specificity.
+        # With no new capped tiers, all penalties are zero and the original
+        # confidence/E-value/bits/reference-ID ordering is unchanged.
+        capped_evidence_penalty=int(confidence=='moderate' and ref['evidence_type'] in {'published_profile_prediction','experimental_generic_lipolytic'})
+        rank=(-{'high':3,'moderate':2,'low':1,'unresolved':0}[confidence],capped_evidence_penalty,float(hit['evalue']),-float(hit['bits']),hit['reference_id'])
         if key not in scores or rank<scores[key][0]: scores[key]=(rank,hit)
     result=[]
     for p in cds.values():
@@ -143,7 +163,26 @@ def evidence(cfg):
             'hypothetical_proteins':sum('hypothetical' in p['product'].lower() for p in local)})
     write_tsv(ROOT/'results/tables/annotation_coverage.tsv',coverage)
     write_tsv(ROOT/'results/tables/negative_control_hits.tsv',negative,fields)
-    write_json(ROOT/'results/reports/functional_identification.json',{'assignments':len(result),'by_confidence':dict(Counter(p['confidence'] for p in result)),
+    report={'assignments':len(result),'by_confidence':dict(Counter(p['confidence'] for p in result)),
         'limitations':['Only a small experimentally characterized reference panel; divergent functions can be undetected.',
         'No transmembrane predictor used; membrane features alone cannot establish holin function.',
-        'Deposited annotation alone is low confidence; neighborhood never upgrades function.']})
+        'Deposited annotation alone is low confidence; neighborhood never upgrades function.']}
+    evidence_types=Counter(ref['evidence_type'] for ref in refs.values())
+    if evidence_types['published_profile_prediction'] or evidence_types['experimental_generic_lipolytic']:
+        report['limitations'][0]='The expanded panel retains distinct reference evidence tiers, including capped computational or generic-lipolytic evidence where present; divergent functions can remain undetected.'
+        report['reference_evidence_types']=dict(sorted(evidence_types.items()))
+    if evidence_types['published_profile_prediction']:
+        report['limitations'].append('Profile-supported seed homology transfers at most a moderate Lysin A/B family prediction; no direct target profile search or experimental activity is established. Predicted holins remain low confidence.')
+        report['profile_prediction_policy']={'reference_evidence_type':'published_profile_prediction',
+            'maximum_confidence':'moderate','eligible_categories':['lysin_a','lysin_b'],
+            'alignment_thresholds':'unchanged_identity_both_coverages_and_evalue',
+            'selection':'confidence_first_then_experimental_before_profile_at_equal_moderate_confidence',
+            'architecture_or_neighborhood_used':False}
+    if evidence_types['experimental_generic_lipolytic']:
+        report['limitations'].append('Generic lipolytic assays such as p-nitrophenyl ester or Tween hydrolysis establish activity on those substrates; they do not individually establish native mycolylarabinogalactan-peptidoglycan specificity. This reference tier supports at most moderate Lysin B family assignments, including exact matches.')
+        report['generic_lipolytic_policy']={'reference_evidence_type':'experimental_generic_lipolytic',
+            'maximum_confidence':'moderate','eligible_categories':['lysin_b'],
+            'alignment_thresholds':'unchanged_identity_both_coverages_and_evalue',
+            'selection':'confidence_first_then_experimental_before_capped_evidence_at_equal_moderate_confidence',
+            'mycolate_substrate_specificity_established':False,'architecture_or_neighborhood_used':False}
+    write_json(ROOT/'results/reports/functional_identification.json',report)

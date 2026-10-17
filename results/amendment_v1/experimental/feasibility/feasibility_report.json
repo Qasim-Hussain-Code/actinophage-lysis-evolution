@@ -1,0 +1,73 @@
+{
+  "analysis": "secondary_component_and_covariate_availability_amendment",
+  "code_sha256": {
+    "amendment_feasibility.py": "9165611df5e62f87b43c27d67add1a37cad889d543407b574de1880bc66df255",
+    "architecture.py": "2d5db8b948004f2e9da01748f94d609761608f7cbce2ab2aa7366d9315c43b8e",
+    "neighborhoods.py": "74398cddd23a1333b720cf9db758af260c8ad314230f0b164353ea5d2d5fc0a4"
+  },
+  "created_utc": "2026-10-17T01:59:39+00:00",
+  "input_paths": {
+    "architectures": "<WORKSPACE>/.experiments/amendment_experimental_v1/data/processed/architectures.tsv",
+    "cds": "<WORKSPACE>/.experiments/amendment_experimental_v1/data/processed/cds.tsv",
+    "configuration": "<WORKSPACE>/.experiments/amendment_experimental_v1/config/analysis.yaml",
+    "evidence": "<WORKSPACE>/.experiments/amendment_experimental_v1/data/processed/lysis_evidence.tsv",
+    "families": "<WORKSPACE>/.experiments/amendment_experimental_v1/results/tables/family_memberships.tsv",
+    "genomes": "<WORKSPACE>/.experiments/amendment_experimental_v1/data/processed/genomes.tsv"
+  },
+  "input_root": "<WORKSPACE>/.experiments/amendment_experimental_v1",
+  "input_sha256": {
+    "architectures": "b306c8ee7a016729f5f9cc119b79caf14e99c83925a7c733e9c3d6d11001cdcb",
+    "cds": "42d8c63179047394ddd1388aa0bf41edac88e0a096714beceb0a2844f513d150",
+    "configuration": "298c034d42dab07ec2365ee0c5fa580afc08ece1e8e838bbe0152292451e239f",
+    "evidence": "100e8035818d8a74d9236b23698a4f625ef4b77ed162804a50802d475bc9f684",
+    "families": "5e5b74f8cfedc412ae4a949d6a3a63f5bd4cd9a3a19f6d8a2cdfbc740189b6c0",
+    "genomes": "7decc71903f669f0dcd4f4f82f8a2139bc603e3203acb2e1cd1126ecaf3c0107"
+  },
+  "limitations": [
+    "Availability in this cohort is not a population power calculation.",
+    "Named clusters are ancestry proxies, not proven independent evolutionary replicates.",
+    "All detected components does not mean all biological components or experimentally demonstrated multipart enzymes.",
+    "Complete flanks are a diagnostic branch, not an additional primary eligibility requirement.",
+    "Exact clipped-boundary matching may intrinsically leave fewer than five distinct control anchors.",
+    "High-only filtering can remove a proximal moderate component; all removed calls and component sets must be considered.",
+    "Feasibility is calculated using current global family prevalence and sampling, which can change with cohort expansion."
+  ],
+  "minimum_controls": 5,
+  "minimum_nonzero_clusters_to_permit_p_below_0_05": 6,
+  "n_genomes": 20,
+  "outcome_scores_read_or_computed": false,
+  "outputs": {
+    "availability_funnel": {
+      "path": "<WORKSPACE>/results/amendment_v1/experimental/feasibility/availability_funnel.tsv",
+      "rows": 2160,
+      "sha256": "b131fb5f86443240cdba67662be7447516c4d7c65a1e6f982ee7ddbe1685f318"
+    },
+    "component_calls": {
+      "path": "<WORKSPACE>/results/amendment_v1/experimental/feasibility/component_calls.tsv",
+      "rows": 8,
+      "sha256": "97630dd29b86f10691ea0d4e0fbd0319d5ed72e02af3f00dd5f4739861fb4380"
+    },
+    "component_classifications": {
+      "path": "<WORKSPACE>/results/amendment_v1/experimental/feasibility/component_classifications.tsv",
+      "rows": 160,
+      "sha256": "265b18591de0deab325072587bd67b186ecf41f3570a6fc1b2f3afd6184d0972"
+    },
+    "component_pairs": {
+      "path": "<WORKSPACE>/results/amendment_v1/experimental/feasibility/component_pairs.tsv",
+      "rows": 2,
+      "sha256": "2bcd9cc9bae36d79b730e694b63d22559636461b804a0c0fb832552f9d27aec9"
+    },
+    "control_availability": {
+      "path": "<WORKSPACE>/results/amendment_v1/experimental/feasibility/control_availability.tsv",
+      "rows": 0,
+      "sha256": "31ce794668b9575b3127eb9f4d8a520b03a20c9fb360910515fdb84e15b8e6ec"
+    },
+    "pair_feasibility": {
+      "path": "<WORKSPACE>/results/amendment_v1/experimental/feasibility/pair_feasibility.tsv",
+      "rows": 1296,
+      "sha256": "aa9c5d8421d3c1457f79862b098cecd1691d8c904da6a907d3b761ded8012ea9"
+    }
+  },
+  "primary_minimum_cluster_gate_unchanged": 5,
+  "two_sided_exact_minimum_p_with_five_nonzero_clusters": 0.0625
+}

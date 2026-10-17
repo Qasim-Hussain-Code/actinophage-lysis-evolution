@@ -1,0 +1,4 @@
+phage	expected_architecture	reference_url	evidence_basis	availability_note
+Ms6	closely_linked	https://www.ncbi.nlm.nih.gov/nuccore/AF319619	characterized_lysis_reference_locus_not_a_complete_genome_control	Reference locus AF319619 is available; no accessioned complete genome was available in audited PhagesDB metadata. Missing complete-genome control remains unresolved.
+D29	closely_linked	https://doi.org/10.1111/febs.13565	published_characterization_of_lysis_proteins_gp10_gp11_gp12	Expected arrangement still requires independently supported functional identification in the frozen whole-genome record.
+Yvonnetastic	separated	https://doi.org/10.1128/genomeA.00594-16	published_predicted_lysis_gene_arrangement_not_experimental_functional_validation	Published arrangement is an annotation-based architecture control; independent functional homology is assessed separately.

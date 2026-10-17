@@ -1,0 +1,14 @@
+{
+  "assignment_changes": false,
+  "coverage_definition": "Residues consumed in the local alignment divided by full sequence length",
+  "evalues_computed": false,
+  "identity_definition": "Exact residue matches divided by aligned columns including gaps",
+  "interpretation": "Exploratory local alignment of a literature-selected known control; scores are uncalibrated and have no E-values; no functional assignment or confidence is changed; absent broad-search hits do not establish gene absence.",
+  "method": "Biopython PairwiseAligner local BLOSUM62; gap open -10; gap extension -0.5",
+  "n_query_specifications": 3,
+  "n_reference_comparisons": 17,
+  "query_selection": "Literature-selected known control; three exact accession-versioned proteins",
+  "statuses": {
+    "exploratory_alignment_only": 17
+  }
+}

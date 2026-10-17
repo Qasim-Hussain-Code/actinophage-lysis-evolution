@@ -1,0 +1,42 @@
+{
+  "assignments": 54,
+  "by_confidence": {
+    "high": 3,
+    "low": 42,
+    "moderate": 9
+  },
+  "generic_lipolytic_policy": {
+    "alignment_thresholds": "unchanged_identity_both_coverages_and_evalue",
+    "architecture_or_neighborhood_used": false,
+    "eligible_categories": [
+      "lysin_b"
+    ],
+    "maximum_confidence": "moderate",
+    "mycolate_substrate_specificity_established": false,
+    "reference_evidence_type": "experimental_generic_lipolytic",
+    "selection": "confidence_first_then_experimental_before_capped_evidence_at_equal_moderate_confidence"
+  },
+  "limitations": [
+    "The expanded panel retains distinct reference evidence tiers, including capped computational or generic-lipolytic evidence where present; divergent functions can remain undetected.",
+    "No transmembrane predictor used; membrane features alone cannot establish holin function.",
+    "Deposited annotation alone is low confidence; neighborhood never upgrades function.",
+    "Profile-supported seed homology transfers at most a moderate Lysin A/B family prediction; no direct target profile search or experimental activity is established. Predicted holins remain low confidence.",
+    "Generic lipolytic assays such as p-nitrophenyl ester or Tween hydrolysis establish activity on those substrates; they do not individually establish native mycolylarabinogalactan-peptidoglycan specificity. This reference tier supports at most moderate Lysin B family assignments, including exact matches."
+  ],
+  "profile_prediction_policy": {
+    "alignment_thresholds": "unchanged_identity_both_coverages_and_evalue",
+    "architecture_or_neighborhood_used": false,
+    "eligible_categories": [
+      "lysin_a",
+      "lysin_b"
+    ],
+    "maximum_confidence": "moderate",
+    "reference_evidence_type": "published_profile_prediction",
+    "selection": "confidence_first_then_experimental_before_profile_at_equal_moderate_confidence"
+  },
+  "reference_evidence_types": {
+    "experimental": 15,
+    "experimental_generic_lipolytic": 6,
+    "published_profile_prediction": 13
+  }
+}

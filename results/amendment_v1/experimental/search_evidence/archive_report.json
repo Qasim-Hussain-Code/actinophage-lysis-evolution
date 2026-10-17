@@ -1,0 +1,168 @@
+{
+  "archive_code_sha256": "619929821a5b9d1eaff2d3ffc609c0055721cda9496cc733f2ccc0a752d3ade3",
+  "archive_fingerprint_sha256": "70a9be14b42b18ad49318741cfe1bdb3597580e155f854e6075e478f33c08d9e",
+  "counts": {
+    "accepted_reference_hits": 12,
+    "cds": 2460,
+    "negative_control_hits": 1,
+    "reported_reference_hits": 66,
+    "searched_proteins": 2460,
+    "selected_reference_hits": 20
+  },
+  "created_utc": "2026-10-17T06:47:49+00:00",
+  "detection_status_counts": {
+    "selected_high_or_moderate_homology_assignment": 7,
+    "unresolved_no_reported_reference_hit": 2439,
+    "unresolved_only_negative_control_hits": 1,
+    "unresolved_reported_hits_below_criteria_or_evidence_tier": 13
+  },
+  "evaluator_sha256": "4f13a25a057110d3b1ea267a9b3db6d050ab1702515b6110f9eeb088ff8aad18",
+  "identification_thresholds": {
+    "max_evalue": 1e-06,
+    "min_identity": 0.4,
+    "min_query_coverage": 0.7,
+    "min_target_coverage": 0.7
+  },
+  "inputs_sha256": {
+    "config/analysis.yaml": "298c034d42dab07ec2365ee0c5fa580afc08ece1e8e838bbe0152292451e239f",
+    "data/manifests/reference_manifest.tsv": "0be8737ea79c47a95f62294abb9ffed99d59e7e4b6293549221f414a818da650",
+    "data/processed/cds.tsv": "42d8c63179047394ddd1388aa0bf41edac88e0a096714beceb0a2844f513d150",
+    "data/processed/genomes.tsv": "7decc71903f669f0dcd4f4f82f8a2139bc603e3203acb2e1cd1126ecaf3c0107",
+    "data/processed/lysis_evidence.tsv": "100e8035818d8a74d9236b23698a4f625ef4b77ed162804a50802d475bc9f684",
+    "data/processed/proteins.faa": "f059b575818e75c0a1c1191c9b8ed3035a71960d14470102d244fa37059a3556",
+    "data/processed/reference_hits.tsv": "a7372061065cd02d95738e4eb1c8ceba98c270f6a3591c7197c7a0cc7284cf6f",
+    "data/processed/references.faa": "9aa778819500c15041278973a0ccfbd5bfe631b1b9a65f4694f7f64eec004a45",
+    "data/raw/references/AF319619.gb": "93a51a090232d2f43411a29755e8d54c77bb6cf3970a55d2ee6d82a18685d085",
+    "data/raw/references/AY129330.2.gb": "f5eb003d30a031d132e1648642cf0d5dc1c0321b045dc1d33752435e63409a27",
+    "data/raw/references/AY129337.1.gb": "8134441d8b6b3f67415286728a9f920e9feefa4e6bc3ab40d4c35d6240dda791",
+    "data/raw/references/AY129338.1.gb": "0575298207d5cb406683fef5488a2f78629982e7cf37c2b373a8969423bca4e9",
+    "data/raw/references/EU203571.2.gb": "6772f2e9d5390e9d75ab504a8107dda58f1ff87bb94bdb3a77d439bd2b35cf39",
+    "data/raw/references/EU816591.1.gb": "5c0f79ac0e189936d996f045d00e8ed702677fbcde8986ff24f61d4d6c919a7e",
+    "data/raw/references/KF959563.1.gb": "ed8e9448ddbb1e7dab00aacddf545558dacf27b432942bb4a7bfc3c93e28637a",
+    "data/raw/references/KJ025956.1.gb": "2b77504a07fd934d4e5aba53ad37cc337cf20d9bc2544ee3e1430b818f1101b1",
+    "data/raw/references/KX683423.1.gb": "7b4e302179b819950544ac23fbb58fcbdffa98749b83deeb3db754b7f6890776",
+    "data/raw/references/KY083061.1.gb": "daf65773ec477491dfbc1b3016dd7c4a57b10d56e8aa366597514171d2404450",
+    "data/raw/references/NC_001900.gb": "1d333bea1d335fca24be31c8c1602b3e88b6d400d5d757a0a0f1f26c4d01d464",
+    "data/raw/references/NC_017973.1.gb": "5c3a70a05718a8e973a7cf9687d30d1bf16b66e3579d31c0c68a2417e5e8c1e2",
+    "data/raw/references/OR813930.gb": "6172c9954adc68da507563c669d7297939a6c1dd1be369e2e3389172e84a065f",
+    "data/raw/references/Z18946.1.gb": "95552aca1d9f10098fa8ccfe535d7f55c2d289fb66ed97d331543e5d9b8ca0d0",
+    "references/protein_controls.tsv": "da3cff7f312fc86e686355e78dea54a537e7d9b1b1f7ec26cced30f56272db14",
+    "results/reports/pilot_stage_receipts.json": "29e2c0e871e94f796d9c137110a4e7798223ceb17e679734f9c32769e3586152",
+    "results/reports/reference_search.json": "ee43c0f229b7a28bc8e703a67d076f7386ed56302e258c6685003007d5c431d8",
+    "scripts/run_all.py": "92f93e314961d0e7738b60e04543606b2c0aa8941d7266d8dcc8d36806ab4979",
+    "src/actinolysis/common.py": "13aea5fca724751d435846587cb6a297e389f6f3be1e26f7c3bc101f8c94d3f2",
+    "src/actinolysis/identification.py": "4f13a25a057110d3b1ea267a9b3db6d050ab1702515b6110f9eeb088ff8aad18",
+    "src/actinolysis/quality.py": "127686e09f5df5e52ffbb78a41720405de94ea7d2c98b1e08dadd0a10b709859"
+  },
+  "interpretation": [
+    "Read-only supplement: no primary assignment, function, architecture or confidence was changed.",
+    "Acceptance is the frozen evaluate_hit result with partial proteins capped at low; negative controls are never accepted.",
+    "Selected flags reproduce the frozen category ledger and are separate from each hit scoring above the cutoffs.",
+    "No reported hit means unresolved under this reference panel and search reporting settings, never biological absence.",
+    "The hit table preserves every reported cohort-reference alignment, not unreported alignments below the MMseqs search/reporting gates.",
+    "Input and table hashes are recorded; the report does not hash itself."
+  ],
+  "isolated_root": "<WORKSPACE>/.experiments/amendment_experimental_v1",
+  "outputs_sha256": {
+    "all_cohort_reference_hits.tsv": "01ec6c262e683df73b52d59ba62771c467dedcae3dde4f206f2ace3c01c53e4c",
+    "protein_detection_status.tsv": "81aaae1204aa25e8f4b95c553d74d5e9291c43f1bfa2ffe28a8104da337d4dd6"
+  },
+  "reference_evidence_types": {
+    "experimental": 15,
+    "experimental_generic_lipolytic": 6
+  },
+  "search_execution_report": {
+    "command": [
+      "<WORKSPACE>/.tools/mmseqs/bin/mmseqs",
+      "easy-search",
+      "<WORKSPACE>/.experiments/amendment_experimental_v1/data/processed/proteins.faa",
+      "<WORKSPACE>/.experiments/amendment_experimental_v1/data/processed/references.faa",
+      "<WORKSPACE>/.experiments/amendment_experimental_v1/data/processed/reference_hits.tsv",
+      "<WORKSPACE>/.experiments/amendment_experimental_v1/.tmp/reference_search",
+      "--threads",
+      "4",
+      "-s",
+      "7.5",
+      "-k",
+      "5",
+      "--alignment-mode",
+      "3",
+      "-e",
+      "0.001",
+      "--max-seqs",
+      "100",
+      "--min-seq-id",
+      "0.25",
+      "-c",
+      "0.5",
+      "--cov-mode",
+      "0",
+      "--split-memory-limit",
+      "1G",
+      "--format-output",
+      "query,target,fident,alnlen,qcov,tcov,evalue,bits",
+      "--remove-tmp-files",
+      "1"
+    ],
+    "hit_file_sha256": "a7372061065cd02d95738e4eb1c8ceba98c270f6a3591c7197c7a0cc7284cf6f",
+    "reference_count": 21
+  },
+  "verified_stage_receipts": {
+    "2": {
+      "outputs": {
+        "data/processed/cds.tsv": "42d8c63179047394ddd1388aa0bf41edac88e0a096714beceb0a2844f513d150",
+        "data/processed/genomes.tsv": "7decc71903f669f0dcd4f4f82f8a2139bc603e3203acb2e1cd1126ecaf3c0107",
+        "data/processed/proteins.faa": "f059b575818e75c0a1c1191c9b8ed3035a71960d14470102d244fa37059a3556"
+      },
+      "scientific_config_sha256": "be43a899e2d5c2caf148afab3e820b183c392f1a2f4e726a18b7f8feaa14b63b",
+      "seconds": 5.572,
+      "source_sha256": {
+        "scripts/run_all.py": "92f93e314961d0e7738b60e04543606b2c0aa8941d7266d8dcc8d36806ab4979",
+        "src/actinolysis/common.py": "13aea5fca724751d435846587cb6a297e389f6f3be1e26f7c3bc101f8c94d3f2",
+        "src/actinolysis/quality.py": "127686e09f5df5e52ffbb78a41720405de94ea7d2c98b1e08dadd0a10b709859"
+      }
+    },
+    "3": {
+      "outputs": {
+        "data/manifests/reference_manifest.tsv": "0be8737ea79c47a95f62294abb9ffed99d59e7e4b6293549221f414a818da650",
+        "data/processed/reference_hits.tsv": "a7372061065cd02d95738e4eb1c8ceba98c270f6a3591c7197c7a0cc7284cf6f",
+        "data/processed/references.faa": "9aa778819500c15041278973a0ccfbd5bfe631b1b9a65f4694f7f64eec004a45",
+        "data/raw/references/AF319619.gb": "93a51a090232d2f43411a29755e8d54c77bb6cf3970a55d2ee6d82a18685d085",
+        "data/raw/references/AY129330.2.gb": "f5eb003d30a031d132e1648642cf0d5dc1c0321b045dc1d33752435e63409a27",
+        "data/raw/references/AY129337.1.gb": "8134441d8b6b3f67415286728a9f920e9feefa4e6bc3ab40d4c35d6240dda791",
+        "data/raw/references/AY129338.1.gb": "0575298207d5cb406683fef5488a2f78629982e7cf37c2b373a8969423bca4e9",
+        "data/raw/references/EU203571.2.gb": "6772f2e9d5390e9d75ab504a8107dda58f1ff87bb94bdb3a77d439bd2b35cf39",
+        "data/raw/references/EU816591.1.gb": "5c0f79ac0e189936d996f045d00e8ed702677fbcde8986ff24f61d4d6c919a7e",
+        "data/raw/references/KF959563.1.gb": "ed8e9448ddbb1e7dab00aacddf545558dacf27b432942bb4a7bfc3c93e28637a",
+        "data/raw/references/KJ025956.1.gb": "2b77504a07fd934d4e5aba53ad37cc337cf20d9bc2544ee3e1430b818f1101b1",
+        "data/raw/references/KX683423.1.gb": "7b4e302179b819950544ac23fbb58fcbdffa98749b83deeb3db754b7f6890776",
+        "data/raw/references/KY083061.1.gb": "daf65773ec477491dfbc1b3016dd7c4a57b10d56e8aa366597514171d2404450",
+        "data/raw/references/NC_001900.gb": "1d333bea1d335fca24be31c8c1602b3e88b6d400d5d757a0a0f1f26c4d01d464",
+        "data/raw/references/NC_017973.1.gb": "5c3a70a05718a8e973a7cf9687d30d1bf16b66e3579d31c0c68a2417e5e8c1e2",
+        "data/raw/references/OR813930.gb": "6172c9954adc68da507563c669d7297939a6c1dd1be369e2e3389172e84a065f",
+        "data/raw/references/Z18946.1.gb": "95552aca1d9f10098fa8ccfe535d7f55c2d289fb66ed97d331543e5d9b8ca0d0"
+      },
+      "scientific_config_sha256": "be43a899e2d5c2caf148afab3e820b183c392f1a2f4e726a18b7f8feaa14b63b",
+      "seconds": 16.812,
+      "source_sha256": {
+        "references/protein_controls.tsv": "da3cff7f312fc86e686355e78dea54a537e7d9b1b1f7ec26cced30f56272db14",
+        "scripts/run_all.py": "92f93e314961d0e7738b60e04543606b2c0aa8941d7266d8dcc8d36806ab4979",
+        "src/actinolysis/common.py": "13aea5fca724751d435846587cb6a297e389f6f3be1e26f7c3bc101f8c94d3f2",
+        "src/actinolysis/identification.py": "4f13a25a057110d3b1ea267a9b3db6d050ab1702515b6110f9eeb088ff8aad18"
+      }
+    },
+    "4": {
+      "outputs": {
+        "data/processed/lysis_evidence.tsv": "100e8035818d8a74d9236b23698a4f625ef4b77ed162804a50802d475bc9f684"
+      },
+      "scientific_config_sha256": "be43a899e2d5c2caf148afab3e820b183c392f1a2f4e726a18b7f8feaa14b63b",
+      "seconds": 0.314,
+      "source_sha256": {
+        "references/protein_controls.tsv": "da3cff7f312fc86e686355e78dea54a537e7d9b1b1f7ec26cced30f56272db14",
+        "scripts/run_all.py": "92f93e314961d0e7738b60e04543606b2c0aa8941d7266d8dcc8d36806ab4979",
+        "src/actinolysis/common.py": "13aea5fca724751d435846587cb6a297e389f6f3be1e26f7c3bc101f8c94d3f2",
+        "src/actinolysis/identification.py": "4f13a25a057110d3b1ea267a9b3db6d050ab1702515b6110f9eeb088ff8aad18"
+      }
+    }
+  }
+}

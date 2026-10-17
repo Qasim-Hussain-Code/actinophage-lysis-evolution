@@ -1,0 +1,224 @@
+Command arguments: ["<WORKSPACE>/.tools/mmseqs/bin/mmseqs", "easy-search", "<WORKSPACE>/results/amendment_v1/experimental/reference_validation/queries.faa", "<WORKSPACE>/.experiments/amendment_experimental_v1/data/processed/references.faa", "<WORKSPACE>/results/amendment_v1/experimental/reference_validation/raw_hits.tsv", "<WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs", "--threads", "4", "-s", "7.5", "-k", "5", "--alignment-mode", "3", "-e", "0.001", "--max-seqs", "100", "--min-seq-id", "0.25", "-c", "0.5", "--cov-mode", "0", "--split-memory-limit", "1G", "--format-output", "query,target,fident,alnlen,qcov,tcov,evalue,bits", "--remove-tmp-files", "1"]
+easy-search <WORKSPACE>/results/amendment_v1/experimental/reference_validation/queries.faa <WORKSPACE>/.experiments/amendment_experimental_v1/data/processed/references.faa <WORKSPACE>/results/amendment_v1/experimental/reference_validation/raw_hits.tsv <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs --threads 4 -s 7.5 -k 5 --alignment-mode 3 -e 0.001 --max-seqs 100 --min-seq-id 0.25 -c 0.5 --cov-mode 0 --split-memory-limit 1G --format-output query,target,fident,alnlen,qcov,tcov,evalue,bits --remove-tmp-files 1 
+
+MMseqs Version:                        	8cc5ce367b5638c4306c2d7cfc652dd099a4643f
+Substitution matrix                    	aa:blosum62.out,nucl:nucleotide.out
+Add backtrace                          	false
+Alignment mode                         	3
+Alignment mode                         	0
+Allow wrapped scoring                  	false
+E-value threshold                      	0.001
+Seq. id. threshold                     	0.25
+Min alignment length                   	0
+Seq. id. mode                          	0
+Alternative alignments                 	0
+Coverage threshold                     	0.5
+Coverage mode                          	0
+Max sequence length                    	65535
+Compositional bias                     	1
+Compositional bias scale               	1
+Max reject                             	2147483647
+Max accept                             	2147483647
+Include identical seq. id.             	false
+Preload mode                           	0
+Pseudo count a                         	substitution:1.100,context:1.400
+Pseudo count b                         	substitution:4.100,context:5.800
+Score bias                             	0
+Realign hits                           	false
+Realign score bias                     	-0.2
+Realign max seqs                       	2147483647
+Correlation score weight               	0
+Gap open cost                          	aa:11,nucl:5
+Gap extension cost                     	aa:1,nucl:2
+Zdrop                                  	40
+Threads                                	4
+Compressed                             	0
+Verbosity                              	3
+Seed substitution matrix               	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                            	7.5
+k-mer length                           	5
+Target search mode                     	0
+k-score                                	seq:2147483647,prof:2147483647
+Alphabet size                          	aa:21,nucl:5
+Max results per query                  	100
+Split database                         	0
+Split mode                             	2
+Split memory limit                     	1G
+Diagonal scoring                       	true
+Exact k-mer matching                   	0
+Mask residues                          	1
+Mask residues probability              	0.9
+Mask lower case residues               	0
+Mask lower letter repeating N times    	0
+Minimum diagonal score                 	15
+Selected taxa                          	
+Spaced k-mers                          	1
+Spaced k-mer pattern                   	
+Local temporary path                   	
+Use GPU                                	0
+Use GPU server                         	0
+Wait for GPU server                    	600
+Prefilter mode                         	0
+Rescore mode                           	0
+Remove hits by seq. id. and coverage   	false
+Sort results                           	0
+Mask profile                           	1
+Profile E-value threshold              	0.001
+Global sequence weighting              	false
+Allow deletions                        	false
+Filter MSA                             	1
+Use filter only at N seqs              	0
+Maximum seq. id. threshold             	0.9
+Minimum seq. id.                       	0.0
+Minimum score per column               	-20
+Minimum coverage                       	0
+Select N most diverse seqs             	1000
+Pseudo count mode                      	0
+Profile output mode                    	0
+Min codons in orf                      	30
+Max codons in length                   	32734
+Max orf gaps                           	2147483647
+Contig start mode                      	2
+Contig end mode                        	2
+Orf start mode                         	1
+Forward frames                         	1,2,3
+Reverse frames                         	1,2,3
+Translation table                      	1
+Translate orf                          	0
+Use all table starts                   	false
+Offset of numeric ids                  	0
+Create lookup                          	0
+Overlap between sequences              	0
+Sequence split mode                    	1
+Header split mode                      	0
+Chain overlapping alignments           	0
+Merge query                            	1
+Search type                            	0
+Search iterations                      	1
+Start sensitivity                      	4
+Search steps                           	1
+Exhaustive search mode                 	false
+Filter results during exhaustive search	0
+Strand selection                       	1
+LCA search mode                        	false
+Disk space limit                       	0
+MPI runner                             	
+Force restart with latest tmp          	false
+Remove temporary files                 	true
+Translation mode                       	0
+Alignment format                       	0
+Format alignment output                	query,target,fident,alnlen,qcov,tcov,evalue,bits
+Database output                        	false
+Overlap threshold                      	0
+Database type                          	0
+Shuffle input database                 	true
+Createdb mode                          	0
+Write lookup file                      	0
+Greedy best hits                       	false
+
+createdb <WORKSPACE>/results/amendment_v1/experimental/reference_validation/queries.faa <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/query --threads 4 
+
+Converting sequences
+[
+Time for merging to query_h: 0h 0m 1s 339ms
+Time for merging to query: 0h 0m 0s 671ms
+Database type: Aminoacid
+Time for processing: 0h 0m 3s 35ms
+createdb <WORKSPACE>/.experiments/amendment_experimental_v1/data/processed/references.faa <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/target --write-lookup 0 --threads 4 --gpu 0 
+
+Converting sequences
+[
+Time for merging to target_h: 0h 0m 0s 728ms
+Time for merging to target: 0h 0m 0s 983ms
+Database type: Aminoacid
+Time for processing: 0h 0m 3s 17ms
+Create directory <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/search_tmp
+search <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/query <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/target <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/result <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/search_tmp --alignment-mode 3 -e 0.001 --min-seq-id 0.25 -c 0.5 --cov-mode 0 --threads 4 -s 7.5 -k 5 --max-seqs 100 --split-memory-limit 1G --remove-tmp-files 1 
+
+prefilter <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/query <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/target <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/search_tmp/11759303600637475459/pref_0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -k 5 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 100 --split 0 --split-mode 2 --split-memory-limit 1G -c 0.5 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --mask-n-repeat 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 4 --compressed 0 -v 3 -s 7.5 
+
+Query database size: 23 type: Aminoacid
+Estimated memory consumption: 513M
+Target database size: 21 type: Aminoacid
+Index table k-mer threshold: 65 at k-mer size 5 
+Index table: counting k-mers
+[=================================================================] 21 0s 103ms
+Index table: Masked residues: 32
+Index table: fill
+[=================================================================] 21 0s 153ms
+Index statistics
+Entries:          6038
+DB size:          24 MB
+Avg k-mer size:   0.001887
+Top 10 k-mers
+    HGQGG	5
+    QPNAP	5
+    TGDGP	5
+    ARLWP	5
+    PAADY	5
+    PHYAD	4
+    IEQEI	4
+    DSALQ	4
+    RWIAA	3
+    DPPDA	3
+Time for index table init: 0h 0m 0s 338ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 65
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 23
+Target db start 1 to 21
+[=================================================================] 23 0s 284ms
+
+1590.507551 k-mers per position
+1630 DB matches per sequence
+0 overflows
+11 sequences passed prefiltering per query sequence
+13 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_0: 0h 0m 0s 128ms
+Time for processing: 0h 0m 2s 214ms
+align <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/query <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/target <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/search_tmp/11759303600637475459/pref_0 <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/result --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.5 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 4 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 23 type: Aminoacid
+Target database size: 21 type: Aminoacid
+Calculation of alignments
+[=================================================================] 23 0s 111ms
+Time for merging to result: 0h 0m 0s 78ms
+240 alignments calculated
+98 sequence pairs passed the thresholds (0.408333 of overall calculated)
+4.260870 hits per query sequence
+Time for processing: 0h 0m 0s 448ms
+rmdb <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/search_tmp/11759303600637475459/pref_0 -v 3 
+
+Time for processing: 0h 0m 0s 46ms
+rmdb <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/search_tmp/11759303600637475459/aln_0 -v 3 
+
+Time for processing: 0h 0m 0s 28ms
+rmdb <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/search_tmp/11759303600637475459/input_0 -v 3 
+
+Time for processing: 0h 0m 0s 11ms
+rmdb <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/search_tmp/11759303600637475459/aln_merge -v 3 
+
+Time for processing: 0h 0m 0s 11ms
+convertalis <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/query <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/target <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/result <WORKSPACE>/results/amendment_v1/experimental/reference_validation/raw_hits.tsv --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --format-mode 0 --format-output query,target,fident,alnlen,qcov,tcov,evalue,bits --translation-table 1 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --db-output 0 --db-load-mode 0 --search-type 0 --threads 4 --compressed 0 -v 3 
+
+[=================================================================] 23 0s 94ms
+Time for merging to raw_hits.tsv: 0h 0m 0s 858ms
+Time for processing: 0h 0m 1s 266ms
+rmdb <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/result -v 3 
+
+Time for processing: 0h 0m 0s 58ms
+rmdb <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/target -v 3 
+
+Time for processing: 0h 0m 0s 18ms
+rmdb <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/target_h -v 3 
+
+Time for processing: 0h 0m 0s 17ms
+rmdb <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/query -v 3 
+
+Time for processing: 0h 0m 0s 24ms
+rmdb <WORKSPACE>/results/amendment_v1/experimental/reference_validation/.tmp/mmseqs/11556106034268857489/query_h -v 3 
+
+Time for processing: 0h 0m 0s 21ms

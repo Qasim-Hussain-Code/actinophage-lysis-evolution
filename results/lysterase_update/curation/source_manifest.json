@@ -1,0 +1,10 @@
+{
+  "added_references": 5,
+  "aliases": 1,
+  "curation_script_sha256": "38a73d11169910e461713aeefbf55f20648cfda24a3941c494fde24a854fb9a6",
+  "paper": "https://doi.org/10.1128/jb.00410-26",
+  "protein_record_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=AAC18452.1%2CASZ75177.1%2CAAG59714.1%2CAXF51531.1%2CYP_009604896.1%2CQPO17264.1&rettype=gp&retmode=text&tool=actinolysis",
+  "protein_records": 6,
+  "protein_records_sha256": "d9c5f2dc6f5680ffa9bcd2ed70f862854e87c2c27cfef7279df11031f8332b10",
+  "protocol_sha256": "0de11165c67c499761c884aa2505a349fbb98217b398e6f9d3de382ed3595daf"
+}

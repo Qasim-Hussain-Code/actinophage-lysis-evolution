@@ -133,6 +133,17 @@ def test_self_matches_cannot_make_unrecoverable_fold_pass_and_no_hit_queries_are
     assert profile["n_reported_hits"] == 0 and not profile["expected_category_recovered"]
 
 
+def test_exact_protein_alias_from_another_source_cannot_validate_itself(tmp_path):
+    queries, references = prepared_queries(tmp_path)
+    references['other']['protein_sha256'] = references['self']['protein_sha256']
+    alignments, summaries = validation.score_queries(queries, references,
+        [hit('POS__self', 'other', identity=1, query_coverage=1, target_coverage=1)], config())
+    assert alignments[0]['exclusion_reason'] == 'exact_sequence_alias'
+    assert not alignments[0]['accepted_call']
+    summary = next(row for row in summaries if row['query_id'] == 'POS__self')
+    assert not summary['expected_category_recovered'] and summary['n_excluded_panel_references'] == 4
+
+
 def test_challenge_call_is_flagged_with_capped_generic_evidence_and_no_mAGP_inactivity_claim(tmp_path):
     queries, references = prepared_queries(tmp_path)
     qid = "CHAL__SYNTHETIC_TEST_ONLY"

@@ -8,6 +8,9 @@ from Bio import SeqIO
 from .common import ROOT, NA, budget_check, read_tsv, sha256, utcnow, write_json, write_tsv
 from .acquisition import download
 
+CAPPED_REFERENCE_TYPES = {'published_profile_prediction', 'experimental_generic_lipolytic',
+                          'experimental_antimycobacterial'}
+
 def annotation_category(product):
     p=product.lower().replace('_',' ')
     if re.search(r'\b(lysin[ -]?b|lysb)\b',p) or ('mycol' in p and ('esterase' in p or 'hydrolase' in p)):
@@ -92,6 +95,8 @@ def evaluate_hit(hit,ref,cfg):
     profile search of this target. It can support at most a moderate Lysin A/B
     family assignment. Generic experimental lipolytic activity can support at
     most moderate Lysin B, with native mycolate-substrate specificity unresolved.
+    Purified-protein antimycobacterial assays have the same confidence ceiling;
+    killing does not independently establish the enzyme's native substrate.
     Predicted holins and ordinary published predictions
     remain low confidence. Exact experimental matches retain the existing high
     tier; no architecture, neighborhood or genomic-position input is used.
@@ -101,7 +106,8 @@ def evaluate_hit(hit,ref,cfg):
     experimental=ref['evidence_type']=='experimental'
     profile_family=(ref['evidence_type']=='published_profile_prediction' and ref['category'] in {'lysin_a','lysin_b'})
     generic_lipolytic=(ref['evidence_type']=='experimental_generic_lipolytic' and ref['category']=='lysin_b')
-    if not experimental and not profile_family and not generic_lipolytic: return 'low'
+    antimycobacterial=(ref['evidence_type']=='experimental_antimycobacterial' and ref['category']=='lysin_b')
+    if not experimental and not profile_family and not generic_lipolytic and not antimycobacterial: return 'low'
     limits=cfg['identification']
     if experimental and identity>=0.999999 and qcov>=0.999999 and tcov>=0.999999 and evalue<=limits['max_evalue']: return 'high'
     if identity>=limits['min_identity'] and qcov>=limits['min_query_coverage'] and tcov>=limits['min_target_coverage'] and evalue<=limits['max_evalue']:
@@ -126,7 +132,7 @@ def evidence(cfg):
         # lipolytic assay with unresolved mycolate-substrate specificity.
         # With no new capped tiers, all penalties are zero and the original
         # confidence/E-value/bits/reference-ID ordering is unchanged.
-        capped_evidence_penalty=int(confidence=='moderate' and ref['evidence_type'] in {'published_profile_prediction','experimental_generic_lipolytic'})
+        capped_evidence_penalty=int(confidence=='moderate' and ref['evidence_type'] in CAPPED_REFERENCE_TYPES)
         rank=(-{'high':3,'moderate':2,'low':1,'unresolved':0}[confidence],capped_evidence_penalty,float(hit['evalue']),-float(hit['bits']),hit['reference_id'])
         if key not in scores or rank<scores[key][0]: scores[key]=(rank,hit)
     result=[]
@@ -168,7 +174,7 @@ def evidence(cfg):
         'No transmembrane predictor used; membrane features alone cannot establish holin function.',
         'Deposited annotation alone is low confidence; neighborhood never upgrades function.']}
     evidence_types=Counter(ref['evidence_type'] for ref in refs.values())
-    if evidence_types['published_profile_prediction'] or evidence_types['experimental_generic_lipolytic']:
+    if any(evidence_types[tier] for tier in CAPPED_REFERENCE_TYPES):
         report['limitations'][0]='The expanded panel retains distinct reference evidence tiers, including capped computational or generic-lipolytic evidence where present; divergent functions can remain undetected.'
         report['reference_evidence_types']=dict(sorted(evidence_types.items()))
     if evidence_types['published_profile_prediction']:
@@ -184,5 +190,11 @@ def evidence(cfg):
             'maximum_confidence':'moderate','eligible_categories':['lysin_b'],
             'alignment_thresholds':'unchanged_identity_both_coverages_and_evalue',
             'selection':'confidence_first_then_experimental_before_capped_evidence_at_equal_moderate_confidence',
+            'mycolate_substrate_specificity_established':False,'architecture_or_neighborhood_used':False}
+    if evidence_types['experimental_antimycobacterial']:
+        report['limitations'].append('Purified-protein antimycobacterial activity supports the assayed reference phenotype; it does not independently establish native mycolate-substrate cleavage, endogenous expression or a requirement for phage lysis. Homology from this tier is capped at moderate Lysin B, including exact matches.')
+        report['antimycobacterial_policy']={'reference_evidence_type':'experimental_antimycobacterial',
+            'maximum_confidence':'moderate','eligible_categories':['lysin_b'],
+            'alignment_thresholds':'unchanged_identity_both_coverages_and_evalue',
             'mycolate_substrate_specificity_established':False,'architecture_or_neighborhood_used':False}
     write_json(ROOT/'results/reports/functional_identification.json',report)

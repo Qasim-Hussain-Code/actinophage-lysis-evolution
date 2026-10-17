@@ -309,3 +309,42 @@ def test_generic_lipolytic_report_keeps_substrate_specificity_unresolved(tmp_pat
     assert report['generic_lipolytic_policy']['mycolate_substrate_specificity_established'] is False
     assert report['generic_lipolytic_policy']['architecture_or_neighborhood_used'] is False
     assert any('do not individually establish native' in limitation for limitation in report['limitations'])
+
+
+@pytest.mark.parametrize('changes, expected', [
+    ({}, 'moderate'),
+    (dict(identity=1, query_coverage=1, target_coverage=1), 'moderate'),
+    (dict(identity=.39999), 'low'),
+    (dict(query_coverage=.69999), 'low'),
+    (dict(target_coverage=.69999), 'low'),
+    (dict(evalue=1.00001e-6), 'low'),
+])
+def test_antimycobacterial_assay_keeps_confidence_cap_and_alignment_cuts(changes, expected):
+    reference = {'category': 'lysin_b', 'evidence_type': 'experimental_antimycobacterial'}
+    boundary = hit(identity=.4, query_coverage=.7, target_coverage=.7, evalue=1e-6)
+    assert evaluate_hit({**boundary, **changes}, reference, config()) == expected
+
+
+@pytest.mark.parametrize('category', ['lysin_a', 'holin', 'holin_like', 'esterase', 'negative_control'])
+def test_antimycobacterial_assay_does_not_promote_other_categories(category):
+    reference = {'category': category, 'evidence_type': 'experimental_antimycobacterial'}
+    assert evaluate_hit(hit(identity=1, query_coverage=1, target_coverage=1), reference, config()) == (
+        'unresolved' if category == 'negative_control' else 'low')
+
+
+def test_antimycobacterial_reference_cannot_displace_equal_tier_experimental_evidence(tmp_path, monkeypatch):
+    rows = _synthetic_evidence_case(tmp_path, monkeypatch,
+        [('assayed', 'experimental_antimycobacterial'), ('experimental', 'experimental')],
+        [('assayed', hit(identity=1, query_coverage=1, target_coverage=1, evalue=1e-100, bits=1000)),
+         ('experimental', hit(evalue=1e-20, bits=300))], guard_context_reads=True)
+    assert rows[0]['reference_id'] == 'experimental' and rows[0]['confidence'] == 'moderate'
+
+
+def test_antimycobacterial_report_retains_unresolved_substrate_specificity(tmp_path, monkeypatch):
+    import json
+    rows = _synthetic_evidence_case(tmp_path, monkeypatch,
+        [('assayed', 'experimental_antimycobacterial')],
+        [('assayed', hit(identity=1, query_coverage=1, target_coverage=1))], guard_context_reads=True)
+    assert rows[0]['confidence'] == 'moderate' and rows[0]['context_used'] == 'false'
+    report = json.loads((tmp_path/'results/reports/functional_identification.json').read_text())
+    assert report['antimycobacterial_policy']['mycolate_substrate_specificity_established'] is False

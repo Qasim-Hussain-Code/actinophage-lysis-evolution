@@ -24,7 +24,7 @@ from Bio import SeqIO
 
 from .acquisition import download, validate_accession
 from .common import ROOT, NA, budget_check, load_config, read_tsv, sha256, utcnow, write_json, write_tsv
-from .identification import evaluate_hit
+from .identification import CAPPED_REFERENCE_TYPES, evaluate_hit
 
 CONFIDENCE = {"high": 3, "moderate": 2, "low": 1, "unresolved": 0}
 RAW_FIELDS = ["protein_id", "reference_id", "identity", "alignment_length", "query_coverage", "target_coverage", "evalue", "bits"]
@@ -199,7 +199,7 @@ def parse_hits(path, queries, references):
 
 def _rank(hit, reference, cfg):
     confidence = evaluate_hit(hit, reference, cfg)
-    capped_penalty = int(confidence == "moderate" and reference["evidence_type"] in {"published_profile_prediction", "experimental_generic_lipolytic"})
+    capped_penalty = int(confidence == "moderate" and reference["evidence_type"] in CAPPED_REFERENCE_TYPES)
     return (-CONFIDENCE[confidence], capped_penalty, float(hit["evalue"]), -float(hit["bits"]), hit["reference_id"])
 
 
@@ -223,6 +223,8 @@ def score_queries(queries, references, hits, cfg):
                 exclusion = "self_reference"
             elif ref_base == query["source_accession_base"]:
                 exclusion = "same_resolved_source_accession_base"
+            elif ref["protein_sha256"] == query["protein_sha256"]:
+                exclusion = "exact_sequence_alias"
         eligible = exclusion == NA
         accepted = eligible and confidence in {"high", "moderate"}
         row = {**query, "reference_id": hit["reference_id"], "reference_category": ref["category"],
@@ -244,6 +246,7 @@ def score_queries(queries, references, hits, cfg):
         expected_hits = [(hit, row) for hit, row in eligible if row["reference_category"] == query["expected_category"]]
         best = min(expected_hits or eligible, key=lambda item: _rank(item[0], references[item[0]["reference_id"]], cfg)) if eligible else None
         excluded_count = sum(ref["reference_id"] == query["source_reference_id"] or source_base(ref["resolved_source_accession"]) == query["source_accession_base"]
+                             or ref["protein_sha256"] == query["protein_sha256"]
                              for ref in references.values()) if query["query_kind"] == "positive_reference" else 0
         if query["query_kind"] == "specificity_challenge":
             status = "potential_cross_family_lysis_label" if potential else "no_accepted_lysis_label"

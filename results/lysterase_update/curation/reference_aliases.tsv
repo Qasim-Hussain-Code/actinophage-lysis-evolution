@@ -1,0 +1,2 @@
+reference_id	protein_accession	existing_protein_accession	protein_sha256	action
+D29_LysB	AAC18452.1	NP_046827.1	bc99efce34557f555e6d07d291031869ab6be39b3dc9453771e6e36bd62b8f97	existing_exact_sequence_alias

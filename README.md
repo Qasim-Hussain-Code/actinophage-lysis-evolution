@@ -10,7 +10,7 @@ A separate [sensitivity to deposited annotations](docs/annotation_neighborhood_r
 
 A [survey of assay-reference source genomes](docs/reference_architecture_results.md) adds 13 complete source records with 1,649 verified CDS. Five sources have supported closely linked A/B pairs; eight remain unresolved because A identification is incomplete. This control-selected collection supplies no supported displaced arrangement and does not change the representative cohort or expansion gate.
 
-A targeted [assayed-allele audit](docs/assayed_reference_allele_results.md) maps four additional published source genomes to their LysA/B genes and assay scope. Three studies test both enzymes, and each of these source pairs is adjacent or overlapping; RitSun adds a LysB-only assay. A one-nucleotide PDRPxv CDS/report discrepancy and a synonymous BTCU-1 primer change are retained explicitly. These sources add linked controls without resolving the separated-gene comparison; pilot classifications remain fixed.
+A targeted [assayed-allele audit](docs/assayed_reference_allele_results.md) maps four additional published source genomes to their LysA/B genes and assay scope. Three full articles report assays for both enzymes; a conference abstract reports both for RitSun, but does not identify its tested LysA allele. All four source pairs are adjacent or overlapping. A one-nucleotide PDRPxv CDS/report discrepancy and a synonymous BTCU-1 primer change are retained explicitly. These sources add linked controls without resolving the separated-gene comparison; pilot classifications remain fixed.
 
 ## Research question and prior work
 

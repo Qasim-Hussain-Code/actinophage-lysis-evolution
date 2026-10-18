@@ -6,13 +6,13 @@
   "PDRPxv_B_source_CDS_length_nt": 1356,
   "artifacts": {
     "primer_mapping.tsv": "e31900fe1a50246ebd705a1555945c1cec3a7adf397f9a5eb3e1ef1198b279fe",
-    "source_allele_evidence.tsv": "0c064346dc8de17f270c094779a172d3cd8ff7a350ec79c61ac3bf482b5780b1",
-    "source_pair_architectures.tsv": "9a0e6b7d98087e19035433e4430f9b4d69eba022d1777124b9e7b1b16d1d4deb"
+    "source_allele_evidence.tsv": "68421b22da35e6ffe36844b18adb2c4744dea00d6b1d765f8837c1ddb37b9c36",
+    "source_pair_architectures.tsv": "546321fae2b84f6a707425179d8aa448d0d2876709ae82595640e4e88180d634"
   },
   "interpretation": "Added assay sources are linked controls; this audit does not change the locked cohort or infer population frequencies.",
   "mapped_proteins": 8,
-  "protocol_sha256": "046036d158cd17ec0482bb96b03b11d5f7812e5838c84a1854fe0d215d88c486",
-  "script_sha256": "c4da95595f1d243802f622fe299200006969c4403741fdb3066bdb3fcaadd532",
+  "protocol_sha256": "fde24229b305073b9d423469db6298ae5a25f70706a2d78885d83cdb2544ed73",
+  "script_sha256": "6cd04b1f68ba6dd9f78ad5bcd8d35c4597779dda9eb90f29e00edbb711a4e9e5",
   "source_records_sha256": {
     "EU203571.2": "6772f2e9d5390e9d75ab504a8107dda58f1ff87bb94bdb3a77d439bd2b35cf39",
     "KC172839.1": "108c7399867814c535e28901ac8682d90d35e1ad50cc1dd8b37459c1688b11f4",
@@ -20,7 +20,9 @@
     "MZ343158.1": "ca727e34dc5063e0e19a6a748bb4d17a1515ecd0aa236a7340f18b05877b5e03"
   },
   "sources_checked": 4,
-  "sources_with_functional_evidence_for_both_A_and_B": 3,
+  "sources_with_any_primary_report_for_both_A_and_B": 4,
+  "sources_with_conference_abstract_A_evidence": 1,
+  "sources_with_full_article_evidence_for_both_A_and_B": 3,
   "sources_with_zero_intervening_CDS": 4,
   "status": "pass"
 }

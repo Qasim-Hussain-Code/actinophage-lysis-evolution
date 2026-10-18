@@ -48,11 +48,12 @@ SOURCES = {
     },
     'MZ343158.1': {
         'phage': 'RitSun', 'A': ('QXG07407.1', '37', 454), 'B': ('QXG07408.1', '38', 356),
-        'A_evidence': 'LysA functional status not assessed in cited study',
+        'A_evidence': 'conference abstract reports recombinant LysA lysozyme and antimycobacterial assays; exact protein accession not stated',
         'B_evidence': 'purified protein; esterase, lysis-from-without, growth and biofilm assays',
-        'citation_A': 'https://www.nature.com/articles/s41598-024-68636-9',
+        'citation_A': 'https://acbrdu.edu/pdf/Abstract_Book_FBR-2022_25102022.pdf',
         'citation_B': 'https://www.nature.com/articles/s41598-024-68636-9',
         'mapping': 'reported B primers map to the deposited ORF38 CDS after removal of restriction tails',
+        'mapping_A': 'conference abstract names RitSun LysA activity but does not specify the tested protein accession or gene; QXG07407.1 is the adjacent source annotation only',
     },
 }
 
@@ -102,7 +103,7 @@ def main():
                 'gene_number': gene, 'protein_accession': protein, 'length_aa': length,
                 'source_cds_length_nt': len(feature.extract(record.seq)),
                 'start_1based': start, 'end_1based': end, 'assay_evidence': spec[f'{category}_evidence'],
-                'mapping_basis': spec['mapping'], 'citation': spec[f'citation_{category}'],
+                'mapping_basis': spec.get(f'mapping_{category}', spec['mapping']), 'citation': spec[f'citation_{category}'],
                 'source_record_url': f'https://www.ncbi.nlm.nih.gov/nuccore/{accession}',
                 'source_sha256': sha256(source),
             })
@@ -120,6 +121,7 @@ def main():
             'A_B_intervening_CDS': intervening, 'A_B_overlap_bp': max(0, min(a_end,b_end)-max(a_start,b_start)+1),
             'A_B_gap_bp': max(0, max(a_start,b_start)-min(a_end,b_end)-1),
             'both_enzymes_functionally_tested': spec['A_evidence'] != 'LysA functional status not assessed in cited study',
+            'A_evidence_level': 'conference_abstract_sequence_unresolved' if spec['phage']=='RitSun' else 'full_primary_study',
             'evidence_scope': f"A: {spec['A_evidence']}; B: {spec['B_evidence']}",
             'source_sha256': sha256(source), 'citation_A': spec['citation_A'], 'citation_B': spec['citation_B'],
         })
@@ -177,7 +179,9 @@ def main():
         artifacts[path.name] = sha256(path)
     report = {
         'status': 'pass', 'sources_checked': len(summary), 'mapped_proteins': len(rows),
-        'sources_with_functional_evidence_for_both_A_and_B': sum(r['both_enzymes_functionally_tested'] for r in summary),
+        'sources_with_any_primary_report_for_both_A_and_B': sum(r['both_enzymes_functionally_tested'] for r in summary),
+        'sources_with_full_article_evidence_for_both_A_and_B': sum(r['both_enzymes_functionally_tested'] and r['A_evidence_level']=='full_primary_study' for r in summary),
+        'sources_with_conference_abstract_A_evidence': sum(r['A_evidence_level']=='conference_abstract_sequence_unresolved' for r in summary),
         'sources_with_zero_intervening_CDS': sum(r['A_B_intervening_CDS'] == 0 for r in summary),
         'BTCU1_primer_mismatch_position_1based': mismatch[0],
         'BTCU1_primer_derived_B_protein_matches_deposited_translation': True,

@@ -1,0 +1,7 @@
+{
+  "byte_identical": true,
+  "independent_replay_sha256": "1917623a49b4687773216cfd8055bf13af4853641d597aeacc40beed9ac76768",
+  "raw_result_sha256": "1917623a49b4687773216cfd8055bf13af4853641d597aeacc40beed9ac76768",
+  "scope": "Independent MMseqs2 run using the same pinned query, reference panel, parameters and a fresh temporary/output directory.",
+  "status": "pass"
+}

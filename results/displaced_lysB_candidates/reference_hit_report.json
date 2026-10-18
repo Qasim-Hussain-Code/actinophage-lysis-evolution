@@ -1,0 +1,80 @@
+{
+  "analysis_config_sha256": "8e6843836c391f7ceac2cdd85b3a68bcf48829b626f76c383b467b8ef54c7480",
+  "best_LysB_reference_hit_per_candidate": {
+    "ReqiDocB7": {
+      "evalue": "2.095E-32",
+      "identity": 0.333,
+      "passes_existing_identity_coverage_evalue_thresholds": false,
+      "query_coverage": 0.925,
+      "reference_coverage": 0.799,
+      "reference_id": "POS__PokyPuppy_LysB49"
+    },
+    "ReqiPepy6": {
+      "evalue": "3.705E-08",
+      "identity": 0.267,
+      "passes_existing_identity_coverage_evalue_thresholds": false,
+      "query_coverage": 0.966,
+      "reference_coverage": 0.969,
+      "reference_id": "POS__Suerte_LysB23"
+    },
+    "ReqiPoco6": {
+      "evalue": "1.566E-08",
+      "identity": 0.257,
+      "passes_existing_identity_coverage_evalue_thresholds": false,
+      "query_coverage": 0.966,
+      "reference_coverage": 0.969,
+      "reference_id": "POS__Suerte_LysB23"
+    }
+  },
+  "candidate_fasta_sha256": "2181d9b8b5b2b5e84aa3a87ab98d9bdff043f77101938fa538a2be7780369276",
+  "candidate_sequences_meeting_existing_LysB_assignment_thresholds": 0,
+  "candidate_sequences_searched": 3,
+  "candidate_sequences_with_LysB_reference_hits": 3,
+  "existing_thresholds": {
+    "maximum_evalue": 1e-06,
+    "minimum_identity": 0.4,
+    "minimum_query_coverage": 0.7,
+    "minimum_target_coverage": 0.7
+  },
+  "interpretation": "Sub-threshold similarity does not upgrade candidate function; these matches are exploratory comparisons against the frozen assayed LysB panel.",
+  "mmseqs_command": [
+    "mmseqs",
+    "easy-search",
+    "<candidate_fasta>",
+    "<reference_fasta>",
+    "<output_tsv>",
+    "<temporary_directory>",
+    "--threads",
+    "4",
+    "-s",
+    "7.5",
+    "-k",
+    "5",
+    "--alignment-mode",
+    "3",
+    "--max-seqs",
+    "100",
+    "--min-seq-id",
+    "0.25",
+    "-c",
+    "0.5",
+    "--cov-mode",
+    "0",
+    "--split-memory-limit",
+    "1G",
+    "-e",
+    "0.001",
+    "--format-output",
+    "query,target,fident,alnlen,qcov,tcov,evalue,bits"
+  ],
+  "mmseqs_version": "8cc5ce367b5638c4306c2d7cfc652dd099a4643f",
+  "reference_fasta_sha256": "fa2ce86b8e1aad6e0d57f76374db0ed12c516757a27269fa70c5f93968383a4b",
+  "script_sha256": "8021faadb26df9c132544d8dc93a6f48183b82b76dabc7317b5471bc0e511911",
+  "source_records_sha256": {
+    "GU580940.1": "86ec21f9f331e6cf0fa6c4f755917f8921a9ac3c643b3594ca734eea8667bd00",
+    "GU580941.1": "064e56dc6fd0436935d1a3370fa4ec750feedeae5f0fa49d9cb81db0aff39e12",
+    "GU580942.1": "c7d824ab2a652a419b37a931e1db483c4ca2e14392aaf0b134c65b54651c362b"
+  },
+  "status": "pass",
+  "table_sha256": "4d4ecbabafaa2dd55084b99e1a3125f3df004c8e7d4c01c7c901497bbf4cda3c"
+}

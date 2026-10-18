@@ -19,6 +19,7 @@ from actinolysis.common import load_config, write_json, write_tsv
 
 RAW = ROOT / '.experiments/rhodococcus_followup/raw'
 OUT = ROOT / 'results/displaced_lysB_candidates'
+CANDIDATE_FASTA = ROOT / '.experiments/rhodococcus_followup/candidates.faa'
 CITATION = 'https://journals.asm.org/doi/10.1128/aem.01952-10'
 
 SOURCES = {
@@ -56,6 +57,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument('--input-dir', type=Path, default=RAW)
     parser.add_argument('--out-dir', type=Path, default=OUT)
+    parser.add_argument('--candidate-fasta', type=Path, default=CANDIDATE_FASTA)
     parser.add_argument('--download', action='store_true', help='retrieve pinned GenBank versions from NCBI Eutils')
     args = parser.parse_args()
     if args.download:
@@ -66,6 +68,7 @@ def main() -> None:
             download(url, args.input_dir / f'{accession}.gb', cfg, maximum=3_000_000)
 
     rows = []
+    candidate_sequences = []
     source_hashes = {}
     for accession, spec in SOURCES.items():
         path = args.input_dir / f'{accession}.gb'
@@ -97,6 +100,10 @@ def main() -> None:
             raise ValueError(f'{accession}: expected current feature labels, found {a_product!r}, {b_product!r}')
         if bi <= ai:
             raise ValueError(f'{accession}: expected LysB after LysA in linear CDS order')
+        translation = b.qualifiers.get('translation', [''])[0]
+        if not translation:
+            raise ValueError(f'{accession}: pinned LysB candidate has no deposited translation')
+        candidate_sequences.append(f'>{spec["phage"]}|{accession}|{b_id}\n{translation}\n')
         a_start, a_end = feature_bounds(a)
         b_start, b_end = feature_bounds(b)
         intervening = bi - ai - 1
@@ -119,6 +126,8 @@ def main() -> None:
         })
 
     args.out_dir.mkdir(parents=True, exist_ok=True)
+    args.candidate_fasta.parent.mkdir(parents=True, exist_ok=True)
+    args.candidate_fasta.write_text(''.join(candidate_sequences), encoding='ascii')
     table_path = args.out_dir / 'displaced_candidate_architectures.tsv'
     write_tsv(table_path, rows)
     report = {
@@ -126,6 +135,7 @@ def main() -> None:
         'protein_specific_LysA_assays_reported': 0, 'protein_specific_LysB_assays_reported': 0,
         'interpretation': 'Literature-proposed candidates are coordinate-mapped but remain unvalidated for LysB activity; whole-phage phenotypes do not assign function to these proteins.',
         'source_records_sha256': source_hashes,
+        'candidate_fasta_sha256': sha256(args.candidate_fasta),
         'script_sha256': sha256(Path(__file__).resolve()),
         'table_sha256': sha256(table_path),
         'source_article': CITATION,

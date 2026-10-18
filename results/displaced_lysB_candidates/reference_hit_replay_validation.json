@@ -1,0 +1,9 @@
+{
+  "artifacts_compared": 1,
+  "candidates_meeting_existing_assignment_thresholds": 0,
+  "independent_replay_hit_table_sha256": "4d4ecbabafaa2dd55084b99e1a3125f3df004c8e7d4c01c7c901497bbf4cda3c",
+  "published_hit_table_sha256": "4d4ecbabafaa2dd55084b99e1a3125f3df004c8e7d4c01c7c901497bbf4cda3c",
+  "script_config_and_MMseqs_versions_match": true,
+  "source_candidate_and_reference_checksums_match": true,
+  "status": "pass"
+}

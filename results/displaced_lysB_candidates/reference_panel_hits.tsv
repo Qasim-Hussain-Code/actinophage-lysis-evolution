@@ -1,0 +1,6 @@
+phage	source_accession	candidate_protein	reference_id	identity	alignment_length	query_coverage	reference_coverage	evalue	bit_score	passes_existing_identity_coverage_evalue_thresholds
+ReqiDocB7	GU580940.1	ADD80824.1	POS__PokyPuppy_LysB49	0.333	234	0.925	0.799	2.095E-32	118.0	False
+ReqiDocB7	GU580940.1	ADD80824.1	POS__EpicDab_LysB7	0.259	213	0.83	0.75	7.438E-12	57.0	False
+ReqiPepy6	GU580941.1	ADD80924.1	POS__Suerte_LysB23	0.267	254	0.966	0.969	3.705E-08	45.0	False
+ReqiPoco6	GU580942.1	ADD81032.1	POS__Suerte_LysB23	0.257	254	0.966	0.969	1.566E-08	46.0	False
+ReqiPoco6	GU580942.1	ADD81032.1	POS__MissWhite_LysB_2026	0.276	149	0.513	0.556	8.622E-07	41.0	False

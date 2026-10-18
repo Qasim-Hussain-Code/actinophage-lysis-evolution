@@ -10,6 +10,8 @@ A separate [sensitivity to deposited annotations](docs/annotation_neighborhood_r
 
 A [survey of assay-reference source genomes](docs/reference_architecture_results.md) adds 13 complete source records with 1,649 verified CDS. Five sources have supported closely linked A/B pairs; eight remain unresolved because A identification is incomplete. This control-selected collection supplies no supported displaced arrangement and does not change the representative cohort or expansion gate.
 
+A targeted [assayed-allele audit](docs/assayed_reference_allele_results.md) maps four additional published source genomes to their LysA/B genes and assay scope. Three studies test both enzymes, and each of these source pairs is adjacent or overlapping; RitSun adds a LysB-only assay. A one-nucleotide PDRPxv CDS/report discrepancy and a synonymous BTCU-1 primer change are retained explicitly. These sources add linked controls without resolving the separated-gene comparison; pilot classifications remain fixed.
+
 ## Research question and prior work
 
 Lysin A degrades peptidoglycan, whereas characterized Lysin B proteins can cleave mycolate-containing envelope linkages. Holins participate in membrane permeabilization, but a membrane protein annotation alone cannot establish holin function. These functional categories are heterogeneous and cannot be identified reliably from proximity alone.

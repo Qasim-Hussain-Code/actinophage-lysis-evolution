@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "artifacts_compared": 3,
+  "artifacts": {
+    "primer_mapping.tsv": {
+      "published_sha256": "e31900fe1a50246ebd705a1555945c1cec3a7adf397f9a5eb3e1ef1198b279fe",
+      "replay_sha256": "e31900fe1a50246ebd705a1555945c1cec3a7adf397f9a5eb3e1ef1198b279fe",
+      "fresh_download_sha256": "e31900fe1a50246ebd705a1555945c1cec3a7adf397f9a5eb3e1ef1198b279fe"
+    },
+    "source_allele_evidence.tsv": {
+      "published_sha256": "0c064346dc8de17f270c094779a172d3cd8ff7a350ec79c61ac3bf482b5780b1",
+      "replay_sha256": "0c064346dc8de17f270c094779a172d3cd8ff7a350ec79c61ac3bf482b5780b1",
+      "fresh_download_sha256": "0c064346dc8de17f270c094779a172d3cd8ff7a350ec79c61ac3bf482b5780b1"
+    },
+    "source_pair_architectures.tsv": {
+      "published_sha256": "9a0e6b7d98087e19035433e4430f9b4d69eba022d1777124b9e7b1b16d1d4deb",
+      "replay_sha256": "9a0e6b7d98087e19035433e4430f9b4d69eba022d1777124b9e7b1b16d1d4deb",
+      "fresh_download_sha256": "9a0e6b7d98087e19035433e4430f9b4d69eba022d1777124b9e7b1b16d1d4deb"
+    }
+  },
+  "source_checksums_match": true,
+  "script_checksums_match": true,
+  "fresh_ncbi_download_reproduced_sources": true
+}

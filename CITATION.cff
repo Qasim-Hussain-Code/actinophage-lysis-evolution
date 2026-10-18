@@ -7,7 +7,7 @@ authors:
     family-names: Hussain
 repository-code: "https://github.com/Qasim-Hussain-Code/actinophage-lysis-evolution"
 license: MIT
-version: "0.8.0-source-architectures"
+version: "0.9.0-assayed-allele-audit"
 date-released: 2026-10-18
 abstract: "A resource-bounded comparative genomics workflow for describing lysis-gene architecture, evaluating LysB neighborhood conservation against matched genomic backgrounds, and retaining functional and evolutionary uncertainty."
 keywords:

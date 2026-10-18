@@ -1,0 +1,14 @@
+accession	phage	host_genus	cluster	cds	with_specific_annotation	supported_lysis_proteins	annotation_only_lysis_proteins	hypothetical_proteins
+AF271693.1	Bxb1	not_available	not_available	86	2	1	0	50
+AY129338.1	Omega	Mycobacterium	not_available	237	1	1	0	223
+KF959563.1	Obama12	Mycobacterium	not_available	89	3	2	1	49
+KJ025956.1	Saal	Mycobacterium	not_available	101	3	5	1	61
+KX683423.1	BabyRay	Mycobacterium	not_available	92	2	2	1	50
+KY083061.1	Palestino	Mycobacterium	not_available	88	3	2	1	45
+MF472893.1	MissWhite	Mycobacterium	not_available	92	3	4	1	51
+MH399772.1	Constella	Mycobacterium	not_available	228	3	2	1	167
+MW314852.1	phiGD57-1	not_available	not_available	72	3	1	2	31
+NC_001900.2	D29	Mycobacterium	not_available	77	3	3	2	26
+NC_017973.1	SWU1	Mycobacterium	not_available	94	3	3	2	45
+NC_041970.1	Bongo	Mycobacterium	not_available	132	3	1	1	89
+OR813930.2	WXIN	Mycolicibacterium	not_available	261	1	1	0	241

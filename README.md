@@ -8,6 +8,8 @@ An [expanded fourteen-reference profile analysis](docs/lysb_profile_update_resul
 
 A separate [sensitivity to deposited annotations](docs/annotation_neighborhood_results.md) yields four descriptive matched comparisons. The two pairs with separated annotations have base Jaccard contrasts of 0.000 and −0.413 relative to background, with window-dependent variation. These conditional measurements retain uncertain functional labels and do not supply a primary H2 estimate.
 
+A [survey of assay-reference source genomes](docs/reference_architecture_results.md) adds 13 complete source records with 1,649 verified CDS. Five sources have supported closely linked A/B pairs; eight remain unresolved because A identification is incomplete. This control-selected collection supplies no supported displaced arrangement and does not change the representative cohort or expansion gate.
+
 ## Research question and prior work
 
 Lysin A degrades peptidoglycan, whereas characterized Lysin B proteins can cleave mycolate-containing envelope linkages. Holins participate in membrane permeabilization, but a membrane protein annotation alone cannot establish holin function. These functional categories are heterogeneous and cannot be identified reliably from proximity alone.

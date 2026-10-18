@@ -1,0 +1,8 @@
+protein_id	reference_id	identity	alignment_length	query_coverage	target_coverage	evalue	bits
+AF271693.1__cds0013	D29_capsid_negative	0.727	303	0.756	0.953	4.734E-145	452
+KF959563.1__cds0014	D29_capsid_negative	0.745	310	0.997	0.975	3.477E-158	485
+KX683423.1__cds0013	D29_capsid_negative	0.556	314	0.969	0.950	2.111E-109	345
+KY083061.1__cds0014	D29_capsid_negative	0.748	310	0.997	0.975	1.351E-158	486
+MF472893.1__cds0013	D29_capsid_negative	0.811	322	0.964	0.981	1.022E-173	531
+NC_001900.2__cds0013	D29_capsid_negative	1.000	318	1.000	1.000	6.726E-213	644
+NC_017973.1__cds0013	D29_capsid_negative	0.848	316	0.984	0.978	1.905E-179	547

@@ -1,0 +1,20 @@
+{
+  "artifacts": {
+    "architecture_summary.tsv": "ed2e23651fefecc1bcf49b8540ff1ea3777e19e42b8abce7346b47ec6cecd75a",
+    "assayed_source_recovery.tsv": "6dc13fff42f83aba846928ccd625ae518a1e5a049fba9188a49d8ab1335df604",
+    "manifests/pilot_inputs.tsv": "5e9712d5c2671b48af22c685d6b383a3ac050f6e7ebd0a3fa934b993c29038d1",
+    "manifests/reference_manifest.tsv": "898eaeabbf65ed4a189ccbed56b5cb0947d9c49d9f2cf57173bf6649ebebd1c3",
+    "reported_reference_alignments.tsv": "fa12c059e0c1524224ffdadff8140d3dcb3bccc0dfbd3af3362bfd8943a3ed97",
+    "source_selection.tsv": "5befdf3f74b7f3205f4db4a37bcaa2cd875bd77317c8df92f521047f9d3cc66c",
+    "survey_report.json": "0e5223d0eb1c286e6a48499010868d755012ac875a397f1ee71c348f4f7e0759",
+    "tables/annotation_coverage.tsv": "d10c62f29fc141d2eebc355805fd92c2723a1ef5a3318bae71c8b1e9f7421c19",
+    "tables/architecture_pairs.tsv": "99b89cb60b90e60a9302998d75ebf5e2a4db8419fde6ae6d162a34dbfa5ec851",
+    "tables/architecture_sensitivity.tsv": "24813bba5f5cd0d795d5eeb405102974d977c165b8b311ab6d7208ebee4f886b",
+    "tables/architectures.tsv": "561b660153f5b2d52c8fa6cb1ca8a70bebaace22d87793557cf5ac21ea5992f7",
+    "tables/dataset_manifest.tsv": "08812f40674ab60312be18087e655e64612619103c9bf677a77b9853589fbe41",
+    "tables/exclusions.tsv": "51dbdd616751600e0741c59f1ad75b42b1b531b6401d7655af05e603569a579e",
+    "tables/lysis_evidence.tsv": "618461eafd36d1f1daf37e66e0f5315fb975fd26eb31c1dbac2201621b343696",
+    "tables/near_identical_pairs.tsv": "325f7dc1b581ae1870a9f196f6406803a69c45613ed389dd864cf36bf437f755",
+    "tables/negative_control_hits.tsv": "e140ca57e0033e024b9ebc7a44f93cd704061baf1890f69fae7a5d486e559e38"
+  }
+}

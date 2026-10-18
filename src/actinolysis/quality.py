@@ -51,7 +51,12 @@ def extract_record(record, metadata):
     if not set(str(record.seq).upper()) <= set('ACGTRYSWKMBDHVN'): raise ValueError('invalid_nucleotide_symbols')
     if sum(str(record.seq).upper().count(s) for s in 'RYSWKMBDHVN') / length > 0.01:
         raise ValueError('more_than_one_percent_ambiguous_bases')
-    if not any(w in record.description.lower() for w in ['phage','bacteriophage']): raise ValueError('not_phage_record')
+    # RefSeq titles may use "virus" while ORGANISM or the PHG division
+    # explicitly identifies the record as a bacteriophage.
+    phage_names = (record.description, record.annotations.get('organism', ''))
+    if not (any('phage' in name.lower() for name in phage_names)
+            or record.annotations.get('data_file_division') == 'PHG'):
+        raise ValueError('not_phage_record')
     if not any(w in record.description.lower() for w in ['complete genome','complete sequence']):
         raise ValueError('not_explicitly_complete')
     features = sorted([f for f in record.features if f.type=='CDS'],key=lambda f:(int(f.location.start),int(f.location.end),f.location.strand or 0))

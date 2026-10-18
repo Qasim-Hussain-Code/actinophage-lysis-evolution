@@ -1,0 +1,56 @@
+{
+  "analysis": "assay_reference_source_architecture_survey",
+  "architecture_counts": {
+    "closely_linked": 5,
+    "unresolved": 8
+  },
+  "completed_stages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "expansion_gate_modified": false,
+  "input_provenance": {
+    "driver_sha256": "6b5ae595621b355a741f5059ce723e33f6c1b00ca956b0df2cd93404cddb0103",
+    "protocol_sha256": "9441198c15b341719c84fb575b8c0bb31d20e85b9e0625f9a1a27fd6889afc15",
+    "reference_manifest_sha256": "898eaeabbf65ed4a189ccbed56b5cb0947d9c49d9f2cf57173bf6649ebebd1c3",
+    "reference_training_set_sha256": "5cb152628dbfedba37d76e8a6701193a7c293cbc6bdf5a6c41c7befe6ee83b11",
+    "selection": "All unique resolved assay-B source records passing unchanged whole-genome QC",
+    "snapshot_sha256": {
+      "references/architecture_controls.tsv": "77f6101c5239da2d448c450699ead83cd032fe46500e04b233fbb42611dc09a4",
+      "references/experimental_lysA_expansion.tsv": "e22724cbd6d155fc72869db95f5fc1002c3a61cb184468f7fe613ca44f2e45c7",
+      "references/experimental_lysB_expansion.tsv": "efc3a84d6b88f665448b5d0a2811eb19e062e9af7b9621e4981045a7eefc670d",
+      "references/literature_audit.tsv": "f61faadfb077749eb32078b374261b0ef42bc82d1b6cd05b8dffd2240b336d4c",
+      "references/lysterase_2026_expansion.tsv": "c860fbb25b320b478a75a18f8b8635913474075c21283d94a71ce891069d0968",
+      "references/profile_supported_expansion.tsv": "5af56911f9e37d1694f08218a4f78ab2ac5b1840814766f1f268b307380221b5",
+      "references/protein_controls.tsv": "2df92858082bff869260d28d029b2e7a0791a03036b870888c138ce93ea76233",
+      "references/specificity_challenges.tsv": "9deb52ebe0e23b0f39cea1bf452e61cf454a87a4a27ea176e08b767f52802b44",
+      "scripts/run_all.py": "92f93e314961d0e7738b60e04543606b2c0aa8941d7266d8dcc8d36806ab4979",
+      "src/actinolysis/__init__.py": "d80967fa5c9f2a55e05412564196bdab3788fb4d92a072035c4cadc5b208b7ef",
+      "src/actinolysis/acquisition.py": "006fed74b3cc0a8d238c297f6569f69ff2b8741d2d698d8124d9254796d16a2e",
+      "src/actinolysis/amendment_feasibility.py": "9165611df5e62f87b43c27d67add1a37cad889d543407b574de1880bc66df255",
+      "src/actinolysis/annotation_sensitivity.py": "cd9aa6e627358490805d73cbd8aaab4ec673e981febea1141ab2898941e81b67",
+      "src/actinolysis/architecture.py": "2d5db8b948004f2e9da01748f94d609761608f7cbce2ab2aa7366d9315c43b8e",
+      "src/actinolysis/common.py": "13aea5fca724751d435846587cb6a297e389f6f3be1e26f7c3bc101f8c94d3f2",
+      "src/actinolysis/diagnostics.py": "175c9bc0a72e3f8158d864edce9ab620076179af2a1f8a4d1afd078ac4a93cc4",
+      "src/actinolysis/figures.py": "367df8a130b9747e2f087e3045e0476996be12f2c0419758750eb318b926202e",
+      "src/actinolysis/identification.py": "82a9635442ade63205f2fc7cc5d3db6f236210631162394bc8005f92e6f09034",
+      "src/actinolysis/neighborhoods.py": "74398cddd23a1333b720cf9db758af260c8ad314230f0b164353ea5d2d5fc0a4",
+      "src/actinolysis/quality.py": "b44cdbaf1bc87d09e5aa5f0ac1b10fd1e1c2d082575554b391e6150f09fa8d29",
+      "src/actinolysis/reference_validation.py": "eecba0752614eeca5b7bbe7ff4e3ee2a494202e1a0489a6edc1132ee5d68baf7",
+      "src/actinolysis/statistics.py": "e3b0fa721207b46de45255abac8fd943dabc6fa6e403aa52553a337dc7c89a5c",
+      "src/actinolysis/validation.py": "4eeac243c853daf4bad0b3a251e80239fc0ea1e60955b71cc5c59186ef85303e"
+    },
+    "source_selection_sha256": "5befdf3f74b7f3205f4db4a37bcaa2cd875bd77317c8df92f521047f9d3cc66c"
+  },
+  "interpretation": "Control-selected source genomes; self-matches are expected. No population frequency, independent functional sensitivity or neighborhood inference is estimated.",
+  "n_assayed_b_references": 14,
+  "n_cds": 1649,
+  "n_complete_sources_selected": 13,
+  "n_genomes_passing_pipeline_qc": 13,
+  "n_source_records": 14,
+  "primary_cohort_modified": false,
+  "reference_count": 39
+}

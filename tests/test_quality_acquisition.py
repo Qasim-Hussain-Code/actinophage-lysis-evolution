@@ -130,6 +130,29 @@ def test_quality_rejects_noncomplete_record_and_excess_ambiguity():
         quality.extract_record(record, {})
 
 
+@pytest.mark.parametrize("organism,division", [
+    ("Synthetic test-only bacteriophage", "VRL"),
+    ("Synthetic test-only virus", "PHG"),
+])
+def test_virus_title_can_use_explicit_phage_record_metadata(organism, division):
+    record = builder.make_record()
+    record.description = "Synthetic test-only virus, complete genome"
+    record.annotations.update(organism=organism, data_file_division=division)
+    metadata, _ = quality.extract_record(record, {})
+    assert metadata["inclusion_status"] == "included"
+    record.description = "Synthetic test-only virus, partial genome"
+    with pytest.raises(ValueError, match="not_explicitly_complete"):
+        quality.extract_record(record, {})
+
+
+def test_virus_title_without_phage_classification_is_rejected():
+    record = builder.make_record()
+    record.description = "Synthetic test-only virus, complete genome"
+    record.annotations.update(organism="Synthetic test-only virus", data_file_division="VRL")
+    with pytest.raises(ValueError, match="not_phage_record"):
+        quality.extract_record(record, {})
+
+
 def _sample_row(name, accession, genus, cluster):
     return dict(phage=name, accession=accession, host_genus=genus, cluster=cluster, seq_finished=True)
 

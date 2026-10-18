@@ -1,0 +1,10 @@
+{
+  "artifacts": {
+    "source_architectures.pdf": "f82fce2d30b501e16582ab98a3016fc9ea11a187c6fd2d5e3e741283f06108f0",
+    "source_architectures.png": "b01b13793085d6ee5cf90be2aacac7156a7eab5ee7f82d43d2ea8a302cca2189",
+    "source_coverage_and_distances.tsv": "323ed000d6cb1f30eb8df58978f28056430c26b03de9d68097a61aa242c179bb"
+  },
+  "caption": "Operational A/B support and CDS-order separation in thirteen complete sources of assayed B proteins. Five sources have a unique supported A/B pair; all five are closely linked. The other eight lack supported A assignments. The Ms6 partial locus is excluded. B source self-matches are expected positive controls, not independent validation or population sensitivity.",
+  "source_manifest_sha256": "d1be53a3a7980cdaf7a091c2ac6d1de8c31a157cd52a2e7736d80ee1a5f724ba",
+  "summary_script_sha256": "1bd03fb712e05fb843156ad5c8a79187b28f59808d98a205131edcce193b17a2"
+}

@@ -1,0 +1,14 @@
+phage	source_accession	host_genus	length_bp	cds	assayed_b_protein_ids	lysin_a_count	lysin_b_count	architecture	classification_reason	confidence	lysin_a	lysin_b	intervening_cds	gap_bp	relative_strands
+Bxb1	AF271693.1	not_available	50550	86	AF271693.1__cds0008	0	1	unresolved	incomplete_identification_not_evidence_of_absence	unresolved	not_available	not_available	not_available	not_available	not_available
+Omega	AY129338.1	Mycobacterium	110865	237	AY129338.1__cds0052	0	1	unresolved	incomplete_identification_not_evidence_of_absence	unresolved	not_available	not_available	not_available	not_available	not_available
+Obama12	KF959563.1	Mycobacterium	51797	89	KF959563.1__cds0009	0	1	unresolved	incomplete_identification_not_evidence_of_absence	unresolved	not_available	not_available	not_available	not_available	not_available
+Saal	KJ025956.1	Mycobacterium	57775	101	KJ025956.1__cds0030	1	1	closely_linked	unique_nonpartial_a_b_pair	moderate	KJ025956.1__cds0029	KJ025956.1__cds0030	0	0	same_strand
+BabyRay	KX683423.1	Mycobacterium	50657	92	KX683423.1__cds0008	0	1	unresolved	incomplete_identification_not_evidence_of_absence	unresolved	not_available	not_available	not_available	not_available	not_available
+Palestino	KY083061.1	Mycobacterium	51369	88	KY083061.1__cds0009	0	1	unresolved	incomplete_identification_not_evidence_of_absence	unresolved	not_available	not_available	not_available	not_available	not_available
+MissWhite	MF472893.1	Mycobacterium	50263	92	MF472893.1__cds0008	1	1	closely_linked	unique_nonpartial_a_b_pair	moderate	MF472893.1__cds0006	MF472893.1__cds0008	1	394	same_strand
+Constella	MH399772.1	Mycobacterium	110169	228	MH399772.1__cds0040	1	1	closely_linked	unique_nonpartial_a_b_pair	moderate	MH399772.1__cds0038	MH399772.1__cds0040	1	376	same_strand
+phiGD57-1	MW314852.1	not_available	52563	72	MW314852.1__cds0024	0	1	unresolved	incomplete_identification_not_evidence_of_absence	unresolved	not_available	not_available	not_available	not_available	not_available
+D29	NC_001900.2	Mycobacterium	49127	77	NC_001900.2__cds0008	1	1	closely_linked	unique_nonpartial_a_b_pair	high	NC_001900.2__cds0006	NC_001900.2__cds0008	1	418	same_strand
+SWU1	NC_017973.1	Mycobacterium	52474	94	NC_017973.1__cds0008	1	1	closely_linked	unique_nonpartial_a_b_pair	moderate	NC_017973.1__cds0006	NC_017973.1__cds0008	1	388	same_strand
+Bongo	NC_041970.1	Mycobacterium	80228	132	NC_041970.1__cds0037	0	1	unresolved	incomplete_identification_not_evidence_of_absence	unresolved	not_available	not_available	not_available	not_available	not_available
+WXIN	OR813930.2	Mycolicibacterium	115158	261	OR813930.2__cds0045	0	1	unresolved	incomplete_identification_not_evidence_of_absence	unresolved	not_available	not_available	not_available	not_available	not_available

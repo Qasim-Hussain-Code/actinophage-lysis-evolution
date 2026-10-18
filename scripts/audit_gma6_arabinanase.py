@@ -34,6 +34,7 @@ FIELDS = [
     'upstream_overlap_bp', 'downstream_locus_tag', 'downstream_product',
     'downstream_start_1based', 'downstream_end_1based', 'downstream_overlap_bp',
     'literature_function', 'functional_evidence_scope', 'native_phage_lysis_tested', 'primary_source',
+    'published_cassette_context',
 ]
 HIT_FIELDS = [
     'reference_id', 'reference_category', 'identity', 'alignment_length',
@@ -117,6 +118,9 @@ def analyze_record(record, source_hash: str) -> tuple[dict, str]:
         'literature_function': 'DUF4185-family endo-D-arabinofuranase (GH183)',
         'functional_evidence_scope': 'Purified recombinant protein assayed on mycobacterial arabinogalactan in vitro',
         'native_phage_lysis_tested': False, 'primary_source': PAPER,
+        'published_cassette_context': (
+            'The study supplement proposes DUF4185 as a candidate LysB replacement in some lysis cassettes, '
+            'either as a separate enzyme or fused to LysA; this is an architecture-level hypothesis.'),
     }
     return row, translation
 
@@ -236,7 +240,9 @@ def main() -> None:
             'GMA6_45 has direct in-vitro arabinanase evidence. Its strongest hit is a LysA-labeled reference '
             'that was itself included on published profile prediction rather than protein-specific assay evidence. '
             'No LysB-class reference meets the frozen thresholds. The cross-category hit highlights possible '
-            'family overlap or multifunctionality but cannot establish endolysin activity or native phage lysis.'),
+            'family overlap or multifunctionality. The source study proposes DUF4185 as a candidate LysB '
+            'replacement in some lysis cassettes, sometimes fused with LysA; this architecture-level proposal '
+            'does not establish GMA6_45 native phage lysis or a LysB-type activity.'),
         'architecture_table_sha256': sha256(table_path), 'reference_panel_hit_table_sha256': sha256(panel_path),
         'hit_table_sha256': sha256(hit_path),
         'script_sha256': sha256(Path(__file__).resolve()), 'primary_source': PAPER,

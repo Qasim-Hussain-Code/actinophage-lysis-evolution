@@ -1,7 +1,7 @@
 {
   "LysB_reference_panel_hits_returned": 0,
   "all_reference_panel_hits_returned": 1,
-  "architecture_table_sha256": "e3e08a8456d5638f522bf3fce133b6ecc258094856c9cce012205ff3e537c2a9",
+  "architecture_table_sha256": "662ddc5cafa5c5f59bd16772482f1b564ce8b6e04e796f44a68ed73aedc33661",
   "best_non_LysB_reference_hit": {
     "evalue": "0.000E+00",
     "identity": 0.532,
@@ -17,7 +17,7 @@
     "minimum_target_coverage": 0.7
   },
   "hit_table_sha256": "8fe57039950e81c81548ee989afab9b315cfbd1b591d57da807c66e79b5293c7",
-  "interpretation": "GMA6_45 has direct in-vitro arabinanase evidence. Its strongest hit is a LysA-labeled reference that was itself included on published profile prediction rather than protein-specific assay evidence. No LysB-class reference meets the frozen thresholds. The cross-category hit highlights possible family overlap or multifunctionality but cannot establish endolysin activity or native phage lysis.",
+  "interpretation": "GMA6_45 has direct in-vitro arabinanase evidence. Its strongest hit is a LysA-labeled reference that was itself included on published profile prediction rather than protein-specific assay evidence. No LysB-class reference meets the frozen thresholds. The cross-category hit highlights possible family overlap or multifunctionality. The source study proposes DUF4185 as a candidate LysB replacement in some lysis cassettes, sometimes fused with LysA; this architecture-level proposal does not establish GMA6_45 native phage lysis or a LysB-type activity.",
   "lysB_panel_hits_meeting_existing_assignment_thresholds": 0,
   "mmseqs_command": [
     "mmseqs",
@@ -57,7 +57,7 @@
   "reference_fasta_sha256": "fa2ce86b8e1aad6e0d57f76374db0ed12c516757a27269fa70c5f93968383a4b",
   "reference_metadata_sha256": "498600477c463a45b636a61b70d61d055290014253cf3d36a596ff1095f8f639",
   "reference_panel_hit_table_sha256": "53bfde50fc6efe29a53fa76c95b0a1295631486529fdd8c196cf1ccce221103c",
-  "script_sha256": "571e5fabd9df2b848be1e3926499f7d477e80b73ce579cd3d5ab4635c029e428",
+  "script_sha256": "81ad22db0a79dbc408396cf8d6790d3cdac333a6ac89846b3b59aad5e1c4341f",
   "source_accession": "KR063280.1",
   "source_record_sha256": "93d5e73ae1a3164d8554c20dd9dd9e3e57d719a8cb011e55bf59badd0337b071",
   "status": "pass"

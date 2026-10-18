@@ -14,7 +14,7 @@ A targeted [assayed-allele audit](docs/assayed_reference_allele_results.md) maps
 
 A separate [displaced-candidate audit](docs/displaced_lysB_candidate_audit.md) maps three literature-proposed LysB-like genes in *Rhodococcus* phages. Two occupy virion structural regions and one is ten annotated CDS from LysA, but none has protein-specific functional validation in the cited study. All three have sub-threshold matches to the assay-reference LysB panel and none meets the project assignment cutoff. Whole-phage activity is kept distinct from attribution to these candidate genes.
 
-The [GMA6 arabinanase audit](docs/gma6_arabinanase_audit.md) adds a biochemically characterized phage cell-wall hydrolase as an orthogonal specificity challenge. Its strongest panel hit is a LysA-labeled profile-prediction sequence; no LysB-class hit is returned. This cross-category match motivates a family/function caveat but supplies no native lysis result or new eligible LysA/B pair.
+The [GMA6 arabinanase audit](docs/gma6_arabinanase_audit.md) adds a biochemically characterized phage cell-wall hydrolase as an orthogonal specificity challenge. Its strongest panel hit is a LysA-labeled profile-prediction sequence; no LysB-class hit is returned. The source study proposes DUF4185 as a possible LysB replacement in some phage cassettes, though native lysis remains untested. This cross-category match adds an alternative architecture hypothesis but no new eligible LysA/B pair.
 
 ## Research question and prior work
 

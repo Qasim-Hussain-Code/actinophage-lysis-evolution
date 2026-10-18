@@ -8,7 +8,7 @@ Can a biochemically characterized phage cell-wall hydrolase serve as a specifici
 
 The 2023 study expressed the GMA6 DUF4185 protein (PhageGH4185) and reported endo-D-arabinanase activity on mycobacterial arabinogalactan. The deposited GMA6 record maps this protein to CDS GMA6_45, protein AKL88326.1, in accession KR063280.1. The CDS is 1,087 aa at positions 38,130–41,393 on the plus strand. Its immediate downstream CDS is GMA6_46, annotated “putative holin,” at 41,390–41,899; the two deposited intervals overlap by four bases. GMA6_44 overlaps the upstream boundary by eight bases. These are annotation coordinates, not experimentally resolved translation boundaries.
 
-The enzyme assay is direct evidence for arabinan hydrolysis by the recombinant protein. The paper does not test GMA6_45 in native phage infection, demonstrate host-cell lysis by this protein, or establish a LysB-type mycolate-esterase activity. Its placement beside a putative holin is genomic context, not proof of its role during infection. [Primary biochemical study](https://www.nature.com/articles/s41467-023-37839-5); [deposited GMA6 genome](https://www.ncbi.nlm.nih.gov/nuccore/KR063280.1).
+The enzyme assay is direct evidence for arabinan hydrolysis by the recombinant protein. The paper does not test GMA6_45 in native phage infection, demonstrate host-cell lysis by this protein, or establish a LysB-type mycolate-esterase activity. Its placement beside a putative holin is genomic context, not proof of its role during infection. The paper's supplementary Fig. S9 proposes that DUF4185 may replace LysB in some phage lysis cassettes, either as a separate enzyme or fused to LysA. This is an architecture-level hypothesis, not an experimentally demonstrated infection mechanism; the available text does not resolve which specific arrangement applies to GMA6_45. [Primary study and supplement](https://www.nature.com/articles/s41467-023-37839-5); [deposited GMA6 genome](https://www.ncbi.nlm.nih.gov/nuccore/KR063280.1).
 
 ## Frozen-panel search
 
@@ -26,7 +26,7 @@ In the fixed cohort, Jollymon XSB45410.1 and Stillion YGX17269.1 match Clawz Lys
 
 ## Interpretation
 
-This is an orthogonal biochemical specificity challenge, not a LysB positive control and not a validated negative control for all lysis activity. It demonstrates why substrate-specific enzyme evidence and broad “lysin A” profile labels must remain separate. A phage enzyme can hydrolyze a cell-wall arabinan substrate in vitro while its contribution to native lysis, any additional activity, and its relationship to canonical LysA function remain unresolved.
+This is an orthogonal biochemical specificity challenge, not a LysB positive control and not a validated negative control for all lysis activity. The published replacement proposal makes DUF4185 a plausible third cell-wall enzyme class to consider when a LysB assignment is missing, while the cross-category match shows why substrate-specific evidence and broad “lysin A” profile labels must remain separate. A phage enzyme can hydrolyze a cell-wall arabinan substrate in vitro while its contribution to native lysis, any additional activity, and its relationship to canonical LysA function remain unresolved.
 
 The result does not add a functionally supported LysA/B pair, recover an independently validated displaced pair, or change the eligibility of the primary neighborhood-conservation test. It does add a characterized phage hydrolase and a cross-category sequence result to the specificity audit.
 

@@ -32,6 +32,7 @@ def test_gma6_enzyme_mapping_preserves_overlapping_neighbors():
     assert row['downstream_overlap_bp'] == 5
     assert row['downstream_product'] == 'putative holin'
     assert row['native_phage_lysis_tested'] is False
+    assert 'candidate LysB replacement' in row['published_cassette_context']
 
 
 def test_gma6_mapping_rejects_wrong_protein_identity():

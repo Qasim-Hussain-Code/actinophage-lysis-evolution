@@ -1,0 +1,7 @@
+{
+  "byte_identical": true,
+  "independent_replay_sha256": "582dc8665014a5afaf5161ed8eafa11c3c5f93d918dde0e2569ad8241cb7bb22",
+  "raw_result_sha256": "582dc8665014a5afaf5161ed8eafa11c3c5f93d918dde0e2569ad8241cb7bb22",
+  "scope": "Independent MMseqs2 run against the same 20-genome cohort FASTA using a fresh output and temporary directory.",
+  "status": "pass"
+}

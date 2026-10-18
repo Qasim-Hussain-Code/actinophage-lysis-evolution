@@ -24,6 +24,8 @@ The close, nearly full-length match links an arabinanase-tested protein to a Lys
 
 In the fixed cohort, Jollymon XSB45410.1 and Stillion YGX17269.1 match Clawz LysA65 at 90.8% and 90.9% identity, respectively, over full query and reference coverage. Both genes are followed by deposited holin annotations. These two calls are from the same Gordonia cluster and do not constitute independent lineage replications. Their relationship to the tested GMA6 arabinanase makes substrate-specific follow-up worthwhile, while leaving their own activities unknown. The underlying rows are in the [assay-reference evidence table](../results/lysterase_update/search_evidence/all_cohort_reference_hits.tsv) and [lysis evidence table](../results/lysterase_update/panel/results/tables/lysis_evidence.tsv).
 
+A direct search of all 2,460 translated CDS in the fixed cohort returned exactly these two near-full-length homologs to GMA6_45. Candidate reporting used MMseqs2 sensitivity 7.5, minimum sequence identity 25%, minimum query and target coverage 50%, and E-value at most 0.001. Jollymon XSB45410.1 and Stillion YGX17269.1 each show 52.8% identity over 1,032 aa, covering 94.9% of PhageGH4185 and 92.7% of each target. The existing pipeline calls both moderate LysA based on the profile-predicted Clawz reference; each deposited LysA is followed by an annotated holin. Both belong to cluster CP, so this does not add independent lineage support. Their strong similarity to the experimentally arabinanase-active GMA6 protein makes them specific candidates for biochemical substrate testing, but does not establish that they hydrolyze arabinogalactan or contribute to phage lysis.
+
 ## Interpretation
 
 This is an orthogonal biochemical specificity challenge, not a LysB positive control and not a validated negative control for all lysis activity. The published replacement proposal makes DUF4185 a plausible third cell-wall enzyme class to consider when a LysB assignment is missing, while the cross-category match shows why substrate-specific evidence and broad “lysin A” profile labels must remain separate. A phage enzyme can hydrolyze a cell-wall arabinan substrate in vitro while its contribution to native lysis, any additional activity, and its relationship to canonical LysA function remain unresolved.
@@ -38,8 +40,14 @@ The result does not add a functionally supported LysA/B pair, recover an indepen
 - [Machine-readable report and checksums](../results/gma6_arabinanase/audit_report.json)
 - [Independent raw-search replay validation](../results/gma6_arabinanase/replay_validation.json)
 - [Audit script](../scripts/audit_gma6_arabinanase.py)
+- [Fixed-cohort homolog table](../results/gma6_arabinanase/cohort_homologs.tsv)
+- [Fixed-cohort search report](../results/gma6_arabinanase/cohort_homolog_report.json)
+- [Independent cohort-search replay](../results/gma6_arabinanase/cohort_replay_validation.json)
+- [Cohort-search script](../scripts/audit_gma6_cohort_homologs.py)
 
 The raw genome and search workspace are excluded from publication. Recreate the source from accession KR063280.1 and the frozen reference panel. In the current split Windows/WSL setup, run `python scripts/audit_gma6_arabinanase.py --download --extract-only`, run the MMseqs2 command below from the repository root in WSL, then run the audit script with `--precomputed-hits .experiments/gma6/mmseqs_work/mmseqs_hits.tsv --replay-hits .experiments/gma6/replay_hits.tsv --mmseqs-version 8cc5ce367b5638c4306c2d7cfc652dd099a4643f`. The independent replay file is produced by repeating the same MMseqs2 command with a new output and temporary directory.
+
+For the pilot homolog scan, first run `python scripts/audit_gma6_cohort_homologs.py --extract-only` to verify the pinned manifest and source records and construct a FASTA containing exactly 2,460 CDS translations. Run the equivalent MMseqs2 settings with this query and cohort FASTA, then finalize with `--precomputed-hits` and `--replay-hits`. The scan does not acquire new genomes or publish the cohort sequences.
 
 ```sh
 .tools/mmseqs/bin/mmseqs easy-search \

@@ -1,0 +1,16 @@
+{
+  "candidate_pairs_mapped": 3,
+  "interpretation": "Literature-proposed candidates are coordinate-mapped but remain unvalidated for LysB activity; whole-phage phenotypes do not assign function to these proteins.",
+  "protein_specific_LysA_assays_reported": 0,
+  "protein_specific_LysB_assays_reported": 0,
+  "script_sha256": "e19b73326b55f0de60721fc7a09e121feb85f6c1aa96da799c2f266488968028",
+  "source_article": "https://journals.asm.org/doi/10.1128/aem.01952-10",
+  "source_records_sha256": {
+    "GU580940.1": "86ec21f9f331e6cf0fa6c4f755917f8921a9ac3c643b3594ca734eea8667bd00",
+    "GU580941.1": "064e56dc6fd0436935d1a3370fa4ec750feedeae5f0fa49d9cb81db0aff39e12",
+    "GU580942.1": "c7d824ab2a652a419b37a931e1db483c4ca2e14392aaf0b134c65b54651c362b"
+  },
+  "sources_checked": 3,
+  "status": "pass",
+  "table_sha256": "59ea636d23e60d46804b2b0a8d9a0389af683cdb019e9521df1e2984ce41c78f"
+}

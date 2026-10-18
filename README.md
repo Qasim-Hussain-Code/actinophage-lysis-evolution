@@ -12,6 +12,8 @@ A [survey of assay-reference source genomes](docs/reference_architecture_results
 
 A targeted [assayed-allele audit](docs/assayed_reference_allele_results.md) maps four additional published source genomes to their LysA/B genes and assay scope. Three full articles report assays for both enzymes; a conference abstract reports both for RitSun, but does not identify its tested LysA allele. All four source pairs are adjacent or overlapping. A one-nucleotide PDRPxv CDS/report discrepancy and a synonymous BTCU-1 primer change are retained explicitly. These sources add linked controls without resolving the separated-gene comparison; pilot classifications remain fixed.
 
+A separate [displaced-candidate audit](docs/displaced_lysB_candidate_audit.md) maps three literature-proposed LysB-like genes in *Rhodococcus* phages. Two occupy virion structural regions and one is ten annotated CDS from LysA, but none has protein-specific functional validation in the cited study. Whole-phage activity is kept distinct from attribution to these candidate genes.
+
 ## Research question and prior work
 
 Lysin A degrades peptidoglycan, whereas characterized Lysin B proteins can cleave mycolate-containing envelope linkages. Holins participate in membrane permeabilization, but a membrane protein annotation alone cannot establish holin function. These functional categories are heterogeneous and cannot be identified reliably from proximity alone.

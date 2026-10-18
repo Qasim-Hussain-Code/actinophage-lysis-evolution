@@ -1,0 +1,11 @@
+{
+  "artifacts_compared": 1,
+  "candidate_functional_assignments_changed": false,
+  "fresh_download_table_sha256": "59ea636d23e60d46804b2b0a8d9a0389af683cdb019e9521df1e2984ce41c78f",
+  "protein_specific_LysA_assays_reported": 0,
+  "protein_specific_LysB_assays_reported": 0,
+  "published_table_sha256": "59ea636d23e60d46804b2b0a8d9a0389af683cdb019e9521df1e2984ce41c78f",
+  "script_checksums_match": true,
+  "source_checksums_match": true,
+  "status": "pass"
+}

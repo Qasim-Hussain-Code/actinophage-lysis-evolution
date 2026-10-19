@@ -66,6 +66,7 @@ def select_sample(rows, cfg):
     """Deterministic round-robin clusters, two per lineage before extra genomes.
 
     Fixed controls are selected first. Rank uses a seed/name hash, never outcomes.
+    Additional rounds preserve the original two-per-lineage selection as a prefix.
     """
     eligible = [r for r in rows if r["host_genus"] in cfg["sampling"]["host_genera"] and r["seq_finished"] and ACCESSION.fullmatch(r["accession"])]
     by_name = {r["phage"]:r for r in eligible}
@@ -73,13 +74,18 @@ def select_sample(rows, cfg):
     missing = [n for n in cfg["sampling"]["controls"] if n not in by_name]
     if missing: raise ValueError(f"Required published controls missing from eligible metadata: {missing}")
     count = int(cfg["sample_sizes"][cfg["mode"]])
+    if count < len(chosen):
+        raise ValueError("Requested sample size cannot accommodate all required controls")
+    if len({r["phage"] for r in chosen}) != len(chosen) or len({r["accession"].split('.')[0] for r in chosen}) != len(chosen):
+        raise ValueError("Required controls must have distinct names and accession roots")
     seed = cfg["seed"]
     rank = lambda s: hashlib.sha256(f"{seed}:{s}".encode()).hexdigest()
     genera = cfg["sampling"]["host_genera"]
     groups = {}
     for r in eligible:
         # Missing cluster is never one common lineage.
-        lineage = r["cluster"] if r["cluster"] not in {NA,"Singleton","Unassigned","None"} else f"singleton:{r['phage']}"
+        cluster = str(r.get("cluster") or "").strip()
+        lineage = cluster if cluster.casefold() not in {"",NA.casefold(),"singleton","unassigned","none"} else f"singleton:{r['phage']}"
         groups.setdefault((r["host_genus"],lineage),[]).append(r)
     for group in groups.values(): group.sort(key=lambda r:rank(r["phage"]))
     # Mode expansion nests the same deterministic lineage order. Pilot prioritizes
@@ -87,15 +93,30 @@ def select_sample(rows, cfg):
     group_order = {g:sorted([k for k in groups if k[0]==g],key=lambda k:(-min(len(groups[k]),2),rank(k[1]))) for g in genera}
     selected_names = {r["phage"] for r in chosen}
     seen_acc = {r["accession"].split('.')[0] for r in chosen}
-    for index in range(max(len(v) for v in group_order.values())):
+    ordered_keys = []
+    for index in range(max((len(v) for v in group_order.values()), default=0)):
         for genus in genera:
             if index >= len(group_order[genus]): continue
             key = group_order[genus][index]
+            ordered_keys.append(key)
             for r in groups[key][:2]:
                 acc = r["accession"].split('.')[0]
                 if r["phage"] not in selected_names and acc not in seen_acc and len(chosen)<count:
                     chosen.append(r); selected_names.add(r["phage"]); seen_acc.add(acc)
-    return chosen[:count]
+    # The original first pass is intentionally unchanged. Larger cohorts then
+    # take one additional ranked record per lineage and round, retaining nesting
+    # even where accession aliases consume slots among the first two records.
+    for offset in range(2, max((len(v) for v in groups.values()), default=0)):
+        for key in ordered_keys:
+            if offset >= len(groups[key]): continue
+            r = groups[key][offset]
+            acc = r["accession"].split('.')[0]
+            if r["phage"] not in selected_names and acc not in seen_acc and len(chosen)<count:
+                chosen.append(r); selected_names.add(r["phage"]); seen_acc.add(acc)
+        if len(chosen) == count: break
+    if len(chosen) != count:
+        raise ValueError(f"Requested {count} genomes but only {len(chosen)} distinct eligible names/accessions are available")
+    return chosen
 
 def run(cfg):
     offline = cfg.get("offline",False)

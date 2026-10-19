@@ -1,86 +1,59 @@
 # Actinobacteriophage lysis architecture
 
-Comparative genomics of lysis-gene organization, functional-identification uncertainty and the feasibility of testing neighborhood conservation.
+A comparative genomic study of lysis-gene organization in phages infecting *Mycobacterium* and *Gordonia*, with explicit treatment of functional uncertainty, shared ancestry and genomic-neighborhood conservation.
 
-## Summary
+## Background and research question
 
-The expanded exploratory screen contains **50 complete genomes, 25 reported clusters and 5,915 verified CDS translations**. Under the unchanged 39-reference classifier, 21 genomes have A-family assignments, 15 have B-family assignments and six have both. **Five genomes have a uniquely resolved, closely linked A/B pair; no uniquely resolved separated pair is recovered.** The other architectures are complex in two genomes and unresolved in 43.
+Phages infecting mycolic-acid-containing bacteria can encode Lysin A proteins that degrade peptidoglycan and Lysin B proteins that cleave mycolate-containing envelope linkages. These components may occur together or at separated genomic positions. Their sequence diversity and uneven experimental characterization make deposited gene names an uncertain basis for comparing lysis systems.
 
-![Reference-supported category coverage and architecture in the 50-genome screen](results/exploratory50_v1/figures/exploratory_detection_architecture.png)
+Separated arrangements of annotated lysis genes have been reported in [Yvonnetastic](https://doi.org/10.1128/genomeA.00594-16) and broader studies of [Gordonia phages](https://doi.org/10.1128/mBio.01069-17). This study asks how lysis-associated genes are organized, whether separated B-family genes retain conserved neighborhoods beyond general genome synteny, and how identification uncertainty affects those conclusions.
 
-*Counts are conditional on this cohort, panel and evidence criteria. A/B categories overlap. Unresolved identification does not establish gene absence. [Caption, sources and checksums](results/exploratory50_v1/figures/figure_manifest.json); [vector PDF](results/exploratory50_v1/figures/exploratory_detection_architecture.pdf).*
+## Data and methods
 
-The expanded screen adds four linked pairs to the fixed 20-genome baseline. John316 has two predicted A candidates separated from its B candidate by 13 and 14 intervening CDS, but remains complex under the fixed unique-pair definition. No eligible unique separated pair is available for the primary neighborhood-conservation comparison. Evolutionary mechanisms remain unresolved. The release supports descriptive architecture and identification results: [full results](docs/exploratory_screen_results.md), [scientific tables](results/exploratory50_v1/) and [versioned analyses](docs/milestones.md).
-
-## Background
-
-Characterized Lysin A proteins act on peptidoglycan; characterized Lysin B proteins can cleave mycolate-containing envelope linkages. Both groups are heterogeneous, and deposited names or neighboring genes alone cannot establish biochemical function.
-
-Separated arrangements of annotated lysis genes are reported in [Yvonnetastic](https://doi.org/10.1128/genomeA.00594-16) and comparative studies of [Gordonia phages](https://doi.org/10.1128/mBio.01069-17). The question here is whether neighborhoods around independently supported separated B-family genes retain excess conservation relative to matched genomic backgrounds. Functional anchors and sufficient lineage replication are prerequisites for that comparison.
-
-![Original-coordinate maps of the linked D29 control and unresolved Yvonnetastic annotation control](figures/figure_03_genome_maps.png)
-
-*Original 20-genome baseline: D29 recovers the linked control; the displaced Yvonnetastic arrangement is recovered from annotations with low functional confidence. Shared-family colors and annotation outlines are different evidence. [Original figure manifest](results/reports/figure_manifest.json); [vector PDF](figures/figure_03_genome_maps.pdf).*
-
-## Methodology
-
-The 50-record cohort preserves all 20 pilot accession versions and source checksums. Deterministic sampling uses seed `20261016`, host-genus strata and reported cluster labels. The expanded cohort contains 25 Mycobacterium-host and 25 Gordonia-host phages. Cluster labels and near-identical sequence groups are ancestry proxies, rather than reconstructed phylogenies.
+The study cohort comprises **50 complete GenBank genomes**, including 25 Mycobacterium-host and 25 Gordonia-host phages across **25 reported cluster labels**. Deterministic selection uses host-genus strata, cluster representation and seed `20261016`. Accession versions and source checksums fix the analyzed records. Genome completeness, sequence content, CDS coordinates and deposited translations are checked before protein searches. [Dataset provenance](docs/data_provenance.md) records the sources and selection scope.
 
 ```mermaid
 flowchart LR
-    A[Versioned genome records] --> B[Coordinates and translation QC]
-    B --> C[Search fixed 39-reference panel]
-    C --> D[Assign evidence and confidence]
-    D --> E[Classify A/B architecture]
-    E --> F[Verified tables and figures]
+    A[Versioned genome records] --> B[Sequence and translation QC]
+    B --> C[Curated reference search]
+    C --> D[Evidence and confidence assignment]
+    D --> E[Architecture classification]
+    E --> F[Conservation eligibility and interpretation]
 ```
 
-A/B family assignments in the high/moderate scope require **at least 40% identity, at least 70% coverage of both proteins and E-value at most 10^-6**. Weaker reported alignments remain in the hit ledger. Evidence tiers retain their original confidence caps. Published computational predictions, generic lipolytic assays and antimycobacterial assays do not individually establish native lysis-substrate specificity. Genomic proximity never upgrades functional confidence.
+A curated panel of **39 reference proteins** supports sequence-based identification. High/moderate A/B assignments require at least **40% identity, 70% coverage of both proteins and E-value at most 10^-6**. Published computational predictions, generic lipolytic assays and antimycobacterial assays retain a moderate confidence ceiling, including exact matches. Deposited annotations are retained separately, and genomic proximity never upgrades functional confidence.
 
-A resolved architecture requires one nonpartial A-family and one nonpartial B-family candidate in the high/moderate evidence scope. Separation requires **more than four intervening CDS**; sensitivity cutoffs are two, six and ten. Multiple candidates remain complex and incomplete identifications remain explicit. [Screen protocol](docs/exploratory_screen_protocol.md), [identification methods](docs/methods.md) and [reference evidence](docs/lysterase_update_results.md) provide the definitions.
+A resolved architecture requires one nonpartial A-family and one nonpartial B-family candidate in the high/moderate evidence scope. A pair is separated when more than four CDS intervene; cutoffs of two, six and ten assess sensitivity. Multiple candidates remain complex, while insufficient identification remains unresolved. Original coordinates, strand, overlaps and record boundaries are preserved.
 
-The original pilot executes the nine-stage workflow. The expanded exploratory screen executes acquisition through architecture classification, stages 1 to 5. It does not perform the gated neighborhood-conservation analysis.
-
-Architecture variation and identification uncertainty are descriptive objectives. The planned conservation test compares B-neighborhood Jaccard similarity with matched non-lysis anchors in the same genome pairs, averages contrasts within clusters and requires at least five contributing clusters for inference. No effect size, interval or p-value is estimable for the primary separated-architecture comparison. Recurrent evolutionary reorganization also remains untestable. [Statistical assumptions](docs/statistical_assumptions.md) and [limitations](docs/limitations.md) define these boundaries.
+The conservation framework compares B-neighborhood Jaccard similarity with matched non-lysis anchors in the same genome pairs. Contrasts are averaged within clusters, with at least five contributing clusters required for inference. Eligibility depends on resolved architectures, usable homologous anchors and sufficient replication. [Methods](docs/methods.md) and [statistical assumptions](docs/statistical_assumptions.md) describe the definitions, background matching and inference requirements.
 
 ## Results
 
-| Observation | Fixed pilot | Expanded exploratory screen |
-|---|---:|---:|
-| Genomes included | 20 | 50 |
-| Verified CDS translations | 2,460 | 5,915 |
-| Unique linked A/B pairs, 39-reference panel | 1 | 5 |
-| Unique separated A/B pairs | 0 | 0 |
+All 50 selected records pass the implemented QC checks, yielding **5,915 verified CDS translations**. A-family assignments occur in 21 genomes, B-family assignments in 15, and both categories in six. The architecture classification yields **five unique linked pairs, no unique separated pair, two complex architectures and 43 unresolved genomes**. These primary classes are unchanged across all four separation cutoffs.
 
-All 50 selected records passed the implemented QC checks. A canonical 21-mer sketch screen yields 47 near-identical screening groups; these are not ANI estimates or independent evolutionary replicates. Primary architecture classes are unchanged across all four separation cutoffs.
+![Reference-supported detection and architecture across the study cohort](results/exploratory50_v1/figures/exploratory_detection_architecture.png)
 
-![Local gene order around the five resolved A/B pairs](results/exploratory50_v1/linked_contexts/linked_architectures.png)
+*A/B detection categories overlap; architecture classes partition the cohort. Counts are conditional on the selected genomes, reference panel and evidence criteria. Unresolved identification does not establish gene absence. [Caption, source tables and checksums](results/exploratory50_v1/figures/figure_manifest.json); [vector PDF](results/exploratory50_v1/figures/exploratory_detection_architecture.pdf).*
 
-*Original CDS order and strand on a shared scale relative to the A-family CDS start. D29 has one intervening CDS; the other four pairs overlap by one nucleotide. Colors show category assignments, rather than identical sequences or experimentally established activity in every genome. [Figure sources and caption](results/exploratory50_v1/linked_contexts/figure_manifest.json); [vector PDF](results/exploratory50_v1/linked_contexts/linked_architectures.pdf).*
+The five uniquely resolved linked pairs occur in three reported clusters. One has a single intervening CDS; the other four overlap by one nucleotide and have moderate-confidence homology assignments.
 
-The four additional pairs occur in Dewey and Hail, reported cluster Q, and Typha and AuntGwenStacy, reported cluster Y. These are moderate-confidence homology assignments. John316 has two A-family candidates and one B-family candidate: both component pairs are separated, by 13 and 14 intervening CDS. All three assignments transfer from published profile predictions and lack independent functional validation. Sticker17 has two A-family candidates and no supported B-family candidate. Both genomes retain their complex classification. [Component distances and evidence](docs/exploratory_screen_results.md#complex-separated-candidate).
+![Local gene order around the five uniquely resolved linked pairs](results/exploratory50_v1/linked_contexts/linked_architectures.png)
 
-Seven query proteins are exact sequence aliases of reference-panel proteins. Reference overlap and within-cluster similarity prevent these observations from serving as independent functional validation. The [complete hit ledger](results/exploratory50_v1/all_reference_hits.tsv) and [per-CDS detection status](results/exploratory50_v1/protein_detection_status.tsv) retain reported matches, rejected criteria, unresolved proteins and reference aliases.
+*CDS order and strand are shown on a shared scale relative to the A-family CDS start. Colors indicate category assignments, rather than identical sequences or experimentally established activity in every genome. [Caption and source tables](results/exploratory50_v1/linked_contexts/figure_manifest.json); [vector PDF](results/exploratory50_v1/linked_contexts/linked_architectures.pdf).*
 
-Earlier analyses remain scoped to their own cohorts and panels: the [pilot](docs/results.md), [reference expansion](docs/amendment_results.md), [held-out profile evaluation](docs/lysb_profile_update_results.md), [annotation-conditioned neighborhoods](docs/annotation_neighborhood_results.md), [assay-source architectures](docs/reference_architecture_results.md), [displaced-candidate audit](docs/displaced_lysB_candidate_audit.md) and [GMA6 substrate and homolog audits](docs/gma6_arabinanase_audit.md). The [six original pilot figures](figures/) retain their source tables and captions.
+One complex architecture contains separated A/B component pairs, but multiple A candidates prevent a unique-pair classification. Its assignments derive from profile-predicted references and lack independent functional validation. This preserves evidence of separation without supplying an eligible primary conservation comparison.
 
-## Project layout
+The [detailed results](docs/exploratory_screen_results.md) and [scientific tables](results/exploratory50_v1/) provide component distances, confidence tiers and sensitivity results. The [complete alignment ledger](results/exploratory50_v1/all_reference_hits.tsv) and [per-CDS detection status](results/exploratory50_v1/protein_detection_status.tsv) retain weaker matches, unresolved proteins and reference-sequence aliases.
 
-```text
-config/                         Scientific settings and fixed thresholds
-src/actinolysis/                 Acquisition, QC, identification and analysis
-scripts/                        Numbered stages, audits and reproduction tools
-references/                     Curated protein and literature evidence
-results/exploratory50_v1/        Expanded tables, figures and checksums
-results/lysterase_update/        Frozen reference panel and its evaluation
-figures/                        Six original pilot figures
-docs/                           Methods and cohort-specific results
-tests/                          Software checks and synthetic test fixtures
-```
+## Interpretation and limitations
+
+The analysis supports descriptive comparisons of architecture and identification coverage. It does not provide an estimable primary conservation effect, confidence interval or p-value: the cohort lacks eligible, uniquely resolved separated pairs and sufficient replicated functional anchors. Similarity, proximity and annotation alone do not establish native biochemical function, shared regulation, gene loss or recurrent evolutionary reorganization.
+
+Reference overlap and related genomes limit independent validation. Cluster labels and sequence-similarity screening provide ancestry proxies rather than reconstructed phylogenies. The selected cohort is not a random ecological sample. Divergent or poorly annotated proteins may remain undetected, so unresolved architectures must remain distinct from biological absence. [Scientific limitations](docs/limitations.md) describe the scope of these conclusions.
 
 ## Reproducibility
 
-Run in Linux or WSL with the pinned Python requirements and MMseqs2 release:
+Use Linux or WSL with Python 3.14.4, the pinned Python requirements and MMseqs2 release 18-8cc5c:
 
 ```bash
 bash scripts/bootstrap_wsl.sh
@@ -88,11 +61,23 @@ bash scripts/bootstrap_wsl.sh
 .venv/bin/python -B -m pytest -q
 ```
 
-The public reproduction tool reads the published 50-record manifest, retrieves exact genome and reference accession versions, verifies source checksums and reruns stages 1 to 5. It uses the published cohort directly and requires no original eligibility frame or preparation workspace. A changed or unavailable source stops reproduction; no replacement genome or refreshed annotation is substituted. [Reproduction details](docs/exploratory_screen_results.md#reproduction) distinguish source retrieval from software installation.
+The reproduction command retrieves exact genome and reference accession versions, verifies their checksums and reruns acquisition through architecture classification for the published cohort. It requires no original eligibility frame or preparation workspace. Missing or changed source records stop the run rather than trigger replacement sampling.
 
-The original isolated replay reproduces **22 scientific artifacts byte for byte**. A [fresh-source reproduction](results/exploratory50_v1/public_reproduction.json) independently retrieves all 77 source records and matches the 16 public scientific tables and summaries, using the same pinned software. Plotted source tables, captions and checksums accompany both expanded-cohort figures. The [artifact manifest](results/exploratory50_v1/artifact_manifest.json) identifies the frozen scientific tables.
+Fresh-source and public GitHub-checkout reproductions match the scientific outputs under the pinned software. These checks reuse the installed software environment; independent environment reinstallation is not claimed. [Reproduction details and reports](docs/exploratory_screen_results.md#reproduction) document the measured comparisons. Figures have 300 dpi PNGs, vector PDFs, plotted source tables and caption/checksum manifests.
 
-A [fresh public GitHub-clone replay](results/exploratory50_v1/github_clone_reproduction.json) also matches all 16 scientific artifacts and all eight figure files, including source tables and manifests. This second check uses checksum-verified cached sources and the pinned software; it does not independently reinstall the environment. The WSL software suite passes 313 tests.
+## Project layout
+
+```text
+config/                         Scientific settings and thresholds
+data/manifests/                 Versioned input records and checksums
+references/                     Curated protein and literature evidence
+src/actinolysis/                 Acquisition, QC, identification and analysis
+scripts/                        Pipeline and reproduction entry points
+results/exploratory50_v1/        Cohort tables, figures and checksums
+figures/                        Comparative figures from the 20-genome analysis
+docs/                           Methods, results and scientific limitations
+tests/                          Software checks and synthetic test fixtures
+```
 
 ## References
 
@@ -101,7 +86,7 @@ A [fresh public GitHub-clone replay](results/exploratory50_v1/github_clone_repro
 - Pope and colleagues (2017). Comparative genomics of Gordonia phages. [Primary study](https://doi.org/10.1128/mBio.01069-17).
 - Pollenz, Bland and Pope (2022). Gordonia phage lysis-cassette analysis. [Primary study](https://doi.org/10.1371/journal.pone.0276603).
 
-Additional assays, evidence depth and sequence mappings are recorded in the [literature ledger](references/literature_audit.tsv) and [reference catalogue](results/lysterase_update/panel/references/protein_controls.tsv).
+Additional assays and sequence mappings are recorded in the [literature ledger](references/literature_audit.tsv) and [reference catalogue](results/lysterase_update/panel/references/protein_controls.tsv).
 
 ## Citation and license
 

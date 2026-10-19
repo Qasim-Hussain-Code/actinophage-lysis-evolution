@@ -39,7 +39,9 @@ A/B family assignments in the high/moderate scope require **at least 40% identit
 
 A resolved architecture requires one nonpartial A-family and one nonpartial B-family candidate in the high/moderate evidence scope. Separation requires **more than four intervening CDS**; sensitivity cutoffs are two, six and ten. Multiple candidates remain complex and incomplete identifications remain explicit. [Screen protocol](docs/exploratory_screen_protocol.md), [identification methods](docs/methods.md) and [reference evidence](docs/lysterase_update_results.md) provide the definitions.
 
-The original pilot executes the nine-stage workflow. The expanded exploratory screen executes acquisition through architecture classification, stages 1–5. It does not perform the gated neighborhood-conservation analysis.
+The original pilot executes the nine-stage workflow. The expanded exploratory screen executes acquisition through architecture classification, stages 1 to 5. It does not perform the gated neighborhood-conservation analysis.
+
+Architecture variation and identification uncertainty are descriptive objectives. The planned conservation test compares B-neighborhood Jaccard similarity with matched non-lysis anchors in the same genome pairs, averages contrasts within clusters and requires at least five contributing clusters for inference. No effect size, interval or p-value is estimable for the primary separated-architecture comparison. Recurrent evolutionary reorganization also remains untestable. [Statistical assumptions](docs/statistical_assumptions.md) and [limitations](docs/limitations.md) define these boundaries.
 
 ## Results
 
@@ -86,9 +88,11 @@ bash scripts/bootstrap_wsl.sh
 .venv/bin/python -B -m pytest -q
 ```
 
-The public reproduction tool reads the published 50-record manifest, retrieves exact genome and reference accession versions, verifies source checksums and reruns stages 1–5. It uses the published cohort directly and requires no original eligibility frame or preparation workspace. A changed or unavailable source stops reproduction; no replacement genome or refreshed annotation is substituted. [Reproduction details](docs/exploratory_screen_results.md#reproduction) distinguish source retrieval from software installation.
+The public reproduction tool reads the published 50-record manifest, retrieves exact genome and reference accession versions, verifies source checksums and reruns stages 1 to 5. It uses the published cohort directly and requires no original eligibility frame or preparation workspace. A changed or unavailable source stops reproduction; no replacement genome or refreshed annotation is substituted. [Reproduction details](docs/exploratory_screen_results.md#reproduction) distinguish source retrieval from software installation.
 
 The original isolated replay reproduces **22 scientific artifacts byte for byte**. A [fresh-source reproduction](results/exploratory50_v1/public_reproduction.json) independently retrieves all 77 source records and matches the 16 public scientific tables and summaries, using the same pinned software. Plotted source tables, captions and checksums accompany both expanded-cohort figures. The [artifact manifest](results/exploratory50_v1/artifact_manifest.json) identifies the frozen scientific tables.
+
+A [fresh public GitHub-clone replay](results/exploratory50_v1/github_clone_reproduction.json) also matches all 16 scientific artifacts and all eight figure files, including source tables and manifests. This second check uses checksum-verified cached sources and the pinned software; it does not independently reinstall the environment. The WSL software suite passes 313 tests.
 
 ## References
 

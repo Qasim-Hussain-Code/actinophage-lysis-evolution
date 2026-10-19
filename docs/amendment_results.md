@@ -1,6 +1,6 @@
 # Reference-expansion results
 
-This archived analysis uses the original 20-genome cohort and the 10-, 21- and 34-reference panels. The later [50-genome exploratory screen](exploratory_screen_results.md) uses the 39-reference panel and a separate stages 1–5 protocol.
+This archived analysis uses the original 20-genome cohort and the 10-, 21- and 34-reference panels. The later [50-genome exploratory screen](exploratory_screen_results.md) uses the 39-reference panel and a separate stages 1 to 5 protocol.
 
 The post-pilot amendment kept the same 20 genomes, 11 PhagesDB cluster labels, 2,460 verified translations and numerical homology thresholds. All nine WSL stages completed for both expanded panels. The original scientific outputs remain separately preserved.
 

@@ -30,7 +30,7 @@ None of the three selected cellular-enzyme challenges receives an accepted lysis
 
 ## Neighborhood eligibility
 
-The updated panel supplies supported B anchors in both genomes of one within-cluster pair, Glaske16–IPhane7. That pair remains ineligible because its A/B architectures are unresolved. The other eight within-cluster pairs lack supported B anchors. There are no eligible primary H2 pairs or lineage contrasts, and no conservation effect, interval or p-value can be estimated. Additional B identification has improved evidence coverage without resolving the planned evolutionary comparison. Expansion remains gated.
+The updated panel supplies supported B anchors in both genomes of one within-cluster pair, Glaske16 and IPhane7. That pair remains ineligible because its A/B architectures are unresolved. The other eight within-cluster pairs lack supported B anchors. There are no eligible primary H2 pairs or lineage contrasts, and no conservation effect, interval or p-value can be estimated. Additional B identification has improved evidence coverage without resolving the planned evolutionary comparison. Expansion remains gated.
 
 ![Functional coverage and comparison eligibility](../results/lysterase_update/comparison/reference_update.png)
 

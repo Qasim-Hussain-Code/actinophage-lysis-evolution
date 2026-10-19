@@ -8,10 +8,10 @@ The base configuration uses 40% identity protein families, five flanking CDS per
 
 | Genome pair | Cluster label | Deposited architecture | Target Jaccard | Background mean | Conditional difference | Background anchors |
 |---|---|---|---:|---:|---:|---:|
-| Phrappuccino–Settecandela | AA | Separated | 1.000 | 1.000 | 0.000 | 5 |
-| VanLee–Colossa | KA | Separated | 0.333 | 0.746 | −0.413 | 13 |
-| Contagion–Balomoji | E | Linked | 0.667 | 0.783 | −0.116 | 5 |
-| IPhane7–Glaske16 | M | Linked | 1.000 | 0.914 | +0.086 | 6 |
+| Phrappuccino and Settecandela | AA | Separated | 1.000 | 1.000 | 0.000 | 5 |
+| VanLee and Colossa | KA | Separated | 0.333 | 0.746 | −0.413 | 13 |
+| Contagion and Balomoji | E | Linked | 0.667 | 0.783 | −0.116 | 5 |
+| IPhane7 and Glaske16 | M | Linked | 1.000 | 0.914 | +0.086 | 6 |
 
 For AA, perfect conservation of the putative B neighborhood coincides with perfect conservation of the selected background neighborhoods. The KA target neighborhood has lower family-content similarity than its matched background. The equal-weight mean conditional difference across the two separated cluster labels is −0.206. Background anchors can overlap and are not independent biological replicates. Two coarse cluster labels do not establish an evolutionary sampling distribution.
 

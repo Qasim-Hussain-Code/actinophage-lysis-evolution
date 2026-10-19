@@ -47,7 +47,7 @@ Identity, both coverage cutoffs, E-value and confidence caps are unchanged from 
 
 The previously measured reference-panel challenge is retained and authenticated against the same reference sequences, search settings and identification source code. It is not a new challenge experiment on this expanded cohort and does not estimate population specificity. D29's supported linked arrangement and Yvonnetastic's annotation-defined complex arrangement both reproduce.
 
-Stages 1–5 are complete. Neighborhood clustering and the H2 test are not performed for this exploratory cohort. No unique supported separated pair is recovered, so this screen supplies no primary conservation-effect estimate. The 300-genome analysis has not been run. Descriptive detection and architecture are the supported outcomes; gene loss, recurrent rearrangement and regulatory mechanisms remain unresolved.
+Stages 1 to 5 are complete. Neighborhood clustering and the H2 test are not performed for this exploratory cohort. No unique supported separated pair is recovered, so this screen supplies no primary conservation-effect estimate. The 300-genome analysis has not been run. Descriptive detection and architecture are the supported outcomes; gene loss, recurrent rearrangement and regulatory mechanisms remain unresolved.
 
 ## Reproduction
 
@@ -62,6 +62,8 @@ The public accession-reproduction tool uses the published cohort directly, witho
 ```
 
 It retrieves exact versions of 50 genome records and 27 unique reference-source records, checks every source checksum, reruns acquisition through architecture classification, and compares public scientific tables and summaries with the published hashes. The [fresh-source run](../results/exploratory50_v1/public_reproduction.json) matches all 16 public scientific artifacts with the same pinned software environment. Software is reused for this check; independent software reinstallation is not claimed.
+
+A separate [fresh public GitHub-clone replay](../results/exploratory50_v1/github_clone_reproduction.json) matches those 16 scientific artifacts and all eight expanded-figure files: two PNGs, two vector PDFs, two plotted source tables and two caption/checksum manifests. It uses the 77 checksum-verified source records as a cache and reuses the same pinned software. The report identifies the tested public commit. The software suite passes 313 tests in WSL; software correctness and deterministic reproduction do not establish biochemical function.
 
 For a strictly cache-only reproduction, supply a directory containing the verified `genbank/` and `references/` source files:
 

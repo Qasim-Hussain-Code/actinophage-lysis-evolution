@@ -6,7 +6,7 @@ Can a biochemically characterized phage cell-wall hydrolase serve as a specifici
 
 ## Source mapping
 
-The 2023 study expressed the GMA6 DUF4185 protein (PhageGH4185) and reported endo-D-arabinanase activity on mycobacterial arabinogalactan. The deposited GMA6 record maps this protein to CDS GMA6_45, protein AKL88326.1, in accession KR063280.1. The CDS is 1,087 aa at positions 38,130–41,393 on the plus strand. Its immediate downstream CDS is GMA6_46, annotated “putative holin,” at 41,390–41,899; the two deposited intervals overlap by four bases. GMA6_44 overlaps the upstream boundary by eight bases. These are annotation coordinates, not experimentally resolved translation boundaries.
+The 2023 study expressed the GMA6 DUF4185 protein (PhageGH4185) and reported endo-D-arabinanase activity on mycobacterial arabinogalactan. The deposited GMA6 record maps this protein to CDS GMA6_45, protein AKL88326.1, in accession KR063280.1. The CDS is 1,087 aa at positions 38,130 to 41,393 on the plus strand. Its immediate downstream CDS is GMA6_46, annotated “putative holin,” at 41,390 to 41,899; the two deposited intervals overlap by four bases. GMA6_44 overlaps the upstream boundary by eight bases. These are annotation coordinates, not experimentally resolved translation boundaries.
 
 The enzyme assay is direct evidence for arabinan hydrolysis by the recombinant protein. The paper does not test GMA6_45 in native phage infection, demonstrate host-cell lysis by this protein, or establish a LysB-type mycolate-esterase activity. Its placement beside a putative holin is genomic context, not proof of its role during infection. The paper's supplementary Fig. S9 proposes that DUF4185 may replace LysB in some phage lysis cassettes, either as a separate enzyme or fused to LysA. This is an architecture-level hypothesis, not an experimentally demonstrated infection mechanism; the available text does not resolve which specific arrangement applies to GMA6_45. [Primary study and supplement](https://www.nature.com/articles/s41467-023-37839-5); [deposited GMA6 genome](https://www.ncbi.nlm.nih.gov/nuccore/KR063280.1).
 
@@ -16,7 +16,7 @@ The translated GMA6_45 sequence was searched against the frozen 14-reference ass
 
 | Reference | Category and evidence tier | Identity | Alignment | Query coverage | Reference coverage | LysB threshold |
 |---|---|---:|---:|---:|---:|---|
-| Clawz LysA65 (QKY79977.1) | LysA-labeled; published profile prediction, no protein-specific assay | 53.2% | GMA6 1–1,032 aa; Clawz 1–856 aa | 94.9% | 92.7% | Not applicable: LysA category |
+| Clawz LysA65 (QKY79977.1) | LysA-labeled; published profile prediction, no protein-specific assay | 53.2% | GMA6 1 to 1,032 aa; Clawz 1 to 856 aa | 94.9% | 92.7% | Not applicable: LysA category |
 
 No LysB-class reference was returned by the search. The best match is therefore not a qualifying LysB hit. Clawz LysA65 is itself a computationally assigned multidomain protein in the cited Gordonia analysis; this alignment does not upgrade it to an experimentally established endolysin.
 

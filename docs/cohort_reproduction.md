@@ -1,6 +1,8 @@
 # Reproducing the frozen genome cohort
 
-The published cohort contains 20 accession-versioned genomes. `scripts/replay_cohort.py` reconstructs a metadata frame containing those genomes, executes all nine pipeline stages in a fresh workspace and compares the resulting tables and figures with the selected reference panel.
+This document covers the archived 20-genome pilot. Reproduction of the expanded 50-genome screen is documented in [expanded results](exploratory_screen_results.md#reproduction).
+
+The pilot cohort contains 20 accession-versioned genomes. `scripts/replay_cohort.py` reconstructs a metadata frame containing those genomes, executes all nine pipeline stages in a fresh workspace and compares the resulting tables and figures with the selected reference panel.
 
 This procedure reproduces the downstream analysis of the frozen cohort. It does not repeat sampling from the original 3,760-entry eligibility frame or update historical cluster labels from a current database export. Source versions, reference sequences and checksums remain fixed.
 

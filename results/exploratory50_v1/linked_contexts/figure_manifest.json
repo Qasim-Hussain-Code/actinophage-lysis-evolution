@@ -1,0 +1,15 @@
+{
+  "artifacts": {
+    "figure_source.tsv": "fa322f187c7327d8fa8769f86c8d5ce774b5854781570552eded64f30f14e807",
+    "linked_architectures.pdf": "16eac41754752e4ba63027ad5d5895870ea4f49b8b7028c3e4cdd638aa1ca9c8",
+    "linked_architectures.png": "9495d23a96f48ce9b69072f14f15d588e8bfe18de8d91a829c284f403c4a70bd"
+  },
+  "caption": "Five uniquely resolved high/moderate A/B pairs in the 50-genome screen. Three flanking annotated CDS on either side are displayed in original order and strand, using coordinates relative to the A-family CDS start and a shared scale. D29 has one intervening CDS; the other pairs overlap by one nucleotide. Colors denote reference-supported categories, with the pair confidence shown per row; matching category colors do not imply identical sequences, independent ancestry or demonstrated native activity.",
+  "pdf_rendering": "vector",
+  "plot_script_sha256": "a0f81f3dd4a084c3090b87c22fc0eb7557d33dc31196dabbdd799644da5fe9fa",
+  "png_dpi": 300,
+  "source_artifacts_sha256": {
+    "architectures.tsv": "2eca7c4763bb49554a87d093b4386822ef9de284d4aeca755240cdc01fa1d29f",
+    "protein_detection_status.tsv": "4052c250ff80cfa2a2cc7170cb1d6627869afd88aaf044a2bbeaffe2027590d9"
+  }
+}

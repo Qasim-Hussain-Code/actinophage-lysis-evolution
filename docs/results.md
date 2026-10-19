@@ -1,5 +1,7 @@
 # Pilot results
 
+This is the archived 20-genome pilot report. The later [50-genome exploratory screen](exploratory_screen_results.md) is reported separately.
+
 Reporting date: 17 October 2026. The pilot has exposed a functional-identification feasibility limit: only D29 has an independently supported Lysin A/Lysin B pair. There are no supported separated pairs and no contributing lineage contrasts for the primary neighborhood test. This is an untestable comparison, not evidence against neighborhood conservation.
 
 Corrected frozen offline replays completed stages 1 through 9 and generated six figures on 17 October 2026. Counts below were reconciled against the generated tables. The latest execution report records the exact run times and resource measurements. Software execution succeeded; biological validation remains incomplete and expansion is gated. Neither intermediate nor full expansion was executed.

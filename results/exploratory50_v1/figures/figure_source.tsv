@@ -1,0 +1,15 @@
+panel	host_genus	selected_genomes	included_genomes	metric	count	denominator	scope
+A	Mycobacterium	25	25	supported_A_genomes	9	25	high_moderate_curated_reference_homology
+A	Mycobacterium	25	25	supported_B_genomes	13	25	high_moderate_curated_reference_homology
+A	Mycobacterium	25	25	supported_A_and_B_genomes	5	25	high_moderate_curated_reference_homology
+B	Mycobacterium	25	25	closely_linked	5	25	high_moderate_curated_reference_homology
+B	Mycobacterium	25	25	separated	0	25	high_moderate_curated_reference_homology
+B	Mycobacterium	25	25	complex	0	25	high_moderate_curated_reference_homology
+B	Mycobacterium	25	25	unresolved	20	25	high_moderate_curated_reference_homology
+A	Gordonia	25	25	supported_A_genomes	12	25	high_moderate_curated_reference_homology
+A	Gordonia	25	25	supported_B_genomes	2	25	high_moderate_curated_reference_homology
+A	Gordonia	25	25	supported_A_and_B_genomes	1	25	high_moderate_curated_reference_homology
+B	Gordonia	25	25	closely_linked	0	25	high_moderate_curated_reference_homology
+B	Gordonia	25	25	separated	0	25	high_moderate_curated_reference_homology
+B	Gordonia	25	25	complex	2	25	high_moderate_curated_reference_homology
+B	Gordonia	25	25	unresolved	23	25	high_moderate_curated_reference_homology

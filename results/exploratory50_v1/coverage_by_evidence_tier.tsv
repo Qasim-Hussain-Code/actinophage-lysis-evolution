@@ -1,0 +1,9 @@
+evidence_type	confidence	assignment_rows	unique_proteins	unique_genomes
+deposited_annotation	low	57	57	40
+experimental	high	4	4	2
+experimental	low	15	15	13
+experimental	moderate	14	14	12
+experimental_antimycobacterial	low	3	3	3
+experimental_antimycobacterial	moderate	9	9	9
+published_profile_prediction	low	19	19	17
+published_profile_prediction	moderate	16	16	13

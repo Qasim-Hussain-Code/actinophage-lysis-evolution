@@ -1,0 +1,17 @@
+{
+  "artifacts": {
+    "exploratory_detection_architecture.pdf": "354208220a820a49a5868c586d36ad74a644a2ff41c8c25774c71522b33d1c4c",
+    "exploratory_detection_architecture.png": "e42c94717c5afc422dc9ef4d818fc954a855d1c61190d2d6b8d354e4d5893ede",
+    "figure_source.tsv": "69a33bed0be4a602f452bc2d1c639e2a76fe60defe318f3031f00e40fd942830"
+  },
+  "caption": "Reference-based detection and architecture in the exploratory 50-record screen. Panel A shows high/moderate curated-homology A-family, B-family and both-category genome counts; A and B overlap, and both-category detection does not require a unique A/B pair. Panel B classifies unique linked or separated A/B pairs, complex architectures and unresolved genomes. Separation requires more than four intervening CDS. Included-genome denominators are Mycobacterium, n=25 of 25 selected; Gordonia, n=25 of 25 selected. Counts retain the frozen evidence-tier caps and do not estimate population prevalence, diagnostic sensitivity or neighborhood conservation.",
+  "pdf_rendering": "vector",
+  "plot_script_sha256": "9d89b131e07658ba924cd235377c02548430985cf1200b3aa0ee790e2850bda4",
+  "png_dpi": 300,
+  "source_artifacts_sha256": {
+    "architectures.tsv": "2eca7c4763bb49554a87d093b4386822ef9de284d4aeca755240cdc01fa1d29f",
+    "coverage_by_group.tsv": "9fae2ad7b8483a245c166d62689b8ebb0382222ba1489f2a296f4d5f565feb54",
+    "genome_qc.tsv": "dd8d94cae6023bc611d5476e6cd00758ecbc1161e3441101873187517e93f28b",
+    "summary.json": "06393f834e5b6e407002f9eaaaaa35fc4122421da555f73e784a1ef1ebc562a7"
+  }
+}

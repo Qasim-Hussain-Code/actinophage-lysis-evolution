@@ -1,5 +1,7 @@
 # Reference-expansion results
 
+This archived analysis uses the original 20-genome cohort and the 10-, 21- and 34-reference panels. The later [50-genome exploratory screen](exploratory_screen_results.md) uses the 39-reference panel and a separate stages 1–5 protocol.
+
 The post-pilot amendment kept the same 20 genomes, 11 PhagesDB cluster labels, 2,460 verified translations and numerical homology thresholds. All nine WSL stages completed for both expanded panels. The original scientific outputs remain separately preserved.
 
 | Panel | References | Genomes with supported A | Genomes with supported B | Genomes with both | Supported proteins |
@@ -10,7 +12,7 @@ The post-pilot amendment kept the same 20 genomes, 11 PhagesDB cluster labels, 2
 
 Supported means the operational high/moderate homology tiers, not a calibrated probability of activity. Generic-lipolytic and published-prediction references are capped at moderate, including exact matches. The five additional prediction-supported assignments are Lysin A: Yvonnetastic, Colossa, VanLee, Jollymon and Stillion. The four assay-supported additions are Lysin A in Balomoji, Contagion, ZenTime222 and Bernal13. No original supported call was lost.
 
-The larger panel partly resolves the functional-coverage limitation: A coverage increases from 1/20 to 10/20 genomes. It does not resolve the B limitation. D29 remains the sole supported A/B pair. Every panel therefore retains one linked and 19 unresolved primary architectures, with zero supported separated genomes and zero eligible primary H2 lineage contrasts. Effect, confidence interval and p value remain unestimable. Expansion to 50–300 genomes is still withheld.
+The larger panel partly resolves the functional-coverage limitation: A coverage increases from 1/20 to 10/20 genomes. It does not resolve the B limitation. D29 remains the sole supported A/B pair. Every panel therefore retains one linked and 19 unresolved primary architectures, with zero supported separated genomes and zero eligible primary H2 lineage contrasts. Effect, confidence interval and p value remain unestimable. Expansion of the full nine-stage conservation analysis remains gated; the later 50-genome detection screen does not bypass that gate.
 
 ## Independent query checks
 

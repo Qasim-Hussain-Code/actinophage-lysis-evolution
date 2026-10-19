@@ -1,0 +1,45 @@
+{
+  "analysis": "exploratory_50_genome_detection_screen",
+  "counts": {
+    "cds": 5915,
+    "closely_linked": 5,
+    "complex": 2,
+    "exact_reference_sequence_alias_proteins": 7,
+    "group": "all",
+    "group_type": "all",
+    "included_genomes": 50,
+    "reference_source_accession_match_genomes": 0,
+    "reported_reference_hits": 237,
+    "searched_proteins": 5915,
+    "selected_genomes": 50,
+    "separated": 0,
+    "supported_A_and_B_genomes": 6,
+    "supported_A_genomes": 21,
+    "supported_B_genomes": 15,
+    "unresolved": 43
+  },
+  "detection_status_counts": {
+    "selected_high_or_moderate_homology_assignment": 43,
+    "unresolved_no_reported_reference_hit": 5834,
+    "unresolved_only_negative_control_hits": 1,
+    "unresolved_reported_hits_below_criteria_or_evidence_tier": 37
+  },
+  "h2_analysis_performed": false,
+  "identification_thresholds": {
+    "max_evalue": 1e-06,
+    "min_identity": 0.4,
+    "min_query_coverage": 0.7,
+    "min_target_coverage": 0.7
+  },
+  "interpretation": [
+    "Detection yields are conditional on the selected cohort, frozen references and unchanged evidence tiers.",
+    "Exact reference aliases and source-genome matches are identified, not counted as independent functional validation.",
+    "Source-accession flags compare resolved accession bases; cross-accession biological aliases can remain unrecognized.",
+    "No reported reference hit means unresolved, not gene absence. Annotation-only labels retain low confidence.",
+    "Cluster labels are coarse metadata groups. These counts do not establish independent lineage replication.",
+    "No H2 estimate, p-value, population prevalence or evolutionary mechanism is inferred; no automatic 300-genome progression."
+  ],
+  "main_expansion_gate_modified": false,
+  "primary_cohort_modified": false,
+  "scope": "exploratory_only"
+}

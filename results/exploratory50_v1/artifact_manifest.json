@@ -1,0 +1,26 @@
+{
+  "analysis": "exploratory50_v1",
+  "artifacts": {
+    "all_reference_hits.tsv": "b134e3d30bd8511c5c4cdeeadd0c8b3af73f9c4550bfd89122199de09a5a2911",
+    "annotation_coverage.tsv": "15ae75b39a3b294ee55df1941565ddf1038e494dccdaa241ec3103256df96cd0",
+    "architecture_pairs.tsv": "8b3bf3439aaea2c4ece23f46a040583c1425aebf9886070692760fd23161f44f",
+    "architecture_sensitivity.tsv": "c21d78a3bb22f34760fac47149e329cb71340cb7bba0034d811fde324b7a47c5",
+    "architectures.tsv": "2eca7c4763bb49554a87d093b4386822ef9de284d4aeca755240cdc01fa1d29f",
+    "coverage_by_evidence_tier.tsv": "a98c6d54299bd82de4bffecf735b7c524b771e747d70da72290c1db62259d905",
+    "coverage_by_group.tsv": "9fae2ad7b8483a245c166d62689b8ebb0382222ba1489f2a296f4d5f565feb54",
+    "exclusions.tsv": "7f4a31312baf10944a894410a6e83a8bb2279b75d10b87c62d9e2adfb38d6d33",
+    "genome_qc.tsv": "dd8d94cae6023bc611d5476e6cd00758ecbc1161e3441101873187517e93f28b",
+    "lysis_evidence.tsv": "3a11d4f2b9ecb84af9f1952627a40beb1b3bea7adfcec4ad8ca09b9988eca73c",
+    "near_identical_pairs.tsv": "a06bb40f6539eb732f3c84cfb0e2d086a4c6d3f6b9958712d0df227dacbbc7ce",
+    "protein_detection_status.tsv": "4052c250ff80cfa2a2cc7170cb1d6627869afd88aaf044a2bbeaffe2027590d9",
+    "quality_control.json": "f48d49729e17933841970c0b0b6585d613c3e08692adcaaaea8d9d5f36c086da",
+    "references.tsv": "4e7f197cee5f2b7e6170c5d4a47fd3e7b60669ca3dc0374ac91c77ab54c769c1",
+    "replay_validation.json": "b5a9ad72e6dc616e6268457f84d5f0c70029c9c774b3e6d647da30ee6c874e00",
+    "selected_genomes.tsv": "b65bc30ba60bc9b981358adfe94072e441782db6139766b8ff6475ba667ec701",
+    "summary.json": "06393f834e5b6e407002f9eaaaaa35fc4122421da555f73e784a1ef1ebc562a7"
+  },
+  "export_driver_sha256": "81129110cf6016df8b6ffc1778972129978e7b8ab6a7f20775a520a12d8ea803",
+  "hit_ledger_builder_sha256": "619929821a5b9d1eaff2d3ffc609c0055721cda9496cc733f2ccc0a752d3ade3",
+  "replay_identical": true,
+  "scope": "exploratory_only"
+}

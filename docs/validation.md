@@ -1,5 +1,7 @@
 # Validation
 
+This document reports validation of the archived 20-genome pilot with its original 10-reference panel. Later reference-panel checks are reported with their respective analyses; the [50-genome exploratory results](exploratory_screen_results.md) provide current detection, architecture and reproduction outcomes.
+
 Validation distinguishes source integrity, software behavior and biological-control recovery.
 
 The frozen offline replay completed stages 1 through 9 and generated six figures. All 39 audited scientific artifacts (tables and figure files) reproduced with identical SHA-256 hashes. Source integrity passed while biological validation remained incomplete.

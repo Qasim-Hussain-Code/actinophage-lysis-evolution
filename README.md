@@ -13,22 +13,22 @@ Separated arrangements of annotated lysis genes have been reported in [Yvonnetas
 The study cohort comprises **50 complete GenBank genomes**, including 25 Mycobacterium-host and 25 Gordonia-host phages across **25 reported cluster labels**. Deterministic selection uses host-genus strata, cluster representation and seed `20261016`. Accession versions and source checksums fix the analyzed records. Genome completeness, sequence content, CDS coordinates and deposited translations are checked before protein searches. [Dataset provenance](docs/data_provenance.md) records the sources and selection scope.
 
 ```mermaid
-flowchart TB
+flowchart LR
     subgraph Inputs["Data sources"]
-        G[("Versioned GenBank genomes")]
-        R[("Curated proteins and evidence catalogue")]
+        G[("Versioned GenBank<br/>genomes")]
+        R[("Curated proteins and<br/>evidence catalogue")]
     end
 
     subgraph Processing["Sequence analysis"]
-        Q["Genome quality control and CDS translation verification"]
-        S["Protein similarity search · MMseqs2"]
-        C["Functional candidates and confidence tiers"]
+        Q["Genome quality control<br/>and CDS translation<br/>verification"]
+        S["Protein similarity search<br/>MMseqs2"]
+        C["Functional candidates<br/>and confidence tiers"]
     end
 
     subgraph Interpretation["Genomic analysis"]
-        A["Coordinate-aware architecture reconstruction"]
-        O["Detection coverage and gene-context figures"]
-        E["Conservation eligibility assessment"]
+        A["Coordinate-aware<br/>architecture reconstruction"]
+        O["Detection coverage<br/>and gene-context figures"]
+        E["Conservation eligibility<br/>assessment"]
     end
 
     G --> Q --> S

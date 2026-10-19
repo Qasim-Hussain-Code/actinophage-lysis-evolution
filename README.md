@@ -13,12 +13,29 @@ Separated arrangements of annotated lysis genes have been reported in [Yvonnetas
 The study cohort comprises **50 complete GenBank genomes**, including 25 Mycobacterium-host and 25 Gordonia-host phages across **25 reported cluster labels**. Deterministic selection uses host-genus strata, cluster representation and seed `20261016`. Accession versions and source checksums fix the analyzed records. Genome completeness, sequence content, CDS coordinates and deposited translations are checked before protein searches. [Dataset provenance](docs/data_provenance.md) records the sources and selection scope.
 
 ```mermaid
-flowchart LR
-    A[Versioned genome records] --> B[Sequence and translation QC]
-    B --> C[Curated reference search]
-    C --> D[Evidence and confidence assignment]
-    D --> E[Architecture classification]
-    E --> F[Conservation eligibility and interpretation]
+flowchart TB
+    subgraph Inputs["Data sources"]
+        G[("Versioned GenBank genomes")]
+        R[("Curated proteins and evidence catalogue")]
+    end
+
+    subgraph Processing["Sequence analysis"]
+        Q["Genome quality control and CDS translation verification"]
+        S["Protein similarity search · MMseqs2"]
+        C["Functional candidates and confidence tiers"]
+    end
+
+    subgraph Interpretation["Genomic analysis"]
+        A["Coordinate-aware architecture reconstruction"]
+        O["Detection coverage and gene-context figures"]
+        E["Conservation eligibility assessment"]
+    end
+
+    G --> Q --> S
+    R --> S
+    S --> C --> A
+    A --> O
+    A --> E
 ```
 
 A curated panel of **39 reference proteins** supports sequence-based identification. High/moderate A/B assignments require at least **40% identity, 70% coverage of both proteins and E-value at most 10^-6**. Published computational predictions, generic lipolytic assays and antimycobacterial assays retain a moderate confidence ceiling, including exact matches. Deposited annotations are retained separately, and genomic proximity never upgrades functional confidence.
